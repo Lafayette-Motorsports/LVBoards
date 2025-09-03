@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SOC")(type "KiCad")(uri "C:/Developement/Motorsports/Lafayette-Motorsports-Developement-Board/Footprints/IRLML2060TRPBF-20250113T073807Z-001/IRLML2060TRPBF/KiCADv6/SOC.kicad_sym")(options "")(descr ""))
+  (lib (name "PMOS")(type "KiCad")(uri "C:/Developement/Motorsports/Lafayette-Motorsports-Developement-Board/KiCADv6/2025-01-27_20-33-00.kicad_sym")(options "")(descr ""))
+)

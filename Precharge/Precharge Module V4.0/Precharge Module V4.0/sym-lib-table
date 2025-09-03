@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PMOS")(type "KiCad")(uri "C:/Users/creep/Downloads/ul_PMV160UP/KiCADv6/2025-04-04_00-12-30.kicad_sym")(options "")(descr ""))
+  (lib (name "NMOS")(type "KiCad")(uri "C:/Users/creep/Downloads/IRLML2060TRPBF/KiCADv6/2025-02-16_22-59-28.kicad_sym")(options "")(descr ""))
+)
