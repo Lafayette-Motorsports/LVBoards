@@ -2210,6 +2210,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "25"
+		(at 162.56 27.94 0)
+		(layer "User.1")
+		(uuid "1a8cba69-7792-4460-97af-e78a1d2b5498")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "30"
+		(at 175.26 27.94 0)
+		(layer "User.1")
+		(uuid "4062efc5-48a3-46a4-9b4f-db45c07cd300")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "19"
 		(at 198.12 66.04 0)
 		(layer "User.1")
