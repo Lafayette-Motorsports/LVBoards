@@ -1,4 +1,4 @@
-26634610375617461
+26636368005134083
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93484,6 +93484,13 @@ Potentiometer vertical vishay
 0
 3
 3
+Project-PCB-Syms.bak
+R-8_ADI
+
+ADA4510-2ARZ 
+0
+8
+8
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
