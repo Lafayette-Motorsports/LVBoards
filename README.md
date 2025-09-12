@@ -21,8 +21,7 @@ To use this and work on the board (non cmd because if you don't know this you do
         - MAKE YOUR SUMMARY SOMEWHAT DETAILED, YOU DON'T NEED A PARAGRAPH BUT THIS IS A REALLY GOOD PLACE TO PUT A CHANGE LOG SO WE CAN TRACK WHATS HAPPENING WHEN AND GET A SOMEWHAT DETAILED HISTORY  
 
 ## Component Cacheing
-From what I could find KiCad project folders have their own cache of all nonstandard components  
-If a file won't load properly because this cache isn't working properly message me and I'll try to get it figured out
+When adding parts, store them as project-specific rather than global. You will need to create your own library for the project, but you should really only need to do it once per KiCad project -- this will make sure that projects are actually portable. Some projects were built without this in mind so be weary when trying to modify/process files -- they might not have footprints/symbols for every part. If you can't figure out how to do this (or you think you added a symbol but it's not working, footprint not loading, etc.) google it or ask -- the whole point of the GitHub is portability so its kind of stupid to ignore this.
 
   
 for repository admin (or other) questions - Sean McLoughlin mclougsm@lafayette.edu
