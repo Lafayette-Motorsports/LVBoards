@@ -1,0 +1,15 @@
+LTspice 24.1.2 for Windows
+Circuit: C:\Developement\Motorsports\LVBoards\PWMs\Hall Effect\SPICE\Simulation.net
+Start Time: Fri Sep 12 13:05:02 2025
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+.step 
+Total elapsed time: 0.067 seconds.
+
+Files loaded:
+C:\Developement\Motorsports\LVBoards\PWMs\Hall Effect\SPICE\Simulation.net
+C:\Users\creep\AppData\Local\LTspice\lib\sub\ADA4510.lib
+
