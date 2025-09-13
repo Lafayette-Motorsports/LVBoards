@@ -2469,7 +2469,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project-Syms:ADA4510-2ARZ"
+		(symbol "Project-Syms:ADA4522-2ARZ-RL"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2484,7 +2484,7 @@
 					)
 				)
 			)
-			(property "Value" "ADA4510-2ARZ"
+			(property "Value" "ADA4522-2ARZ-RL"
 				(at 20.32 7.62 0)
 				(effects
 					(font
@@ -2502,7 +2502,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "ADA4510-2ARZ"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4522-1_4522-2_4522-4.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2529,7 +2529,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ADA4510-2ARZ"
+			(property "ki_keywords" "ADA4522-2ARZ-RL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2547,7 +2547,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADA4510-2ARZ_0_1"
+			(symbol "ADA4522-2ARZ-RL_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
@@ -2617,7 +2617,7 @@
 				(pin input line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "INA-"
+					(name "-INA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "INA+"
+					(name "+INA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2707,7 +2707,7 @@
 				(pin input line
 					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "INB-"
+					(name "-INB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 				(pin input line
 					(at 40.64 -7.62 180)
 					(length 7.62)
-					(name "INB+"
+					(name "+INB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project-Syms:ADA4510-2ARZ")
+		(lib_id "Project-Syms:ADA4522-2ARZ-RL")
 		(at 50.8 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3857,7 +3857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ADA4510-2ARZ"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4522-1_4522-2_4522-4.pdf"
 			(at 50.8 90.17 0)
 			(effects
 				(font
