@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "NMOS")(type "KiCad")(uri "C:/Users/creep/Downloads/IRLML2060TRPBF (1)/KiCADv6/2025-03-02_20-59-32.kicad_sym")(options "")(descr ""))
+  (lib (name "PH1-10-UA")(type "KiCad")(uri "${KIPRJMOD}/Symbols/PH1-10-UA.kicad_sym")(options "")(descr ""))
+  (lib (name "NE555DE4")(type "KiCad")(uri "${KIPRJMOD}/Symbols/NE555DE4.kicad_sym")(options "")(descr ""))
+  (lib (name "IRLML2060TRPBF")(type "KiCad")(uri "${KIPRJMOD}/Symbols/IRLML2060TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "G6L-1P_DC5")(type "KiCad")(uri "${KIPRJMOD}/Symbols/G6L-1P_DC5.kicad_sym")(options "")(descr ""))
 )
