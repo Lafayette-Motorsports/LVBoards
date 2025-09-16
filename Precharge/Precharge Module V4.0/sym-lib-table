@@ -5,4 +5,5 @@
   (lib (name "IRLML2060TRPBF")(type "KiCad")(uri "C:/Users/Hhr19/OneDrive - lafayette.edu/Desktop/LVBoards/RTDS Timer/RTDS Control Module V4.0/Symbols/IRLML2060TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "PH1-10-UA")(type "KiCad")(uri "C:/Users/Hhr19/OneDrive - lafayette.edu/Desktop/LVBoards/RTDS Timer/RTDS Control Module V4.0/Symbols/PH1-10-UA.kicad_sym")(options "")(descr ""))
   (lib (name "2025-09-16_20-26-56")(type "KiCad")(uri "C:/Users/Hhr19/OneDrive - lafayette.edu/Desktop/LVBoards/RTDS Timer/RTDS Control Module V4.0/Symbols/2025-09-16_20-26-56.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
 )
