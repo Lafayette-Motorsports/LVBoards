@@ -5,46 +5,45 @@
 	(uuid "706398a9-bbdf-4930-bcdc-ea1d8a937e45")
 	(paper "A4")
 	(lib_symbols
-		(symbol "10 pin output:PH1-10-UA"
+		(symbol "2025-09-16_20-26-56:PMV160UP"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 28.448 0)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "PH1-10-UA"
+			(property "Value" "PMV160UP"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PMV160UP_NEX"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "PH1-10-UA:1X10-2.54MM-THT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "PMV160UP"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -58,93 +57,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Adam Tech"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Connector Header Through Hole 10 position 0.100 (2.54mm)\n                        \n"
+			(property "ki_keywords" "PMV160UP"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "ki_fp_filters" "PMV160UP_NEX PMV160UP_NEX-M PMV160UP_NEX-L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PH1-10-UA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PH1-10-UA_0_0"
+			(symbol "PMV160UP_0_1"
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 5.08 2.54)
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
 					)
 					(stroke
-						(width 0.6096)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -153,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 5.08) (xy 5.08 5.08)
+						(xy 7.62 5.08) (xy 7.62 -7.62)
 					)
 					(stroke
-						(width 0.6096)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -165,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 7.62) (xy 5.08 7.62)
+						(xy 33.02 -7.62) (xy 33.02 5.08)
 					)
 					(stroke
-						(width 0.6096)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -177,275 +122,66 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 10.16) (xy 5.08 10.16)
+						(xy 33.02 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.6096)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 12.7) (xy 5.08 12.7)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 15.24) (xy 5.08 15.24)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 17.78) (xy 5.08 17.78)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 20.32) (xy 5.08 20.32)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 22.86) (xy 5.08 22.86)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 25.4) (xy 5.08 25.4)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 6.35 27.94)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 7.62 25.4 180)
-					(length 2.54)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
 					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 22.86 180)
-					(length 2.54)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
 					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 20.32 180)
-					(length 2.54)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
 					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 17.78 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 15.24 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 12.7 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -878,67 +614,50 @@
 				)
 			)
 		)
-		(symbol "NMOS:IRLML2060TRPBF"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "IRLML2060TRPBF:IRLML2060TRPBF"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "IRLML2060TRPBF"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT23_INF"
-				(at 0 0 0)
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P237X112-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "IRLML2060TRPBF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+				(at 11.43 -198.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "IRLML2060TRPBF"
+			(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
 				(at 0 0 0)
 				(effects
 					(font
@@ -947,22 +666,83 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT23_INF SOT23_INF-M SOT23_INF-L"
-				(at 0 0 0)
+			(property "Height" "1.12"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "IRLML2060TRPBF_0_1"
+			(property "Manufacturer_Name" "Infineon"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "942-IRLML2060TRPBF"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "IRLML2060TRPBF"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML2060TRPBF_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -971,10 +751,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 10.795 -2.54)
+						(xy 5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -983,10 +763,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+						(xy 5.842 -0.508) (xy 5.842 0.508)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -995,10 +775,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -6.985) (xy 23.495 -6.985)
+						(xy 5.842 0) (xy 7.62 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1007,10 +787,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -2.54) (xy 10.795 -6.985)
+						(xy 5.842 2.032) (xy 5.842 3.048)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1019,10 +799,10 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -4.445) (xy 13.97 0)
+						(xy 5.842 5.588) (xy 5.842 4.572)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1031,10 +811,10 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 0) (xy 7.62 0)
+						(xy 7.62 2.54) (xy 5.842 2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1043,10 +823,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.145 -4.445) (xy 13.97 -4.445)
+						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1055,10 +835,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.145 1.905) (xy 17.145 -4.445)
+						(xy 7.62 5.08) (xy 5.842 5.08)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1067,10 +847,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -5.08) (xy 17.78 -3.81)
+						(xy 7.62 5.08) (xy 7.62 7.62)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1079,250 +859,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -4.445) (xy 23.495 -4.445)
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -1.27) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -0.635) (xy 17.78 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 1.905) (xy 23.495 1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 2.54) (xy 17.78 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.905) (xy 18.415 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -4.445) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -0.635) (xy 24.13 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -6.985) (xy 23.495 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -0.635) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 4.445) (xy 29.845 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 -2.54) (xy 33.02 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 4.445) (xy 29.845 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1330,19 +870,19 @@
 					)
 				)
 				(circle
-					(center 20.32 -1.27)
-					(radius 5.08)
+					(center 6.35 2.54)
+					(radius 3.81)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
-					(length 7.62)
+					(length 2.54)
 					(name "G"
 						(effects
 							(font
@@ -1358,9 +898,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
 					(name "S"
 						(effects
 							(font
@@ -1376,9 +916,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
 					(name "D"
 						(effects
 							(font
@@ -1396,67 +936,49 @@
 				)
 			)
 		)
-		(symbol "PMOS:PMV160UP"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "PH1-10-UA:PH1-10-UA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PMV160UP"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "PMV160UP_NEX"
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PH1-10-UA"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HDRV10W64P0X254_1X10_2540X249X886P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PMV160UP"
-				(at 0 0 0)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
+				(at 16.51 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PMV160UP"
+			(property "Description" "Conn Unshrouded Header HDR 10 POS 2.54mm Solder RA Side Entry Thru-Hole Bag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1465,67 +987,91 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PMV160UP_NEX PMV160UP_NEX-M PMV160UP_NEX-L"
-				(at 0 0 0)
+			(property "Height" "8.865"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "PMV160UP_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+			(property "Manufacturer_Name" "Adam Tech"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PH1-10-UA"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "737-PH1-10-UA"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-10-UA?qs=ogqIPVdloe%252Bff9mnAAAy9w%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PH1-10-UA"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PH1-10-UA_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -25.4)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
-					(length 7.62)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -1541,9 +1087,27 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -1559,9 +1123,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
 					(name "3"
 						(effects
 							(font
@@ -1570,6 +1134,114 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2029,12 +1701,6 @@
 		(uuid "1832b337-ecd7-4bcc-8360-9cc7eef113b5")
 	)
 	(junction
-		(at 156.21 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c5d6bc3-132c-4e49-b547-d2c5cf254a3c")
-	)
-	(junction
 		(at 109.22 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2059,12 +1725,6 @@
 		(uuid "42b7ebe7-25f9-4ad9-a667-735380309012")
 	)
 	(junction
-		(at 251.46 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "451acdd8-ff7a-4a52-a0af-044480387c51")
-	)
-	(junction
 		(at 67.31 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2081,6 +1741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d524e6f-cdd4-41dc-a6e3-3e289da0dfa6")
+	)
+	(junction
+		(at 251.46 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58c605e1-b784-4310-99aa-f07423101bf9")
 	)
 	(junction
 		(at 66.04 55.88)
@@ -2137,6 +1803,12 @@
 		(uuid "b35a5a05-47e5-4d0b-8fa4-ab49847ff3d2")
 	)
 	(junction
+		(at 156.21 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65b59c3-5bc7-4400-9585-7cbe6b3ae34c")
+	)
+	(junction
 		(at 49.53 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2162,13 +1834,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 22.86) (xy 201.93 35.56)
+			(xy 201.93 31.75) (xy 201.93 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01a99ac1-09b7-4d40-84bf-f17cf86e6510")
+	)
+	(wire
+		(pts
+			(xy 218.44 22.86) (xy 251.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068019ab-58d6-4e10-8a56-849838caa430")
 	)
 	(wire
 		(pts
@@ -2202,6 +1884,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 57.15) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152d6040-5712-4c2c-8bc0-adb6dea132d6")
+	)
+	(wire
+		(pts
+			(xy 161.29 35.56) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1913292f-f6ae-4798-9cd9-60945da3b5ee")
+	)
+	(wire
+		(pts
 			(xy 60.96 25.4) (xy 74.93 25.4)
 		)
 		(stroke
@@ -2212,6 +1914,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 25.4) (xy 49.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19488042-5d12-4939-8c41-915df2a41a87")
+	)
+	(wire
+		(pts
 			(xy 154.94 35.56) (xy 154.94 25.4)
 		)
 		(stroke
@@ -2219,6 +1931,16 @@
 			(type default)
 		)
 		(uuid "1b67f1e1-0a97-475d-83ad-0738d35e96d6")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eddcee-b84c-472f-a10f-2c498206d5af")
 	)
 	(wire
 		(pts
@@ -2242,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 22.86) (xy 201.93 22.86)
+			(xy 31.75 31.75) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2282,13 +2004,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 153.67 57.15)
+			(xy 215.9 35.56) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40efe389-0680-4ec3-8c73-aa79e95c86b5")
+		(uuid "3c33077e-5258-4dcd-b4c9-0e23c33c7df6")
 	)
 	(wire
 		(pts
@@ -2302,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 49.53 25.4)
+			(xy 31.75 34.29) (xy 36.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2319,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "46e4b78b-0c5c-4b1f-805d-e520e7cee2a9")
+	)
+	(wire
+		(pts
+			(xy 170.18 24.13) (xy 195.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475d5e3e-1afe-4be7-855b-8e3c6f115761")
 	)
 	(wire
 		(pts
@@ -2342,23 +2074,33 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 20.32) (xy 251.46 35.56)
+			(xy 118.11 57.15) (xy 118.11 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "571e7400-5ee5-46f4-ac8c-e7387ce4ed78")
+		(uuid "4f08ac6c-291f-44ca-989e-be5ad17676f7")
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 49.53 40.64)
+			(xy 49.53 40.64) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57a30a75-ca8c-4a84-916f-96d3d3539810")
+	)
+	(wire
+		(pts
+			(xy 133.35 44.45) (xy 120.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59814a60-9d91-466c-9172-9b2b8170295c")
 	)
 	(wire
 		(pts
@@ -2392,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 24.13) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6629587f-f0dd-4420-a31c-31b7266b132c")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 59.69 48.26)
 		)
 		(stroke
@@ -2402,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 156.21 48.26)
+			(xy 156.21 33.02) (xy 156.21 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2492,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 29.21) (xy 251.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e211349-11a7-44b5-9164-6e316b7a3708")
+	)
+	(wire
+		(pts
 			(xy 210.82 35.56) (xy 210.82 39.37)
 		)
 		(stroke
@@ -2522,6 +2284,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 35.56) (xy 165.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96713a1c-6be7-48ef-8b67-b5304f6a67b1")
+	)
+	(wire
+		(pts
 			(xy 161.29 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -2529,6 +2301,16 @@
 			(type default)
 		)
 		(uuid "9708eb4a-a7bc-43c2-a901-f898ee7ef750")
+	)
+	(wire
+		(pts
+			(xy 251.46 29.21) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9817760c-d224-47af-b7e6-d7c52230b669")
 	)
 	(wire
 		(pts
@@ -2602,13 +2384,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 251.46 48.26)
+			(xy 133.35 57.15) (xy 156.21 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a82b6dba-94b4-4327-aadc-9cea020cd388")
+		(uuid "a72a2257-9202-4e2d-bc3d-cea88cb902a1")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 118.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87b1441-853c-46fc-8d2f-9306f1f849dc")
 	)
 	(wire
 		(pts
@@ -2642,6 +2434,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 34.29) (xy 36.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baca0673-6176-4a8a-9de4-37921d365ea4")
+	)
+	(wire
+		(pts
 			(xy 74.93 55.88) (xy 92.71 55.88)
 		)
 		(stroke
@@ -2652,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 43.18 30.48)
+			(xy 31.75 39.37) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 41.91 27.94)
+			(xy 45.72 36.83) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 161.29 33.02)
+			(xy 156.21 34.29) (xy 162.56 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2712,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 35.56) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7f9811-2961-427d-b291-127d52cdf50f")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 203.2 55.88)
 		)
 		(stroke
@@ -2719,6 +2531,26 @@
 			(type default)
 		)
 		(uuid "d2160600-73d1-44b3-9bb3-196c85830a69")
+	)
+	(wire
+		(pts
+			(xy 210.82 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d311a3f3-3bed-4b18-a93d-acd2d877ab71")
+	)
+	(wire
+		(pts
+			(xy 156.21 34.29) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d495b1f5-dd49-49ae-aec9-2a12b42f7b36")
 	)
 	(wire
 		(pts
@@ -2762,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 43.18 83.82)
+			(xy 43.18 39.37) (xy 43.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 20.32) (xy 251.46 20.32)
+			(xy 31.75 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2812,6 +2644,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 38.1) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b25005-9ab5-4f9c-a812-7ecbdba3b8c5")
+	)
+	(wire
+		(pts
 			(xy 74.93 25.4) (xy 92.71 25.4)
 		)
 		(stroke
@@ -2819,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "f1ac87ce-b9a6-48cc-86dd-f5208a7148fa")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e9ef75-c917-4979-8d98-fd41399a46f2")
 	)
 	(wire
 		(pts
@@ -2842,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 45.72 55.88)
+			(xy 45.72 36.83) (xy 45.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +2908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NMOS:IRLML2060TRPBF")
+		(lib_id "IRLML2060TRPBF:IRLML2060TRPBF")
 		(at 113.03 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3080,32 +2932,102 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_INF"
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 124.46 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+			(at 124.46 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
 			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IRLML2060TRPBF"
-			(at 113.03 54.61 0)
+		(property "Height" "1.12"
+			(at 124.46 453.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 54.61 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 124.46 553.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+			(at 124.46 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML2060TRPBF"
+			(at 124.46 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+			(at 124.46 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRLML2060TRPBF"
+			(at 124.46 953.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+			(at 124.46 1053.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -3473,7 +3395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NMOS:IRLML2060TRPBF")
+		(lib_id "IRLML2060TRPBF:IRLML2060TRPBF")
 		(at 210.82 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3483,47 +3405,119 @@
 		(fields_autoplaced yes)
 		(uuid "4112c0bd-78f8-4d30-a180-d0281332bf4c")
 		(property "Reference" "U2"
-			(at 231.14 22.86 0)
+			(at 222.25 29.2099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "IRLML2060TRPBF"
-			(at 231.14 25.4 0)
+			(at 222.25 31.7499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_INF"
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 222.25 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+			(at 222.25 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
 			(at 210.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IRLML2060TRPBF"
-			(at 210.82 33.02 0)
+		(property "Height" "1.12"
+			(at 222.25 431.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 33.02 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 222.25 531.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+			(at 222.25 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML2060TRPBF"
+			(at 222.25 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+			(at 222.25 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRLML2060TRPBF"
+			(at 222.25 931.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+			(at 222.25 1031.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -3615,8 +3609,8 @@
 		)
 	)
 	(symbol
-		(lib_id "10 pin output:PH1-10-UA")
-		(at 34.29 45.72 0)
+		(lib_id "PH1-10-UA:PH1-10-UA")
+		(at 31.75 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3625,7 +3619,7 @@
 		(fields_autoplaced yes)
 		(uuid "64aff38c-a142-46a0-8776-bb45aa976f9c")
 		(property "Reference" "J1"
-			(at 29.21 31.75 90)
+			(at 36.83 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3628,7 @@
 			)
 		)
 		(property "Value" "PH1-10-UA"
-			(at 31.75 31.75 90)
+			(at 34.29 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,27 +3636,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "10 pin output:1X10-2.54MM-THT"
-			(at 34.29 45.72 0)
+		(property "Footprint" "HDRV10W64P0X254_1X10_2540X249X886P"
+			(at 15.24 -55.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 45.72 0)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
+			(at 15.24 -155.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 45.72 0)
+		(property "Description" "Conn Unshrouded Header HDR 10 POS 2.54mm Solder RA Side Entry Thru-Hole Bag"
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3666,7 @@
 			)
 		)
 		(property "MF" "Adam Tech"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3676,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Connector Header Through Hole 10 position 0.100 (2.54mm)\n                        \n"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3686,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3696,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3706,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=snap"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3716,7 @@
 			)
 		)
 		(property "MP" "PH1-10-UA"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3726,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,12 +3736,82 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=eda"
-			(at 34.29 45.72 0)
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.865"
+			(at 15.24 -355.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Adam Tech"
+			(at 15.24 -455.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PH1-10-UA"
+			(at 15.24 -555.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "737-PH1-10-UA"
+			(at 15.24 -655.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-10-UA?qs=ogqIPVdloe%252Bff9mnAAAy9w%3D%3D"
+			(at 15.24 -755.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PH1-10-UA"
+			(at 15.24 -855.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 15.24 -955.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -3790,8 +3855,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NMOS:IRLML2060TRPBF")
-		(at 161.29 33.02 0)
+		(lib_id "IRLML2060TRPBF:IRLML2060TRPBF")
+		(at 162.56 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3800,47 +3865,119 @@
 		(fields_autoplaced yes)
 		(uuid "71c7d94e-e830-4174-8d5f-314437442cf6")
 		(property "Reference" "U3"
-			(at 181.61 22.86 0)
+			(at 173.99 30.4799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "IRLML2060TRPBF"
-			(at 181.61 25.4 0)
+			(at 173.99 33.0199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_INF"
-			(at 161.29 33.02 0)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 173.99 133.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+			(at 173.99 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IRLML2060TRPBF"
-			(at 161.29 33.02 0)
+		(property "Height" "1.12"
+			(at 173.99 433.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 33.02 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 173.99 533.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+			(at 173.99 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML2060TRPBF"
+			(at 173.99 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+			(at 173.99 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRLML2060TRPBF"
+			(at 173.99 933.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+			(at 173.99 1033.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4069,7 +4206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PMOS:PMV160UP")
+		(lib_id "2025-09-16_20-26-56:PMV160UP")
 		(at 113.03 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4079,7 +4216,7 @@
 		(fields_autoplaced yes)
 		(uuid "a41c01af-95c9-42f0-bc3e-48f9ba713ca8")
 		(property "Reference" "U5"
-			(at 133.35 24.13 0)
+			(at 133.35 22.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4087,7 +4224,7 @@
 			)
 		)
 		(property "Value" "PMV160UP"
-			(at 133.35 26.67 0)
+			(at 133.35 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
