@@ -5134,6 +5134,7 @@
 	)
 	(label "Vs"
 		(at 100.33 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,6 +5145,7 @@
 	)
 	(label "GND"
 		(at 121.92 102.87 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5154,6 +5156,7 @@
 	)
 	(label "GND"
 		(at 86.36 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5164,6 +5167,7 @@
 	)
 	(label "GND"
 		(at 128.27 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

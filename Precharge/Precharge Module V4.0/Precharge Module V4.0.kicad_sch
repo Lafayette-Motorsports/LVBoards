@@ -1743,12 +1743,6 @@
 		(uuid "4d524e6f-cdd4-41dc-a6e3-3e289da0dfa6")
 	)
 	(junction
-		(at 251.46 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58c605e1-b784-4310-99aa-f07423101bf9")
-	)
-	(junction
 		(at 66.04 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1815,6 +1809,12 @@
 		(uuid "bfe6a33d-48d7-46a6-9d0c-801f5ebef5a5")
 	)
 	(junction
+		(at 251.46 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d746f8cb-483e-4bcc-b0a2-04a5c3fc9baa")
+	)
+	(junction
 		(at 49.53 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 201.93 35.56)
+			(xy 201.93 22.86) (xy 201.93 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1914,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 49.53 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19488042-5d12-4939-8c41-915df2a41a87")
-	)
-	(wire
-		(pts
 			(xy 154.94 35.56) (xy 154.94 25.4)
 		)
 		(stroke
@@ -1964,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 201.93 31.75)
+			(xy 34.29 22.86) (xy 201.93 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2024,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 34.29) (xy 36.83 34.29)
+			(xy 34.29 25.4) (xy 49.53 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2244,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 29.21) (xy 251.46 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e211349-11a7-44b5-9164-6e316b7a3708")
-	)
-	(wire
-		(pts
 			(xy 210.82 35.56) (xy 210.82 39.37)
 		)
 		(stroke
@@ -2304,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 29.21) (xy 251.46 48.26)
+			(xy 251.46 22.86) (xy 251.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2434,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 36.83 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baca0673-6176-4a8a-9de4-37921d365ea4")
-	)
-	(wire
-		(pts
 			(xy 74.93 55.88) (xy 92.71 55.88)
 		)
 		(stroke
@@ -2454,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 43.18 39.37)
+			(xy 34.29 30.48) (xy 43.18 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 31.75 36.83)
+			(xy 45.72 27.94) (xy 34.29 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 43.18 83.82)
+			(xy 43.18 30.48) (xy 43.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 251.46 29.21)
+			(xy 34.29 20.32) (xy 251.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2644,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 20.32) (xy 251.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62cce8d-bc74-45d1-9825-6974421406a0")
+	)
+	(wire
+		(pts
 			(xy 67.31 48.26) (xy 105.41 48.26)
 		)
 		(stroke
@@ -2694,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 45.72 55.88)
+			(xy 45.72 27.94) (xy 45.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3590,7 @@
 	)
 	(symbol
 		(lib_id "PH1-10-UA:PH1-10-UA")
-		(at 31.75 39.37 180)
+		(at 34.29 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3619,7 +3599,7 @@
 		(fields_autoplaced yes)
 		(uuid "64aff38c-a142-46a0-8776-bb45aa976f9c")
 		(property "Reference" "J1"
-			(at 36.83 53.34 90)
+			(at 39.37 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3608,7 @@
 			)
 		)
 		(property "Value" "PH1-10-UA"
-			(at 34.29 53.34 90)
+			(at 36.83 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3617,7 @@
 			)
 		)
 		(property "Footprint" "HDRV10W64P0X254_1X10_2540X249X886P"
-			(at 15.24 -55.55 0)
+			(at 17.78 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3627,7 @@
 			)
 		)
 		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
-			(at 15.24 -155.55 0)
+			(at 17.78 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3637,7 @@
 			)
 		)
 		(property "Description" "Conn Unshrouded Header HDR 10 POS 2.54mm Solder RA Side Entry Thru-Hole Bag"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3646,7 @@
 			)
 		)
 		(property "MF" "Adam Tech"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3656,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Connector Header Through Hole 10 position 0.100 (2.54mm)\n                        \n"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3666,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3676,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3686,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=snap"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3696,7 @@
 			)
 		)
 		(property "MP" "PH1-10-UA"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3706,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3716,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PH1-10-UA/Adam+Tech/view-part/?ref=eda"
-			(at 31.75 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3726,7 @@
 			)
 		)
 		(property "Height" "8.865"
-			(at 15.24 -355.55 0)
+			(at 17.78 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3736,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Adam Tech"
-			(at 15.24 -455.55 0)
+			(at 17.78 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3746,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PH1-10-UA"
-			(at 15.24 -555.55 0)
+			(at 17.78 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3756,7 @@
 			)
 		)
 		(property "Mouser Part Number" "737-PH1-10-UA"
-			(at 15.24 -655.55 0)
+			(at 17.78 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3766,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/PH1-10-UA?qs=ogqIPVdloe%252Bff9mnAAAy9w%3D%3D"
-			(at 15.24 -755.55 0)
+			(at 17.78 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3776,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PH1-10-UA"
-			(at 15.24 -855.55 0)
+			(at 17.78 -864.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3786,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 15.24 -955.55 0)
+			(at 17.78 -964.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
