@@ -2590,16 +2590,6 @@
 		)
 		(uuid "1dc5c43f-80a5-4747-bc3e-68dc7b21134c")
 	)
-	(text "AMS LED +"
-		(exclude_from_sim no)
-		(at 98.552 14.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2fc62d76-3652-493d-a35f-cffd15591eb6")
-	)
 	(text "VCU MPRD"
 		(exclude_from_sim no)
 		(at 139.192 43.434 0)
