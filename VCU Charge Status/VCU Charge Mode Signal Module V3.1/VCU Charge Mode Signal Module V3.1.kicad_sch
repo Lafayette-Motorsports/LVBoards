@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "67256402-7041-40ef-8c3d-a5f0e095b088")
 	(paper "A4")
 	(lib_symbols
@@ -139,93 +139,20 @@
 				)
 			)
 			(symbol "PH1-10-UA_0_0"
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 5.08 2.54)
-					)
+				(rectangle
+					(start 0 0)
+					(end 6.35 27.94)
 					(stroke
-						(width 0.6096)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.81 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 7.62) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 10.16) (xy 5.08 10.16)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 12.7) (xy 5.08 12.7)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 15.24) (xy 5.08 15.24)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 17.78) (xy 5.08 17.78)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 20.32) (xy 5.08 20.32)
+						(xy 3.81 25.4) (xy 5.08 25.4)
 					)
 					(stroke
 						(width 0.6096)
@@ -249,7 +176,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 25.4) (xy 5.08 25.4)
+						(xy 3.81 20.32) (xy 5.08 20.32)
 					)
 					(stroke
 						(width 0.6096)
@@ -259,15 +186,88 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0 0)
-					(end 6.35 27.94)
+				(polyline
+					(pts
+						(xy 3.81 17.78) (xy 5.08 17.78)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.6096)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 15.24) (xy 5.08 15.24)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -281,24 +281,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -450,12 +432,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -523,10 +528,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -547,7 +564,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -559,22 +576,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -620,9 +625,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -741,68 +749,54 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "NMOS:IRLML2060TRPBF"
+		(symbol "IRLML2060TRPBF:IRLML2060TRPBF"
 			(pin_names
-				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "IRLML2060TRPBF"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT23_INF"
-				(at 0 0 0)
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P237X112-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "IRLML2060TRPBF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+				(at 11.43 -198.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "IRLML2060TRPBF"
+			(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
 				(at 0 0 0)
 				(effects
 					(font
@@ -811,22 +805,83 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT23_INF SOT23_INF-M SOT23_INF-L"
-				(at 0 0 0)
+			(property "Height" "1.12"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "IRLML2060TRPBF_0_1"
+			(property "Manufacturer_Name" "Infineon"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "942-IRLML2060TRPBF"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "IRLML2060TRPBF"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML2060TRPBF_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -835,10 +890,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 10.795 -2.54)
+						(xy 5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -847,10 +902,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+						(xy 5.842 5.588) (xy 5.842 4.572)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -859,322 +914,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -6.985) (xy 23.495 -6.985)
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -2.54) (xy 10.795 -6.985)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -4.445) (xy 13.97 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.145 -4.445) (xy 13.97 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.145 1.905) (xy 17.145 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -5.08) (xy 17.78 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -4.445) (xy 23.495 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -1.27) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -0.635) (xy 17.78 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 1.905) (xy 23.495 1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 2.54) (xy 17.78 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.905) (xy 18.415 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -4.445) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -0.635) (xy 24.13 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -6.985) (xy 23.495 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -0.635) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 4.445) (xy 29.845 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 -2.54) (xy 33.02 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 4.445) (xy 29.845 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1183,30 +926,102 @@
 				)
 				(polyline
 					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635) (xy 24.13 -1.905)
+						(xy 5.842 2.032) (xy 5.842 3.048)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(circle
-					(center 20.32 -1.27)
-					(radius 5.08)
+					(center 6.35 2.54)
+					(radius 3.81)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
 					(at 0 0 0)
-					(length 7.62)
+					(length 2.54)
 					(name "G"
 						(effects
 							(font
@@ -1222,27 +1037,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
 					(name "D"
 						(effects
 							(font
@@ -1258,8 +1055,91 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 15.24 33.02)
+		(end 93.98 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 65b9c4fe-618b-4176-a3c2-880b9ff4b284)
+	)
+	(text "5V+\n"
+		(exclude_from_sim no)
+		(at 19.812 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "3356d82c-55c5-4333-ab00-e16b1b300025")
+	)
+	(text "VCU Throttle Latching\n"
+		(exclude_from_sim no)
+		(at 22.098 49.784 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "488c5394-394c-4441-b0a0-abc8129eefac")
+	)
+	(text "VCU Throttle Latching Signal\n\n"
+		(exclude_from_sim no)
+		(at 24.13 71.12 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b15cb48-efcd-4d52-bdb0-1af05da67a91")
+	)
+	(text "From Safety Loop\n"
+		(exclude_from_sim no)
+		(at 20.066 44.704 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "9ee7c9fe-6287-4873-b93e-b0013d97ffeb")
+	)
+	(text "GND\n"
+		(exclude_from_sim no)
+		(at 19.304 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be43c2b6-0903-4a7f-bec1-14d12fa87671")
 	)
 	(junction
 		(at 34.29 45.72)
@@ -1341,6 +1221,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9eb5f0-22e5-498e-925e-79e912a98108")
+	)
+	(wire
+		(pts
 			(xy 30.48 53.34) (xy 30.48 48.26)
 		)
 		(stroke
@@ -1391,6 +1281,46 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df6c56c-2404-4656-b6a4-d2ecedbc4b25")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4df8cee-b95e-494f-97b3-ee63a9bbe41d")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b534b6c0-5ef6-4340-820d-73d3ee3520b9")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a6f407-a9ba-4435-baed-011ee4b32fb5")
+	)
+	(wire
+		(pts
 			(xy 30.48 48.26) (xy 24.13 48.26)
 		)
 		(stroke
@@ -1411,13 +1341,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 52.07 45.72)
+			(xy 66.04 58.42) (xy 68.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8c8ec3a-db94-4e0e-b879-428ff7cfd769")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb94dc1d-bb45-4402-9e21-9ad16bc0298b")
 	)
 	(wire
 		(pts
@@ -1428,70 +1368,6 @@
 			(type default)
 		)
 		(uuid "fdb1e53f-4910-489a-b837-c36508ff37c5")
-	)
-	(rectangle
-		(start 15.24 33.02)
-		(end 93.98 69.85)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 65b9c4fe-618b-4176-a3c2-880b9ff4b284)
-	)
-	(text "5V+\n"
-		(exclude_from_sim no)
-		(at 19.812 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3356d82c-55c5-4333-ab00-e16b1b300025")
-	)
-	(text "VCU Throttle Latching\n"
-		(exclude_from_sim no)
-		(at 22.098 49.784 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "488c5394-394c-4441-b0a0-abc8129eefac")
-	)
-	(text "VCU Throttle Latching Signal\n\n"
-		(exclude_from_sim no)
-		(at 24.13 71.12 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b15cb48-efcd-4d52-bdb0-1af05da67a91")
-	)
-	(text "From Safety Loop\n"
-		(exclude_from_sim no)
-		(at 20.066 44.704 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "9ee7c9fe-6287-4873-b93e-b0013d97ffeb")
-	)
-	(text "GND\n"
-		(exclude_from_sim no)
-		(at 19.304 47.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "be43c2b6-0903-4a7f-bec1-14d12fa87671")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1868,8 +1744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NMOS:IRLML2060TRPBF")
-		(at 52.07 45.72 0)
+		(lib_id "IRLML2060TRPBF:IRLML2060TRPBF")
+		(at 68.58 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1878,47 +1754,119 @@
 		(fields_autoplaced yes)
 		(uuid "e2f0adfc-590b-4424-a8be-c182b732557d")
 		(property "Reference" "U1"
-			(at 72.39 35.56 0)
+			(at 80.01 54.6099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "IRLML2060TRPBF"
-			(at 72.39 38.1 0)
+			(at 80.01 57.1499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_INF"
-			(at 52.07 45.72 0)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 80.01 157.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+			(at 80.01 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IRLML2060TRPBF"
-			(at 52.07 45.72 0)
+		(property "Height" "1.12"
+			(at 80.01 457.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 45.72 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 80.01 557.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+			(at 80.01 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML2060TRPBF"
+			(at 80.01 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+			(at 80.01 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRLML2060TRPBF"
+			(at 80.01 957.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+			(at 80.01 1057.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -1945,4 +1893,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

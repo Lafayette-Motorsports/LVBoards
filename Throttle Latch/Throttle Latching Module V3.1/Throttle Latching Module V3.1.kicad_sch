@@ -742,67 +742,50 @@
 				)
 			)
 		)
-		(symbol "NMOS:IRLML2060TRPBF"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "IRLML2060TRPBF:IRLML2060TRPBF"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "IRLML2060TRPBF"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT23_INF"
-				(at 0 0 0)
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P237X112-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "IRLML2060TRPBF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+				(at 11.43 -198.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "IRLML2060TRPBF"
+			(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
 				(at 0 0 0)
 				(effects
 					(font
@@ -811,22 +794,83 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT23_INF SOT23_INF-M SOT23_INF-L"
-				(at 0 0 0)
+			(property "Height" "1.12"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "IRLML2060TRPBF_0_1"
+			(property "Manufacturer_Name" "Infineon"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "942-IRLML2060TRPBF"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "IRLML2060TRPBF"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML2060TRPBF_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -835,10 +879,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 10.795 -2.54)
+						(xy 5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -847,10 +891,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+						(xy 5.842 -0.508) (xy 5.842 0.508)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -859,10 +903,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -6.985) (xy 23.495 -6.985)
+						(xy 5.842 0) (xy 7.62 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -871,10 +915,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.795 -2.54) (xy 10.795 -6.985)
+						(xy 5.842 2.032) (xy 5.842 3.048)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -883,10 +927,10 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -4.445) (xy 13.97 0)
+						(xy 5.842 5.588) (xy 5.842 4.572)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -895,10 +939,10 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 0) (xy 7.62 0)
+						(xy 7.62 2.54) (xy 5.842 2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -907,10 +951,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.145 -4.445) (xy 13.97 -4.445)
+						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -919,10 +963,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.145 1.905) (xy 17.145 -4.445)
+						(xy 7.62 5.08) (xy 5.842 5.08)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -931,10 +975,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -5.08) (xy 17.78 -3.81)
+						(xy 7.62 5.08) (xy 7.62 7.62)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -943,250 +987,10 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -4.445) (xy 23.495 -4.445)
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -1.27) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -0.635) (xy 17.78 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 1.905) (xy 23.495 1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 2.54) (xy 17.78 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.905) (xy 18.415 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -4.445) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -0.635) (xy 24.13 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -6.985) (xy 23.495 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -0.635) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 4.445) (xy 29.845 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 -2.54) (xy 33.02 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 4.445) (xy 29.845 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.27) (xy 19.05 -0.635) (xy 19.05 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -1.905) (xy 23.495 -0.635) (xy 24.13 -1.905)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1194,19 +998,19 @@
 					)
 				)
 				(circle
-					(center 20.32 -1.27)
-					(radius 5.08)
+					(center 6.35 2.54)
+					(radius 3.81)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
-					(length 7.62)
+					(length 2.54)
 					(name "G"
 						(effects
 							(font
@@ -1222,9 +1026,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
 					(name "S"
 						(effects
 							(font
@@ -1240,9 +1044,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
 					(name "D"
 						(effects
 							(font
@@ -1301,6 +1105,46 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 46.99) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfa8f25-8206-41c6-b16e-1ec326c4a72f")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e19b647-1edd-4292-9529-6ba5812b9f6c")
+	)
+	(wire
+		(pts
+			(xy 55.88 62.23) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a87f9a-e9c3-43eb-bf1e-7e11b550083f")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8c45d1-1e7a-481d-acc5-ebb4591a32a4")
+	)
+	(wire
+		(pts
 			(xy 52.07 57.15) (xy 29.21 57.15)
 		)
 		(stroke
@@ -1338,6 +1182,16 @@
 			(type default)
 		)
 		(uuid "792b9ce0-2b19-499b-acb2-f1cfa29f81c6")
+	)
+	(wire
+		(pts
+			(xy 91.44 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da8b299-d224-4090-a304-a56effbd5542")
 	)
 	(wire
 		(pts
@@ -1381,6 +1235,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 62.23) (xy 55.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b946aa8b-ec98-4ba1-997e-25088239c35a")
+	)
+	(wire
+		(pts
 			(xy 24.13 45.72) (xy 34.29 45.72)
 		)
 		(stroke
@@ -1401,6 +1265,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c175ca4f-30a8-4089-acdc-7e1a754dcecb")
+	)
+	(wire
+		(pts
 			(xy 30.48 48.26) (xy 24.13 48.26)
 		)
 		(stroke
@@ -1411,7 +1285,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 52.07 45.72)
+			(xy 71.12 46.99) (xy 91.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d443a755-8212-4f8f-9e8d-7ea4a5a49675")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1561,8 +1445,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NMOS:IRLML2060TRPBF")
-		(at 52.07 45.72 0)
+		(lib_id "IRLML2060TRPBF:IRLML2060TRPBF")
+		(at 63.5 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1571,47 +1455,119 @@
 		(fields_autoplaced yes)
 		(uuid "1b777d6a-aa28-4f5b-bfcf-84f44cfc705e")
 		(property "Reference" "U1"
-			(at 72.39 35.56 0)
+			(at 74.93 53.3399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "IRLML2060TRPBF"
-			(at 72.39 38.1 0)
+			(at 74.93 55.8799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_INF"
-			(at 52.07 45.72 0)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 74.93 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+			(at 74.93 255.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML2060TRPBF N-Channel MOSFET, 1.2 A, 60 V HEXFET, 3-Pin SOT-23 Infineon"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IRLML2060TRPBF"
-			(at 52.07 45.72 0)
+		(property "Height" "1.12"
+			(at 74.93 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 45.72 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 74.93 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2060TRPBF"
+			(at 74.93 655.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML2060TRPBF"
+			(at 74.93 755.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML2060TRPBF?qs=9%252BKlkBgLFf1IzIjJ4taDPQ%3D%3D"
+			(at 74.93 855.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IRLML2060TRPBF"
+			(at 74.93 955.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irlml2060trpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
+			(at 74.93 1055.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
