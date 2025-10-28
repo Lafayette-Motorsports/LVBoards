@@ -10393,6 +10393,17 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
+		(start 157 40.1)
+		(end 179.507 43.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "80bd652a-7fe0-473f-982f-f38224bba931")
+	)
+	(gr_rect
 		(start 149.018809 92.5)
 		(end 172.218809 108.600001)
 		(stroke
@@ -10422,6 +10433,19 @@
 			(font
 				(size 1 0.6)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RTDS-Precharge | H.R. Oct '28 2025"
+		(at 157 42.5 0)
+		(layer "F.SilkS")
+		(uuid "37bedf97-b85c-4823-8db3-4c096c42e25e")
+		(effects
+			(font
+				(size 1.5 0.75)
+				(thickness 0.1875)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

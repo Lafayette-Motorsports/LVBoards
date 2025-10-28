@@ -1223,6 +1223,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 43.18 53.34)
+		(end 116.84 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c2b5346-f02d-40a6-8987-a7e68453b791)
+	)
+	(rectangle
+		(start 43.18 77.47)
+		(end 116.84 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ff9ac5f6-a5eb-42a4-a869-17c5ccbf45e8)
+	)
+	(text "VCU Charge Mode \n\n"
+		(exclude_from_sim no)
+		(at 44.45 58.42 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00059c8a-27ba-4a11-b30d-3427d7b0a795")
+	)
 	(text "VCU Throttle Latching\n"
 		(exclude_from_sim no)
 		(at 44.958 70.104 0)
@@ -1252,6 +1288,28 @@
 			)
 		)
 		(uuid "3a893a92-e226-4cc9-a465-529b3f2b0a4e")
+	)
+	(text "Throttle Latching Signal\n\n"
+		(exclude_from_sim no)
+		(at 45.72 102.616 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7af40126-7bb8-4bc9-ba5e-0158bcc7cfd7")
+	)
+	(text "From Safety Loop\n"
+		(exclude_from_sim no)
+		(at 43.942 65.024 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "96bd9c25-a0a5-4bca-a656-8ec8ac5dfec4")
 	)
 	(text "5V+\n"
 		(exclude_from_sim no)
