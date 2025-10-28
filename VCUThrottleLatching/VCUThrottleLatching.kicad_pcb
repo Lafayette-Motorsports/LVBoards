@@ -3270,8 +3270,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 133.7465 43.1)
-		(end 154.2535 46)
+		(start 132.2465 43.1)
+		(end 155.7535 46.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -3302,8 +3302,8 @@
 		(layer "Edge.Cuts")
 		(uuid "57299190-815b-438f-87ed-3055769f56e4")
 	)
-	(gr_text "VCU-ThrottleLatch | H.R. Oct '28"
-		(at 134 45.5 0)
+	(gr_text "VCU-ThrottleLatch | H.R. Oct '28 2025"
+		(at 132.5 45.5 0)
 		(layer "F.SilkS")
 		(uuid "1477f51f-7b38-462f-86f2-ea8fa1f30913")
 		(effects
