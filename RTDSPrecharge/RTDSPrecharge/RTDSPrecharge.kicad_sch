@@ -2409,6 +2409,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 41.91 101.6)
+		(end 261.62 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04cc9550-c5f0-4ad3-bd57-ec3bb45ff990)
+	)
+	(rectangle
+		(start 43.18 49.53)
+		(end 186.69 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aacc7f86-93d9-46f2-ac85-82b5c4f060f9)
+	)
 	(text "RTDS Coil -\n"
 		(exclude_from_sim no)
 		(at 51.816 55.372 0)
@@ -2428,6 +2452,16 @@
 			)
 		)
 		(uuid "3a5d7e35-61f6-4a70-99d1-d96fe83e8166")
+	)
+	(text "RTDS"
+		(exclude_from_sim no)
+		(at 48.514 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a19bb71-d540-4ddd-86cc-e55ad0896362")
 	)
 	(text "PC COIL"
 		(exclude_from_sim no)
@@ -2478,6 +2512,16 @@
 			)
 		)
 		(uuid "ef6efa02-70b5-4428-9f64-99ed9466b260")
+	)
+	(text "Precharge\n"
+		(exclude_from_sim no)
+		(at 45.466 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7a520f8-1091-40ae-8144-0cc8b2b34da5")
 	)
 	(text "GND"
 		(exclude_from_sim no)
