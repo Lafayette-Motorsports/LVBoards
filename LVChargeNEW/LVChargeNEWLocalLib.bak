@@ -380,6 +380,23 @@
 			)
 		)
 		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "TRXDFN69X60X35-3N.kicad_mod")
+				(type other)
+				(data |KLUv/WAIBgUOABaTPB8wjx6fuCjeeG7LQtXHLvQ4p67DiPbfrW1BpqAhSwUDNQAzADIAufF/DQQa
+					2+wS6wa0guMQaDSg/VfyZ90ohBc1dkylWCMaN5sGpA2IIqJCQ8Hory6+3rImBghTRglBkj7YnrmZ
+					9VfWxDq/9Wly1r2QUHfRYFP4pGuIvtgCQWRQtNvKsU+O+y/+j2uSJgHt1aXkjFA2svnnmnhR535k
+					m0980L113LGlekFq1JDzaH91ClUrrc34YOfslcTeSOMMoA2S5HpoDowtUswl/4WhrGs+A+xfuWXt
+					lMXXOjeh5Hj8TEmdc4+MvHQtrFuq/Glw/cwCW6DRsUNEkqQopWUNMEwwNWh1TTANTH0E2F8IZrJk
+					xz0JuSVs7Xn+01oDgqyxL7QSXOACR7mpNaax+dTKnkUbLpARcxzmGOz30CCC35ba9YCkkJakOHFb
+					t830rUvDxL4DpTZiklQQ/Yl0DM0qEIeRZwaWhT57yk/H4s9TFUA9qbqVHPuQrSz2qTUUFe0oGMRY
+					MwMd5lvWcdg5/d+Q149cLaeohpJTFpUy0OYurBGUT7rFM1KH/ugwJ2HkQKvQCrCN0Nl0EvvR0AME
+					UwU=|
+				)
+				(checksum "3166B4B54F6FB1D9E358A210026B4E24")
+			)
+		)
 	)
 	(symbol "PQ25856QWRRVRQ1"
 		(pin_names
@@ -431,14 +448,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PQ25856QWRRVRQ1"
@@ -1176,5 +1185,422 @@
 			)
 		)
 		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "VQFN36_RRV_TEX.kicad_mod")
+				(type other)
+				(data |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
+					9nYF7mJo/ghBOcBQXbTJIVWx2go=|
+				)
+				(checksum "27541A3A3DFABACF7C9044DFE20C406E")
+			)
+		)
+	)
+	(symbol "SRP1770TA-150M"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 6.985 5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SRP1770TA-150M"
+			(at 6.985 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "IND_SRP1770_BRN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SRP1770TA-150M"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SRP1770TA-150M"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "IND_SRP1770_BRN IND_SRP1770_BRN-M IND_SRP1770_BRN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SRP1770TA-150M_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 1.27)
+				(mid 3.81 2.5344)
+				(end 5.08 1.27)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 1.27)
+				(mid 6.35 2.5344)
+				(end 7.62 1.27)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 7.62 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 1.27)
+				(mid 8.89 2.5344)
+				(end 10.16 1.27)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 10.16 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 1.27)
+				(mid 11.43 2.5344)
+				(end 12.7 1.27)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 12.7 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SRP1770TA-150M_1_2"
+			(arc
+				(start -1.27 10.16)
+				(mid -2.5344 11.43)
+				(end -1.27 12.7)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 7.62)
+				(mid -2.5344 8.89)
+				(end -1.27 10.16)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 5.08)
+				(mid -2.5344 6.35)
+				(end -1.27 7.62)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 2.54)
+				(mid -2.5344 3.81)
+				(end -1.27 5.08)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 12.7) (xy -1.27 12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 10.16) (xy -1.27 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy -1.27 7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -1.27 5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "IND_SRP1770_BRN.kicad_mod")
+				(type other)
+				(data |KLUv/WAgClURALbZTyAQkx78vxG6TE0x5CqJKCuHxRzm4ce+y7JU2SICIAsAEEcARgBGANrz3tYZ
+					cppRIeJcV+x2mkNUOM/vsdpzBwQg5zHlZjxv2+bHX3kO65RzUkkdb5nOv3nuGg/DRBII0/GATBCN
+					hfONs5zZ24a9GopV+Gs0u4FwmlG61o8vN7Ps53D69P9k+vnGG/Zc7/sY9s8dctEySFTA6y9307DG
+					pUt3g4Ei8XD+F39+7LPvzu9JBrswAVqGPYd1otKaU/qsqvwb/33+2s3ZteZUxSqClVr2lXGeQ3dJ
+					do4u/M8hVakUKZ8SNUUr8p3t1s8fZ5oLJQ6NxCMBEjjPrwOAAKTuoi3jt7YOTWedkU6f1IoUSqeq
+					WkVC5Ns+3/ezXxjtbjq/bCaakkWlXxmmqlK62UaRWwRriqokyRoptyolPN6wawFjoGGagKRGKCMF
+					RUljMEgwiqjiHLFQ6A5M3k7XXKGlODF/6MdI17xx1hM53iQUXMkojzjkVNbU0s8B0mZ0gWySQWRd
+					93MkGyqMZXssXajpA+3mXWJXGoNsZ4e07yLdJmVyNhdeWTsOybZliV8eqDOpOSVRnEoYxPgFVZks
+					NhY7hJjXtkxZ9ypHUXGZqqEEBH2CxDl5P+IN1XHsd9KU8MA3OpnkgLwIS/NH1IrWoAd3BOO6PsHX
+					SLIvWXhcRwQBdzmmcwNcfNYzCVygCw/KByP+dXUmh9ZEHbo8C2mKNaTAkCd3idmcanhV|
+				)
+				(checksum "A3E9B8F58106367E38F03E79BE52CA2D")
+			)
+		)
 	)
 )
