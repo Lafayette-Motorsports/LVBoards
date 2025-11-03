@@ -451,7 +451,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LVChargeNEWLocalLib:IAUZ20N08S5L300ATMA1"
+		(symbol "LVChargeNEWLocalLib:CSD15380F3T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -459,7 +459,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -11.43 2.54 0)
+				(at -8.89 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -467,8 +467,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "IAUZ20N08S5L300ATMA1"
-				(at -11.43 -7.62 0)
+			(property "Value" "CSD15380F3T"
+				(at -8.89 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -476,7 +476,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "IAUZ20N08S5L300ATMA1:TRANS_IAUZ20N08S5L300ATMA1"
+			(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.0"
+			(property "PARTREV" "A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -514,7 +514,7 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "STANDARD" "IPC-7351B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -524,7 +524,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
+			(property "MANUFACTURER" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -534,20 +534,10 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Infineon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "IAUZ20N08S5L300ATMA1_0_0"
+			(symbol "CSD15380F3T_0_0"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 -2.54)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -559,7 +549,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 3.175) (xy -1.778 2.54)
+						(xy 0.762 3.175) (xy 0.762 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -571,7 +561,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.54) (xy -1.778 1.905)
+						(xy 0.762 2.54) (xy 0.762 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -583,7 +573,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.54) (xy 1.27 2.54)
+						(xy 0.762 2.54) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -595,7 +585,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 0.762) (xy -1.778 0)
+						(xy 0.762 0.762) (xy 0.762 0)
 					)
 					(stroke
 						(width 0.254)
@@ -607,7 +597,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 0) (xy -1.778 -0.762)
+						(xy 0.762 0) (xy 0.762 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -619,7 +609,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 0) (xy 0 0)
+						(xy 0.762 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -631,7 +621,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -1.905) (xy -1.778 -3.175)
+						(xy 0.762 -1.905) (xy 0.762 -3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -643,7 +633,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0) (xy -0.508 0.762) (xy -0.508 -0.762) (xy -1.524 0)
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -654,7 +644,7 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
+					(center 2.54 2.54)
 					(radius 0.3592)
 					(stroke
 						(width 0)
@@ -666,7 +656,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.54)
+						(xy 2.54 0) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -677,7 +667,7 @@
 					)
 				)
 				(circle
-					(center 0 -2.54)
+					(center 2.54 -2.54)
 					(radius 0.3592)
 					(stroke
 						(width 0)
@@ -689,7 +679,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 1.27 0.508)
+						(xy 3.302 0.508) (xy 3.048 0.254)
 					)
 					(stroke
 						(width 0.1524)
@@ -701,7 +691,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.508) (xy 0.762 0.508)
+						(xy 3.81 2.54) (xy 3.81 0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -713,7 +703,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.508) (xy 1.27 -2.54)
+						(xy 3.81 0.508) (xy 3.302 0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -725,7 +715,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.508) (xy 0.762 -0.254) (xy 1.778 -0.254) (xy 1.27 0.508)
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -737,7 +739,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy -1.778 -2.54)
+						(xy 3.81 -2.54) (xy 0.762 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -749,7 +751,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 0.508) (xy 1.27 0.508)
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -760,43 +774,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -806,6 +784,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4590,6 +4604,110 @@
 		)
 	)
 	(symbol
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 260.35 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03fdf027-f1f7-4f73-8573-9adb02feec23")
+		(property "Reference" "Q4"
+			(at 254 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 253.746 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "345baeb6-4f8c-4825-a159-6211331015b4")
+		)
+		(pin "2"
+			(uuid "b1f4b5fe-907f-4b39-aa8b-96088c2213cc")
+		)
+		(pin "1"
+			(uuid "bd8b41ee-f680-4180-9036-0aea2937bf83")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 93.98 0)
 		(unit 1)
@@ -4654,120 +4772,6 @@
 			(project ""
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LVChargeNEWLocalLib:IAUZ20N08S5L300ATMA1")
-		(at 232.41 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0563a865-69d5-4ac0-b43d-903e831785e3")
-		(property "Reference" "Q5"
-			(at 234.95 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUZ20N08S5L300ATMA1"
-			(at 234.95 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUZ20N08S5L300ATMA1:TRANS_IAUZ20N08S5L300ATMA1"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Infineon"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "577d4cc4-f0ef-416f-80d3-a9a3cb1a9878")
-		)
-		(pin "5"
-			(uuid "e55b8e9b-ec77-4a7b-934d-ad08b39d0c7e")
-		)
-		(pin "1"
-			(uuid "c15ff3bd-c97d-4d62-83bb-78f4174f49af")
-		)
-		(instances
-			(project ""
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5245,120 +5249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LVChargeNEWLocalLib:IAUZ20N08S5L300ATMA1")
-		(at 232.41 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "249f42e0-cd98-4728-9af4-3cc3a63624c0")
-		(property "Reference" "Q1"
-			(at 234.95 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUZ20N08S5L300ATMA1"
-			(at 234.95 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUZ20N08S5L300ATMA1:TRANS_IAUZ20N08S5L300ATMA1"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Infineon"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0c1becc6-6602-4dc5-b001-761041442db0")
-		)
-		(pin "5"
-			(uuid "bd535f22-ae4d-47a6-ba0e-f3eb39ee79b4")
-		)
-		(pin "1"
-			(uuid "43c7061f-d314-453c-9bd0-a7635e9527c3")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 198.12 86.36 90)
 		(unit 1)
@@ -5766,120 +5656,6 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LVChargeNEWLocalLib:IAUZ20N08S5L300ATMA1")
-		(at 257.81 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41108e90-3b24-4ddf-b466-43fb7d511a80")
-		(property "Reference" "Q3"
-			(at 255.27 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUZ20N08S5L300ATMA1"
-			(at 255.27 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUZ20N08S5L300ATMA1:TRANS_IAUZ20N08S5L300ATMA1"
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Infineon"
-			(at 257.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6e8c2315-810a-421a-9e8d-bc1e28601a0a")
-		)
-		(pin "5"
-			(uuid "2af0760c-c30b-4f7d-91ee-accf98706cc4")
-		)
-		(pin "1"
-			(uuid "d98e6153-421b-47f9-8b8d-04878db1ae55")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7738,6 +7514,213 @@
 		)
 	)
 	(symbol
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 229.87 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb770d2-1b6a-4458-8bd7-71aa802e31ca")
+		(property "Reference" "Q2"
+			(at 235.458 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 234.696 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0c8c5eef-b335-40d3-84db-45e3187009be")
+		)
+		(pin "2"
+			(uuid "a9c69d09-1513-4a2d-b7c7-0f156f8bf120")
+		)
+		(pin "1"
+			(uuid "477cd39b-976c-491b-8494-8f9f67df4f69")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 260.35 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bee10d88-2eaf-443b-808f-29b0472b5c8b")
+		(property "Reference" "Q3"
+			(at 255.016 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 255.016 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d06e644-3d2b-435b-92cd-4ac7f1dd2540")
+		)
+		(pin "2"
+			(uuid "eda6564d-01e2-4a9a-8a1b-d5bb749f1095")
+		)
+		(pin "1"
+			(uuid "4b2b665b-da58-4583-9873-9be5a0788c35")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 322.58 57.15 90)
 		(unit 1)
@@ -8354,6 +8337,109 @@
 		)
 	)
 	(symbol
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 229.87 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc0c37b0-9679-422d-824a-5777f06afd9a")
+		(property "Reference" "Q1"
+			(at 236.22 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 236.474 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6261befa-3f74-40f2-a0a8-b1c06712c428")
+		)
+		(pin "2"
+			(uuid "ef74b54a-c854-467a-8282-4ef096a9bc44")
+		)
+		(pin "1"
+			(uuid "ba365ac5-19bd-43fd-a632-32b0eb4d47a6")
+		)
+		(instances
+			(project ""
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 100.33 0)
 		(unit 1)
@@ -8794,120 +8880,6 @@
 			(project ""
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LVChargeNEWLocalLib:IAUZ20N08S5L300ATMA1")
-		(at 257.81 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eda99526-e639-4c94-97cb-05a653a5ff69")
-		(property "Reference" "Q2"
-			(at 255.27 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IAUZ20N08S5L300ATMA1"
-			(at 255.27 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IAUZ20N08S5L300ATMA1:TRANS_IAUZ20N08S5L300ATMA1"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Infineon"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "93b11254-9146-4bee-abb2-a1f13b401a7a")
-		)
-		(pin "5"
-			(uuid "26db147d-56d5-4b31-a92a-45dbe7febf45")
-		)
-		(pin "1"
-			(uuid "751cd71a-345f-450b-865a-bce2a7ff5e3c")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
