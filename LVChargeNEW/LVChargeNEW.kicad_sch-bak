@@ -3092,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c49ae85-d023-40e2-b601-62381134ed86")
+	)
+	(wire
+		(pts
 			(xy 106.68 118.11) (xy 106.68 124.46)
 		)
 		(stroke
@@ -3329,16 +3339,6 @@
 			(type default)
 		)
 		(uuid "8286d93f-886a-4cb7-b063-e4b1215be66d")
-	)
-	(wire
-		(pts
-			(xy 127 90.17) (xy 130.81 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83600a00-b8eb-495e-aedb-f1ffb5d0b919")
 	)
 	(wire
 		(pts
@@ -4482,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 252.73 138.938 90)
 			(effects
 				(font
@@ -4552,7 +4552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" ""
 			(at 170.18 73.66 0)
 			(effects
 				(font
@@ -4631,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
 			(at 260.35 64.77 0)
 			(effects
 				(font
@@ -4735,7 +4735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 131.7752 97.79 0)
 			(effects
 				(font
@@ -4803,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 318.77 56.1848 0)
 			(effects
 				(font
@@ -4873,7 +4873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 334.9752 64.77 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 123.19 110.998 90)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 151.892 139.7 90)
 			(effects
 				(font
@@ -5273,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 198.12 88.138 90)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 247.142 105.41 90)
 			(effects
 				(font
@@ -5479,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 177.292 81.28 90)
 			(effects
 				(font
@@ -5549,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 151.892 114.3 90)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 260.0452 144.78 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 247.142 113.03 90)
 			(effects
 				(font
@@ -5952,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 123.19 91.948 90)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 247.3452 144.78 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 175.5648 49.53 0)
 			(effects
 				(font
@@ -6227,7 +6227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" ""
 			(at 179.07 73.66 0)
 			(effects
 				(font
@@ -6438,7 +6438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 131.7752 109.22 0)
 			(effects
 				(font
@@ -6508,7 +6508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 343.8652 64.77 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 216.2048 76.2 0)
 			(effects
 				(font
@@ -6647,7 +6647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 324.612 53.34 90)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 288.5948 45.72 0)
 			(effects
 				(font
@@ -6853,7 +6853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.292 50.8 90)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" ""
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 257.302 105.41 90)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 159.512 81.28 90)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:SRP1770TA_150M"
+		(property "Footprint" "IND_SRP1770_BRN"
 			(at 236.22 71.12 0)
 			(effects
 				(font
@@ -7471,7 +7471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 265.1252 116.84 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
 			(at 260.35 80.01 0)
 			(effects
 				(font
@@ -7746,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 326.39 56.1848 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 341.122 53.34 90)
 			(effects
 				(font
@@ -7868,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c584e0ae-0bfb-42d9-9ce5-5b06ec316fb0")
-		(property "Reference" "C_sys1"
+		(property "Reference" "C_sys"
 			(at 83.82 104.1399 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 		(instances
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "C_sys1")
+					(reference "C_sys")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 116.84 116.332 90)
 			(effects
 				(font
@@ -8072,7 +8072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1171d57-ad0a-4abb-8a03-213b5ea4d31b")
-		(property "Reference" "R_bat_ac1"
+		(property "Reference" "R_bat_ac"
 			(at 318.77 38.1 90)
 			(effects
 				(font
@@ -8124,7 +8124,7 @@
 		(instances
 			(project ""
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "R_bat_ac1")
+					(reference "R_bat_ac")
 					(unit 1)
 				)
 			)
@@ -8224,7 +8224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 168.402 81.28 90)
 			(effects
 				(font
@@ -8294,7 +8294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 96.2152 109.22 0)
 			(effects
 				(font
@@ -8363,7 +8363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
 			(at 229.87 63.5 0)
 			(effects
 				(font
@@ -8467,7 +8467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 143.2052 104.14 0)
 			(effects
 				(font
@@ -8599,7 +8599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 130.81 122.682 90)
 			(effects
 				(font
@@ -8668,7 +8668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 269.5448 76.2 0)
 			(effects
 				(font
@@ -8736,7 +8736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:Q25856QWRRVRQ1"
+		(property "Footprint" "VQFN36_RRV_TEX"
 			(at 172.72 101.6 0)
 			(effects
 				(font
@@ -8895,7 +8895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f15627b4-9555-4af1-8615-09a68e96a650")
-		(property "Reference" "R_bat_sns1"
+		(property "Reference" "R_bat_sns"
 			(at 110.49 97.7899 0)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 		(instances
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "R_bat_sns1")
+					(reference "R_bat_sns")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 322.58 72.6948 0)
 			(effects
 				(font
