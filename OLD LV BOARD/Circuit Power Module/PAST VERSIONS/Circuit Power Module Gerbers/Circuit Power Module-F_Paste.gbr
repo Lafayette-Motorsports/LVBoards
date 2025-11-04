@@ -1,0 +1,27 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-01-14T17:05:08-05:00*%
+%TF.ProjectId,Circuit Power Module,43697263-7569-4742-9050-6f776572204d,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-01-14 17:05:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.158800X2.550800*%
+%ADD11R,1.110000X1.730000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,C2*%
+X82850000Y-63036100D03*
+X79691198Y-63036100D03*
+%TD*%
+D11*
+%TO.C,D1*%
+X83080000Y-66220000D03*
+X79670000Y-66220000D03*
+%TD*%
+M02*

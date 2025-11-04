@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SOC")(type "KiCad")(uri "C:/Developement/Motorsports/Lafayette-Motorsports-Developement-Board/Footprints/IRLML2060TRPBF-20250113T073807Z-001/IRLML2060TRPBF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LED")(type "KiCad")(uri "C:/Developement/Motorsports/Lafayette-Motorsports-Developement-Board/Footprints/Test LED_s/KiCADv6/footprints.pretty")(options "")(descr ""))
+)
