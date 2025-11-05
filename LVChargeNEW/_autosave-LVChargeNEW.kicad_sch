@@ -8093,7 +8093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LVChargeNEWLocalFootprints:RESC2012X80N"
 			(at 318.77 46.228 90)
 			(effects
 				(font
@@ -8919,7 +8919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LVChargeNEWLocalFootprints:RESC2012X80N"
 			(at 109.728 99.06 90)
 			(effects
 				(font

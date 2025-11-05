@@ -1,4 +1,4 @@
-26641654690557735
+26645179274888818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70560,12 +70560,26 @@ CSD15380F3
 3
 3
 LVChargeNEWLocalFootprints
+IAUZ20N08S5L300ATMA1
+
+
+0
+3
+3
+LVChargeNEWLocalFootprints
 Q25856QWRRVRQ1
 
 PQ25856QWRRVRQ1 
 0
 37
 37
+LVChargeNEWLocalFootprints
+RESC2012X80N
+
+
+0
+2
+2
 LVChargeNEWLocalFootprints
 SRP1770TA_150M
 
