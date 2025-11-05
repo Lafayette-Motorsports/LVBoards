@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
+%TF.CreationDate,2025-02-03T20:55:48-05:00*%
+%TF.ProjectId,AMS Latching Module V2.0,414d5320-4c61-4746-9368-696e67204d6f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-02-03 20:55:48*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,0.970000X0.900000*%
+%ADD11R,0.660400X1.549400*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,D1*%
+X90620000Y-80270000D03*
+X90620000Y-78750000D03*
+%TD*%
+%TO.C,D2*%
+X88540000Y-80260000D03*
+X88540000Y-78740000D03*
+%TD*%
+D11*
+%TO.C,D4*%
+X88855200Y-74200000D03*
+X91700000Y-74200000D03*
+%TD*%
+M02*
