@@ -1993,6 +1993,18 @@
 		(uuid 2c2b5346-f02d-40a6-8987-a7e68453b791)
 	)
 	(rectangle
+		(start 55.88 90.17)
+		(end 270.51 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c91cd69-2d0b-412a-994f-19b787059f6f)
+	)
+	(rectangle
 		(start 41.91 49.53)
 		(end 115.57 73.66)
 		(stroke
@@ -2077,6 +2089,18 @@
 			(justify left bottom)
 		)
 		(uuid "7af40126-7bb8-4bc9-ba5e-0158bcc7cfd7")
+	)
+	(text "Precharge \n\n"
+		(exclude_from_sim no)
+		(at 57.15 165.608 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b3856c3-7103-4eba-bc66-abe04310558a")
 	)
 	(text "From Safety Loop\n"
 		(exclude_from_sim no)
@@ -2925,16 +2949,6 @@
 			(type default)
 		)
 		(uuid "465b8155-6e52-491a-afb2-d6f3dc800a6a")
-	)
-	(wire
-		(pts
-			(xy 144.78 102.87) (xy 144.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4778b25f-9994-47ff-a339-6677b483f1f6")
 	)
 	(wire
 		(pts
@@ -3815,16 +3829,6 @@
 			(type default)
 		)
 		(uuid "da97e3fb-05fc-4aab-94e1-32d2a1f07ad5")
-	)
-	(wire
-		(pts
-			(xy 137.16 102.87) (xy 144.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae27fea-b532-4df7-9566-763cb59b03e3")
 	)
 	(wire
 		(pts
@@ -4894,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.3252 125.73 0)
 			(effects
 				(font
@@ -5387,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 82.2452 119.38 0)
 			(effects
 				(font
@@ -5710,9 +5714,10 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:SOIC127P599X175-8N"
+		(property "Footprint" "Footprints:SOT95P237X112-3N"
 			(at 124.46 109.22 0)
 			(effects
 				(font
@@ -6476,7 +6481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 61.9252 132.08 0)
 			(effects
 				(font
