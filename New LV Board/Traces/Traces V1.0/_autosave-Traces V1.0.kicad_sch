@@ -349,142 +349,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5006:5006"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at -2.5444 2.5415 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5006"
-				(at -2.55 -5.0866 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "5006:KEYSTONE_5006"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "5006"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "5006_0_0"
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "TP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "691137710002:691137710002"
 			(pin_names
 				(offset 1.016)
@@ -1567,259 +1431,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BZV55B15:BZV55B15"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BZV55B15"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BZV55B15:DIOMELF3515N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "F1804"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BZV55B15_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.635) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CL32A476KOJNNNE:CL32A476KOJNNNE"
 			(pin_names
 				(offset 0.254)
@@ -2062,6 +1673,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,6 +2212,156 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3246,12 +3114,6 @@
 		(uuid "fbf3fe62-541d-441a-b25a-7547d52411bd")
 	)
 	(junction
-		(at 102.87 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "038b88db-2706-4c5d-9d5f-10bf884f096d")
-	)
-	(junction
 		(at 77.47 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,10 +3126,10 @@
 		(uuid "130dd5eb-161f-43a2-828b-956b231cd75e")
 	)
 	(junction
-		(at 90.17 186.69)
+		(at 104.14 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28231b74-4ce1-44af-b75c-e717a5d86596")
+		(uuid "26bae165-ffa7-4e93-95fc-5bf751784baf")
 	)
 	(junction
 		(at 185.42 102.87)
@@ -3288,12 +3150,6 @@
 		(uuid "5dbd9b7e-cc4a-4269-a515-5eb8248c550a")
 	)
 	(junction
-		(at 100.33 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6517eb4a-0a47-495f-b6e1-e3c4d1b77e18")
-	)
-	(junction
 		(at 106.68 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3304,6 +3160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d45f3cb-8d32-486c-8169-fb3f8890d80a")
+	)
+	(junction
+		(at 87.63 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8271c544-15b9-4de7-8d36-54962fd640a2")
 	)
 	(junction
 		(at 129.54 177.8)
@@ -3318,16 +3180,16 @@
 		(uuid "a791fdce-3e3d-400a-8a81-2186fc9e4487")
 	)
 	(junction
+		(at 87.63 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad72e35d-6109-4cb0-9bbe-3072bff2a17f")
+	)
+	(junction
 		(at 179.07 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2b75534-46ac-4e69-80d3-e7df53525f9f")
-	)
-	(junction
-		(at 90.17 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6888e6d-f1e3-415f-9ec9-351e55c90309")
 	)
 	(junction
 		(at 96.52 72.39)
@@ -3478,6 +3340,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 186.69) (xy 100.33 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a55fa53-8015-40f4-bb01-96cee585749f")
+	)
+	(wire
+		(pts
 			(xy 72.39 179.07) (xy 77.47 179.07)
 		)
 		(stroke
@@ -3538,16 +3410,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 186.69) (xy 90.17 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2727614e-dcbb-4527-821a-9eaa7fdb91c2")
-	)
-	(wire
-		(pts
 			(xy 72.39 181.61) (xy 72.39 179.07)
 		)
 		(stroke
@@ -3578,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 186.69) (xy 100.33 187.96)
+			(xy 100.33 186.69) (xy 100.33 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 186.69) (xy 100.33 186.69)
+			(xy 77.47 186.69) (xy 87.63 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3766,16 +3628,6 @@
 			(type default)
 		)
 		(uuid "628c115d-1fd8-4f8d-9d32-b0bfcc0e3d4f")
-	)
-	(wire
-		(pts
-			(xy 100.33 187.96) (xy 100.33 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666e64bb-50d0-4252-97e9-19e9135b8f6e")
 	)
 	(wire
 		(pts
@@ -3820,17 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 187.96) (xy 102.87 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f02a3a2-c968-4be7-a93e-abace3324f21")
-	)
-	(wire
-		(pts
-			(xy 90.17 179.07) (xy 100.33 179.07)
+			(xy 77.47 179.07) (xy 87.63 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3840,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 177.8) (xy 102.87 177.8)
+			(xy 100.33 177.8) (xy 104.14 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3930,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 186.69) (xy 104.14 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3d03c5-8f4f-4f98-b37f-24910d1bf356")
+	)
+	(wire
+		(pts
 			(xy 59.69 54.61) (xy 81.28 54.61)
 		)
 		(stroke
@@ -3940,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 189.23) (xy 139.7 189.23)
+			(xy 100.33 189.23) (xy 104.14 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3989,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "b6ab7520-fc74-4333-9221-cd65a802c9dd")
+	)
+	(wire
+		(pts
+			(xy 104.14 179.07) (xy 104.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96765e1-3f0a-4eb6-9134-d0448f75c91e")
 	)
 	(wire
 		(pts
@@ -4155,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 189.23) (xy 139.7 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db61f978-f198-45d4-af9e-fe1496b79482")
+	)
+	(wire
+		(pts
 			(xy 187.96 90.17) (xy 190.5 90.17)
 		)
 		(stroke
@@ -4165,13 +4037,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 177.8) (xy 104.14 177.8)
+			(xy 87.63 179.07) (xy 100.33 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e16156fe-b6bc-4df7-a0d6-a6130aea6ffd")
+		(uuid "e5123504-84ba-40ad-b367-f1adc2f63a30")
 	)
 	(wire
 		(pts
@@ -4223,16 +4095,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f68cfb3c-c9db-4c17-b09d-204aa96a36e1")
-	)
-	(wire
-		(pts
-			(xy 77.47 179.07) (xy 90.17 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3c8132-1ad0-41e9-a9df-205240f2e90e")
 	)
 	(wire
 		(pts
@@ -4826,6 +4688,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8da14bb1-dd2a-448f-8249-f285bc16b459")
+		(property "Reference" "TP4"
+			(at 90.17 188.7219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 191.2619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 82.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a430bcc4-b925-42e6-b03e-5e1ae4ea440c")
+		)
+		(instances
+			(project "Traces V1.0"
+				(path "/2b8eb838-ed17-49da-bb42-10b70dc86c5e"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 93.98 31.75 90)
 		(unit 1)
@@ -5192,242 +5121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5006:5006")
-		(at 90.17 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74e4941-e105-4a67-879e-1c51de81cf6d")
-		(property "Reference" "TP1"
-			(at 92.71 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5006"
-			(at 92.71 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "5006"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "85358846-ce24-4811-9785-25161a6b1985")
-		)
-		(instances
-			(project "Traces V1.0"
-				(path "/2b8eb838-ed17-49da-bb42-10b70dc86c5e"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5006:5006")
-		(at 90.17 191.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa912c43-aab9-41a9-a01d-60c37bdf50e7")
-		(property "Reference" "TP2"
-			(at 92.71 190.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5006"
-			(at 92.71 193.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "5006"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 90.17 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "cf80228b-449b-4175-a07a-ea4b13dd8973")
-		)
-		(instances
-			(project "Traces V1.0"
-				(path "/2b8eb838-ed17-49da-bb42-10b70dc86c5e"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 186.69 31.75 90)
 		(unit 1)
@@ -5715,45 +5408,35 @@
 		)
 	)
 	(symbol
-		(lib_id "BZV55B15:BZV55B15")
-		(at 102.87 182.88 90)
+		(lib_id "Connector:TestPoint")
+		(at 87.63 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b80f1582-358d-48f1-a07f-e04388ae4bb2")
-		(property "Reference" "D1"
-			(at 105.41 181.6099 90)
+		(uuid "d8b60b30-a793-47bf-ad50-89f0d6d929e1")
+		(property "Reference" "TP3"
+			(at 90.17 174.4979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "BZV55B15"
-			(at 105.41 184.1499 90)
+		(property "Value" "TestPoint"
+			(at 90.17 177.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SC-80_HandSoldering"
-			(at 102.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 182.88 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,8 +5444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 182.88 0)
+		(property "Datasheet" "~"
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,56 +5453,92 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "F1804"
-			(at 102.87 182.88 0)
+		(property "Description" "test point"
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 102.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6 mm"
-			(at 102.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 102.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "0a36e1a1-c26d-4fb9-b4e4-f6719067a6e9")
-		)
-		(pin "A"
-			(uuid "cb1f8587-9451-4726-9fc8-fbafbcc08b4e")
+		(pin "1"
+			(uuid "352caf40-f5eb-476c-9aba-935ed466b4ed")
 		)
 		(instances
-			(project "Traces V1.0"
+			(project ""
 				(path "/2b8eb838-ed17-49da-bb42-10b70dc86c5e"
-					(reference "D1")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 104.14 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd3bc46d-215a-49ab-95d5-90f825e0d245")
+		(property "Reference" "D2"
+			(at 106.68 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 106.68 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d45df80-c4b5-4224-86b1-9719f77c65bc")
+		)
+		(pin "2"
+			(uuid "0d2b42b5-d245-43cd-a667-49299655b1b0")
+		)
+		(instances
+			(project ""
+				(path "/2b8eb838-ed17-49da-bb42-10b70dc86c5e"
+					(reference "D2")
 					(unit 1)
 				)
 			)
