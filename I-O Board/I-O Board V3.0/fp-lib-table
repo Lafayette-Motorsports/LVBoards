@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "I-O_Footprints")(type "KiCad")(uri "${KIPRJMOD}/I-O_Footprints.pretty")(options "")(descr "I-O specific footprints"))
-)

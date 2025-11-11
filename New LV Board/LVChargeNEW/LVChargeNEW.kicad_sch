@@ -5,6 +5,387 @@
 	(uuid "59e99d5c-d319-4165-bae5-97831157ea3a")
 	(paper "User" 431.8 279.4)
 	(lib_symbols
+		(symbol "CSD15380F3T_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q2"
+				(at 5.588 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD15380F3T"
+				(at 4.826 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LVChargeNEWLocalFootprints:IAUZ20N08S5L300ATMA1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CSD15380F3T_1_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD15380F3T_1_1_0"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -444,385 +825,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LVChargeNEWLocalLib:CSD15380F3T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -8.89 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CSD15380F3T"
-				(at -8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CSD15380F3T:TRXDFN69X60X35-3N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CSD15380F3T_0_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2101,6 +2103,12 @@
 		)
 	)
 	(junction
+		(at 80.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0533535f-f360-4c78-8cd8-c7d4c0ddd933")
+	)
+	(junction
 		(at 259.08 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2117,6 +2125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c66b12f-1232-4f08-b095-463b47cac509")
+	)
+	(junction
+		(at 55.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102c3f17-1e12-42d3-b1b6-21849858a1d9")
 	)
 	(junction
 		(at 232.41 71.12)
@@ -2149,6 +2163,18 @@
 		(uuid "245c8732-a8f8-402b-a48d-12a736e371d5")
 	)
 	(junction
+		(at 67.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "264ff76a-6e72-40af-89df-7e876211b26d")
+	)
+	(junction
+		(at 48.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "278b0b19-a1fe-4195-aff4-3f5b3db6429b")
+	)
+	(junction
 		(at 266.7 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2165,6 +2191,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a74488-65e3-4d5a-947d-0f1c903523a0")
+	)
+	(junction
+		(at 48.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c03af4b-77e1-4168-b2ca-79531afdd0e0")
 	)
 	(junction
 		(at 130.81 90.17)
@@ -2189,6 +2221,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42b0ddd8-adf7-4778-b01b-1952b51abeee")
+	)
+	(junction
+		(at 63.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47599de5-c339-42d3-8b9a-df1796524986")
 	)
 	(junction
 		(at 326.39 49.53)
@@ -2227,6 +2265,12 @@
 		(uuid "6ea0384a-f20f-4dee-8b73-c15d799d44ea")
 	)
 	(junction
+		(at 80.01 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec5fbcd-178e-4453-91e6-f372c323339c")
+	)
+	(junction
 		(at 224.79 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2245,6 +2289,18 @@
 		(uuid "7cec7831-39f9-46d9-bbb4-4b18d8249229")
 	)
 	(junction
+		(at 67.31 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8172c770-d43c-44b5-91cf-6b63064cb0d0")
+	)
+	(junction
+		(at 63.5 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b58783-676c-40f5-9a94-923480089e54")
+	)
+	(junction
 		(at 153.67 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2261,6 +2317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "931046ee-fa34-4afd-a285-1c3c58f55366")
+	)
+	(junction
+		(at 50.8 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93587442-09f5-4d38-a873-5ee0b84b6640")
 	)
 	(junction
 		(at 142.24 90.17)
@@ -2291,6 +2353,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af936053-345d-4b39-91ba-cb0633694e29")
+	)
+	(junction
+		(at 55.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05b386d-6826-4b59-a5a0-ca7fd0f65d04")
+	)
+	(junction
+		(at 71.12 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6c7ef66-978b-4fd9-9d7f-b383e877d133")
+	)
+	(junction
+		(at 71.12 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b852d14c-aa0d-45f0-9468-fd642527688b")
 	)
 	(junction
 		(at 248.92 109.22)
@@ -2327,6 +2407,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7795ccc-deb4-41e1-bf1a-0bf8c4630446")
+	)
+	(junction
+		(at 59.69 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edde0d77-fcba-4194-ac6d-1dce9456ba07")
+	)
+	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f036a38e-f6d1-4023-97be-8a191f2a3e80")
+	)
+	(junction
+		(at 50.8 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f144b5a7-4b67-4bfa-bedd-9a60879f3f34")
 	)
 	(junction
 		(at 257.81 71.12)
@@ -2492,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 101.6) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136dc6af-de7e-4b68-a7a5-b4093c2e888d")
+	)
+	(wire
+		(pts
 			(xy 259.08 134.62) (xy 259.08 137.16)
 		)
 		(stroke
@@ -2632,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2607ed81-2e55-42f7-b00b-46b58a6f10ef")
+	)
+	(wire
+		(pts
 			(xy 161.29 69.85) (xy 170.18 69.85)
 		)
 		(stroke
@@ -2639,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "263119d5-4a87-43d3-8fd7-344fc130a06a")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26490ec3-fad4-4c68-a7b9-2bd3fa52b2f5")
 	)
 	(wire
 		(pts
@@ -2722,6 +2850,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 109.22) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314c1082-0df0-4e79-bd1f-eeb6cfe3081c")
+	)
+	(wire
+		(pts
+			(xy 45.72 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348ee5aa-9443-42c5-a554-15520a89d85c")
+	)
+	(wire
+		(pts
 			(xy 240.03 104.14) (xy 228.6 104.14)
 		)
 		(stroke
@@ -2749,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "370daf92-212e-46a6-b4b6-73e4fd134d8d")
+	)
+	(wire
+		(pts
+			(xy 59.69 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3937b3cf-6e20-4583-95ef-9dea875b5568")
 	)
 	(wire
 		(pts
@@ -2982,6 +3140,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 101.6) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c35ea63-3b3b-406f-8014-35381d23f769")
+	)
+	(wire
+		(pts
 			(xy 224.79 95.25) (xy 224.79 71.12)
 		)
 		(stroke
@@ -2989,6 +3157,26 @@
 			(type default)
 		)
 		(uuid "5ca84f01-eaa0-478d-b4f7-5dfa3bd5160d")
+	)
+	(wire
+		(pts
+			(xy 50.8 109.22) (xy 55.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3f6422-1a50-46c8-aeb9-4310d32cb805")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60089d7f-bedb-4a3b-810f-761676bf360c")
 	)
 	(wire
 		(pts
@@ -3292,6 +3480,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 109.22) (xy 71.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6d4856-d3ab-4cff-9107-073415a381a9")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 67.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80191c8c-9752-48de-87b7-db60723b44ca")
+	)
+	(wire
+		(pts
 			(xy 127 124.46) (xy 123.19 124.46)
 		)
 		(stroke
@@ -3502,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcca14b-3062-4b33-8810-3ad7a95daad5")
+	)
+	(wire
+		(pts
 			(xy 95.25 118.11) (xy 95.25 120.65)
 		)
 		(stroke
@@ -3652,6 +3870,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 109.22) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ba2007-8bf5-44e8-8c70-5b9d1a27c2c8")
+	)
+	(wire
+		(pts
 			(xy 130.81 90.17) (xy 142.24 90.17)
 		)
 		(stroke
@@ -3702,6 +3930,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 109.22) (xy 50.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59a62f3-99f2-4d78-9f7a-879e0ced4fc6")
+	)
+	(wire
+		(pts
 			(xy 236.22 71.12) (xy 232.41 71.12)
 		)
 		(stroke
@@ -3719,6 +3957,16 @@
 			(type default)
 		)
 		(uuid "b6a88b12-e906-4b61-b9d6-385439e52850")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7564c2f-ba77-4140-bd36-27efa13780ae")
 	)
 	(wire
 		(pts
@@ -4142,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 101.6) (xy 63.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e782304d-006d-4d93-b2dd-a7861f0f5355")
+	)
+	(wire
+		(pts
 			(xy 142.24 104.14) (xy 142.24 109.22)
 		)
 		(stroke
@@ -4368,28 +4626,6 @@
 			)
 		)
 	)
-	(global_label "Batt3"
-		(shape input)
-		(at 139.7 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c44615c8-4ca9-49e8-9eb8-4cd068b75a4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.6349 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDL"
 		(shape input)
 		(at 167.64 104.14 180)
@@ -4598,110 +4834,6 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
-		(at 260.35 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03fdf027-f1f7-4f73-8573-9adb02feec23")
-		(property "Reference" "Q4"
-			(at 254 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD15380F3T"
-			(at 253.746 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "345baeb6-4f8c-4825-a159-6211331015b4")
-		)
-		(pin "2"
-			(uuid "b1f4b5fe-907f-4b39-aa8b-96088c2213cc")
-		)
-		(pin "1"
-			(uuid "bd8b41ee-f680-4180-9036-0aea2937bf83")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4981,6 +5113,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 55.88 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ed44c95-9682-46a4-a2bb-c4d0fcbaaf80")
+		(property "Reference" "C_sys5"
+			(at 59.69 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 59.69 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 56.8452 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ba6655e-3e13-4f41-95f0-1e992ab8da94")
+		)
+		(pin "2"
+			(uuid "de7918e6-2fca-45f7-83a9-0b16f878df20")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 109.22 90)
 		(unit 1)
@@ -5177,6 +5379,71 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a7ff16a-9768-41b4-a93a-18ea9cfe3955")
+		(property "Reference" "#PWR020"
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f956155-6c85-4a1f-aea9-960cc76c9a73")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5446,6 +5713,76 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d9f0a3-da55-45be-a860-a0b69d857be5")
+		(property "Reference" "C_sys6"
+			(at 54.61 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 54.61 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 51.7652 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f128ed78-0120-4fd9-b73e-98b49cef2530")
+		)
+		(pin "2"
+			(uuid "380f807b-7cc2-4657-88f8-ded8d5aa581a")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys6")
 					(unit 1)
 				)
 			)
@@ -6200,6 +6537,111 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD15380F3T_1")
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 260.35 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70c28a76-c035-4bc3-9252-05949f4dbcba")
+		(property "Reference" "Q3"
+			(at 254.762 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 255.524 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:IAUZ20N08S5L300ATMA1"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2241dba8-ea4d-43d3-b24a-5d061f407bd6")
+		)
+		(pin "4"
+			(uuid "bcc80f78-5f00-44a2-911e-142cd401c45a")
+		)
+		(pin "1"
+			(uuid "80cee668-67ff-48b1-a79e-938fbedf53f1")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 73.66 90)
 		(unit 1)
@@ -6826,6 +7268,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 67.31 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c25d14d-71a0-464d-84f2-37f8fc453f00")
+		(property "Reference" "C_sys9"
+			(at 71.12 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 71.12 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 68.2752 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ead57a-0aae-437e-a716-24bf525b1a75")
+		)
+		(pin "2"
+			(uuid "4a853742-ac86-4dbd-868a-3c8dbca96daa")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 306.07 50.8 0)
 		(unit 1)
@@ -6890,6 +7402,73 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e4225b-e631-4421-b198-e0361b04e081")
+		(property "Reference" "R18"
+			(at 135.382 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 137.922 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9f67b54-6153-4532-b76e-26ca417556b8")
+		)
+		(pin "2"
+			(uuid "dd6c9615-2c86-4a0a-ad04-bc70d8cee184")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7375,6 +7954,111 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD15380F3T_1")
+		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
+		(at 260.35 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2d7072c-0115-45a3-845b-492758db5487")
+		(property "Reference" "Q4"
+			(at 254.762 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD15380F3T"
+			(at 255.524 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LVChargeNEWLocalFootprints:IAUZ20N08S5L300ATMA1"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 260.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "86e64d4d-6560-4cc1-8918-8e0fc383e93f")
+		)
+		(pin "4"
+			(uuid "792434bb-e529-4dd0-8f9a-16e8f7a0ea08")
+		)
+		(pin "1"
+			(uuid "315de886-d98d-4f53-9680-75028a873292")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LVChargeNEWLocalLib:SRP1770TA-150M")
 		(at 236.22 71.12 0)
 		(unit 1)
@@ -7514,6 +8198,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD15380F3T_1")
 		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
 		(at 229.87 80.01 0)
 		(unit 1)
@@ -7540,7 +8225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "LVChargeNEWLocalFootprints:IAUZ20N08S5L300ATMA1"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -7598,10 +8283,10 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "0c8c5eef-b335-40d3-84db-45e3187009be")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "a9c69d09-1513-4a2d-b7c7-0f156f8bf120")
 		)
 		(pin "1"
@@ -7611,110 +8296,6 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
-		(at 260.35 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bee10d88-2eaf-443b-808f-29b0472b5c8b")
-		(property "Reference" "Q3"
-			(at 255.016 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD15380F3T"
-			(at 255.016 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0d06e644-3d2b-435b-92cd-4ac7f1dd2540")
-		)
-		(pin "2"
-			(uuid "eda6564d-01e2-4a9a-8a1b-d5bb749f1095")
-		)
-		(pin "1"
-			(uuid "4b2b665b-da58-4583-9873-9be5a0788c35")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7783,6 +8364,76 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfbdc052-05f1-4f6d-ae1c-8a30a6699ecf")
+		(property "Reference" "C_sys4"
+			(at 63.5 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 63.5 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 60.6552 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29243101-e71c-45f0-84d9-c230fa56bf8c")
+		)
+		(pin "2"
+			(uuid "7aabad07-c709-4d3e-b0e0-753cf8f587b3")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys4")
 					(unit 1)
 				)
 			)
@@ -7877,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100u"
 			(at 83.82 106.6799 0)
 			(effects
 				(font
@@ -7886,7 +8537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 80.9752 109.22 0)
 			(effects
 				(font
@@ -7989,6 +8640,145 @@
 			(project ""
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd6db4d-d3ea-415b-8f31-2a7737c99694")
+		(property "Reference" "C_sys8"
+			(at 49.53 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 49.53 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 46.6852 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0f6c6a5-ea60-4c3a-9ae2-11275706e825")
+		)
+		(pin "2"
+			(uuid "6cf1d52a-7ad0-4e55-a33a-d6b0949cea56")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6e59af-9f99-45a5-a60c-53bde5b178cf")
+		(property "Reference" "C_sys3"
+			(at 67.31 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 67.31 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 64.4652 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69ae82b-676d-4784-9595-ea3f46e3bc67")
+		)
+		(pin "2"
+			(uuid "16040f18-ecdc-4bef-a26b-4979c8541a07")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys3")
 					(unit 1)
 				)
 			)
@@ -8337,6 +9127,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD15380F3T_1")
 		(lib_id "LVChargeNEWLocalLib:CSD15380F3T")
 		(at 229.87 63.5 0)
 		(unit 1)
@@ -8344,9 +9135,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc0c37b0-9679-422d-824a-5777f06afd9a")
+		(uuid "da78914c-87df-41c0-a749-624ce9988a15")
 		(property "Reference" "Q1"
-			(at 236.22 62.2299 0)
+			(at 235.458 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +9146,7 @@
 			)
 		)
 		(property "Value" "CSD15380F3T"
-			(at 236.474 59.69 0)
+			(at 234.696 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +9154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LVChargeNEWLocalFootprints:CSD15380F3"
+		(property "Footprint" "LVChargeNEWLocalFootprints:IAUZ20N08S5L300ATMA1"
 			(at 229.87 63.5 0)
 			(effects
 				(font
@@ -8421,17 +9212,17 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "6261befa-3f74-40f2-a0a8-b1c06712c428")
+		(pin "5"
+			(uuid "ef19e840-4cc5-4166-bb0e-8d25af7677cb")
 		)
-		(pin "2"
-			(uuid "ef74b54a-c854-467a-8282-4ef096a9bc44")
+		(pin "4"
+			(uuid "47f79c84-57f4-4625-9909-ee332dbdd957")
 		)
 		(pin "1"
-			(uuid "ba365ac5-19bd-43fd-a632-32b0eb4d47a6")
+			(uuid "6114b503-9455-4028-9888-ba49fc27d590")
 		)
 		(instances
-			(project ""
+			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "Q1")
 					(unit 1)
@@ -8569,6 +9360,76 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b4ab84-2e6c-4479-a0f6-5115d4836d20")
+		(property "Reference" "C_sys7"
+			(at 52.07 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 52.07 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 49.2252 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585dcf78-4361-4c68-82c5-f420753d7b05")
+		)
+		(pin "2"
+			(uuid "d058fc77-afdc-4c01-9a7f-18fe97b78051")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys7")
 					(unit 1)
 				)
 			)
@@ -9084,6 +9945,76 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcf5d4f8-3752-4919-a12e-399489971278")
+		(property "Reference" "C_sys2"
+			(at 74.93 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 74.93 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 72.0852 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "215a4d0c-34f6-47b0-bb05-d41eb91ec893")
+		)
+		(pin "2"
+			(uuid "397650ec-f784-4967-a0b5-68561885f191")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "C_sys2")
 					(unit 1)
 				)
 			)

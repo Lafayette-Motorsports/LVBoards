@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "push Button")(type "KiCad")(uri "${KIPRJMOD}/Symbols/push Button.kicad_sym")(options "")(descr ""))
-  (lib (name "SM resistor")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SM resistor.kicad_sym")(options "")(descr ""))
-)
