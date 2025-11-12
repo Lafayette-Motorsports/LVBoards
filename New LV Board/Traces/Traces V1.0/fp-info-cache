@@ -1,4 +1,4 @@
-25228317994766889
+25233606177512489
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92428,6 +92428,13 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
+COM07950
+COM-07950-3
+Loudspeaker or Buzzer
+0
+2
+2
+SamacSys_Parts
 HDRV10W64P0X254_1X10_2540X249X886P
 PH1-10-UA
 Connector
@@ -101338,6 +101345,20 @@ Varistor VF
 0
 2
 2
+motorsports
+691137710002
+
+
+0
+2
+2
+motorsports
+FUSE_3568
+
+
+0
+4
+4
 motorsports
 JST_B12B-PH-K-S
 
