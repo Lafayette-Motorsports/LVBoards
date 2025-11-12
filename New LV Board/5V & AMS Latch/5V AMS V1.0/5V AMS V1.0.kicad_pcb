@@ -2281,7 +2281,7 @@
 	(footprint "PH1-20-UA:CONN_PH1-20-UA_ADM"
 		(layer "F.Cu")
 		(uuid "5d0ac796-809c-4889-8146-0576c339b045")
-		(at 59.881 168.643 90)
+		(at 59.944 168.643 90)
 		(tags "PH1-20-UA ")
 		(property "Reference" "J9"
 			(at 48.56 2.5 0)
@@ -5655,8 +5655,8 @@
 		(uuid "2f5e0df1-3501-4ceb-a1fb-06e75105dac6")
 	)
 	(gr_rect
-		(start 58.407 105.537)
-		(end 104.801 170.053)
+		(start 58.464 105.651)
+		(end 104.4516 170.167)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5728,6 +5728,117 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "68c2ce28-e9a2-442b-8318-43d9e8cc8d87")
+		(pts
+			(xy 104.4516 105.651) (xy 104.4516 170.167)
+		)
+		(height 5.2002)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "mm")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+		)
+		(gr_text "64.516mm"
+			(at 107.8518 137.909 90)
+			(layer "Dwgs.User")
+			(uuid "68c2ce28-e9a2-442b-8318-43d9e8cc8d87")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "6f490fb7-fa07-427a-84f9-424048d44501")
+		(pts
+			(xy 58.4708 169.418) (xy 104.4708 169.418)
+		)
+		(height 15.748)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "46.0000 mm"
+			(at 81.4708 184.016 0)
+			(layer "Dwgs.User")
+			(uuid "6f490fb7-fa07-427a-84f9-424048d44501")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "ba8816ce-a147-4024-9cb1-4e0e1d459587")
+		(pts
+			(xy 103.124 168.275) (xy 59.944 168.275)
+		)
+		(height 9.144)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "43.1800 mm"
+			(at 81.534 176.269 0)
+			(layer "Dwgs.User")
+			(uuid "ba8816ce-a147-4024-9cb1-4e0e1d459587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
