@@ -3815,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 97.79) (xy 80.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b56f259-867a-4eac-bf44-25cb901cd69b")
-	)
-	(wire
-		(pts
 			(xy 245.11 144.78) (xy 245.11 151.13)
 		)
 		(stroke
@@ -4745,6 +4735,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 93.98) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ae9e5d-9712-4441-9504-4f8bd05a70c8")
+	)
+	(wire
+		(pts
 			(xy 228.6 134.62) (xy 236.22 134.62)
 		)
 		(stroke
@@ -5002,16 +5002,6 @@
 			(type default)
 		)
 		(uuid "e25bc419-32c4-4737-9596-28cd8ba1f90f")
-	)
-	(wire
-		(pts
-			(xy 80.01 97.79) (xy 80.01 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e283668f-2640-4d57-9c7a-8434f16b854f")
 	)
 	(wire
 		(pts
@@ -5763,6 +5753,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09a3a830-643c-40ac-8ad0-e1368fa9a1c7")
+		(property "Reference" "R20"
+			(at 76.2 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "249k"
+			(at 76.2 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 76.2 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7604903-ea6d-4989-a381-6d0f74dc88c2")
+		)
+		(pin "2"
+			(uuid "94b55e4d-a20d-4976-9bb2-751037e43b18")
+		)
+		(instances
+			(project "LVChargeNEW"
+				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 334.01 60.96 0)
 		(unit 1)
@@ -6181,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 97.79 0)
+		(at 72.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6189,7 +6247,7 @@
 		(dnp no)
 		(uuid "17b6c469-4c6f-4fa6-9d27-ad5e99386ec1")
 		(property "Reference" "#PWR013"
-			(at 73.66 104.14 0)
+			(at 72.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 97.79 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 97.79 0)
+			(at 72.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 97.79 0)
+			(at 72.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 97.79 0)
+			(at 72.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
