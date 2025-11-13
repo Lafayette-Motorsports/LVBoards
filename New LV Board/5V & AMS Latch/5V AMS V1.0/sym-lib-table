@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "push Button")(type "KiCad")(uri "${KIPRJMOD}/Symbols/push Button.kicad_sym")(options "")(descr ""))
   (lib (name "SM resistor")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SM resistor.kicad_sym")(options "")(descr ""))
+  (lib (name "A161CS12VDC.64")(type "KiCad")(uri "C:/Users/Hhr19/OneDrive - lafayette.edu/Desktop/LVBoards Clone/LVBoards/Symbols and Footprints/Symbols/A161CS12VDC.64.kicad_sym")(options "")(descr ""))
 )
