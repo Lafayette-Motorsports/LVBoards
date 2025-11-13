@@ -5201,7 +5201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "A161CS12VDC.64:RELAY_A161CS12VDC.64"
+		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
 			(at 68.58 137.16 0)
 			(effects
 				(font
@@ -5416,7 +5416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A161CS12VDC.64:RELAY_A161CS12VDC.64"
+		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
 			(at 68.58 110.49 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A161CS12VDC.64:RELAY_A161CS12VDC.64"
+		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
 			(at 68.58 83.82 0)
 			(effects
 				(font

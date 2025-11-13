@@ -1,0 +1,140 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "A161CS12VDC.64" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "K" (id 0) (at -7.62 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "A161CS12VDC.64" (id 1) (at -7.62 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "A161CS12VDC.64:RELAY_A161CS12VDC.64" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "B" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SNAPEDA_PN" "A161CS12VDC.64" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "13.85mm" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CIT" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "A161CS12VDC.64_0_0"
+      (polyline
+        (pts (xy 7.62 0.0) (xy 3.81 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 -5.08) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 1.905 -2.54)
+          (xy 3.175 -2.54)
+          (xy 2.54 -1.27)
+          (xy 1.905 -2.54)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -7.62 5.08) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 0.635) (xy -2.54 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.635) (xy -1.27 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.635) (xy -1.27 -0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -0.635) (xy -2.54 -0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -0.635) (xy -3.81 -0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -0.635) (xy -3.81 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -5.08) (xy -2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -0.635) (xy -2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 3.175 2.54)
+          (xy 1.905 2.54)
+          (xy 2.54 1.27)
+          (xy 3.175 2.54)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 7.62 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy 1.27 1.905)) (stroke (width 0.254))
+      )
+      (rectangle (start -7.62 -7.62) (end 7.62 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "COM"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "NO"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
