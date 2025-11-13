@@ -5,6 +5,470 @@
 	(uuid "288037ab-090d-410f-bbdc-e6c9d9c00cef")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2025-11-13_21-26-34:2604-1101"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2604-1101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_2604-1101_WAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "2604-1101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2604-1101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_2604-1101_WAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2604-1101_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2604-1101_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "3568:3568"
 			(pin_names
 				(offset 0.254)
@@ -342,291 +806,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "691137710002:691137710002"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.88 -0.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "691137710002:691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUNT" "THT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "IR-VDE" "24A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "IR-UL" "16A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "WORKING-VOLTAGE-UL" "300V(AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PART-NUMBER" "691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PITCH" "5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PINS" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "TYPE" "Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "691137710002_0_0"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 1.27 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -1.016) (xy -2.794 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy -0.254 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2540,6 +2719,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V-Bat"
+		(exclude_from_sim no)
+		(at 186.69 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "053833a7-073f-44d1-a386-a19664c7e259")
+	)
 	(text "AMS LED +"
 		(exclude_from_sim no)
 		(at 140.462 25.4 0)
@@ -2670,6 +2859,16 @@
 		)
 		(uuid "53a0675e-2bf0-41e8-8517-a4d64feed19b")
 	)
+	(text "GLV- whole car"
+		(exclude_from_sim no)
+		(at 136.398 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "587ea9c0-f72d-4c7f-85a2-cf6dc57ff4bc")
+	)
 	(text "Vs"
 		(exclude_from_sim no)
 		(at 142.494 134.62 0)
@@ -2680,6 +2879,16 @@
 		)
 		(uuid "5a515e26-386d-456e-b802-31e5e768a8b2")
 	)
+	(text "GLV + bus bar (decrepit)"
+		(exclude_from_sim no)
+		(at 252.222 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ba7bc98-b25c-4043-85e5-ab99239102af")
+	)
 	(text "To Safety Loop"
 		(exclude_from_sim no)
 		(at 141.732 30.734 0)
@@ -2689,6 +2898,36 @@
 			)
 		)
 		(uuid "5cacd1a0-96bb-4166-95f5-f5ca29e1d7a5")
+	)
+	(text "Removed"
+		(exclude_from_sim no)
+		(at 252.73 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f018913-a2a8-458d-80c9-4aa4f602bfb0")
+	)
+	(text "Robin Sean Board -"
+		(exclude_from_sim no)
+		(at 179.832 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66209a5f-6a8e-42b6-8ff7-c3671221090d")
+	)
+	(text "GLV- bus bar (decrepit)"
+		(exclude_from_sim no)
+		(at 254 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72348ef0-d411-4203-b585-f821a9a252e3")
 	)
 	(text "Unused"
 		(exclude_from_sim no)
@@ -2790,6 +3029,26 @@
 		)
 		(uuid "a3a587ba-a87b-47df-a9cc-ea3d8ae4be69")
 	)
+	(text "Robin and Sean Board +"
+		(exclude_from_sim no)
+		(at 204.978 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a40af2bb-1cd8-4c8c-a3e3-f0c480d7f80f")
+	)
+	(text "GLV TO VCU VBATT (decrepiot, 3 wires)"
+		(exclude_from_sim no)
+		(at 254 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a77cff48-74a8-4232-9b85-0ecbb4b5b801")
+	)
 	(text "Unused"
 		(exclude_from_sim no)
 		(at 147.066 100.838 0)
@@ -2819,16 +3078,6 @@
 			)
 		)
 		(uuid "be3dbdda-ef94-4c20-bd29-e38b52bdf0d0")
-	)
-	(text "IMD Reset +"
-		(exclude_from_sim no)
-		(at 139.954 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "be40f838-6d6d-4b3c-9f9f-32cd3de47344")
 	)
 	(text "Unused"
 		(exclude_from_sim no)
@@ -2920,6 +3169,16 @@
 		)
 		(uuid "f8732091-6dca-47d4-8e77-7583f5657cf7")
 	)
+	(text "GLV out to car"
+		(exclude_from_sim no)
+		(at 267.462 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe9c8b98-6e8e-4141-a645-b36d007f6b07")
+	)
 	(junction
 		(at 38.1 113.03)
 		(diameter 0)
@@ -2927,34 +3186,10 @@
 		(uuid "1d247c5f-23f0-4a9c-b9cd-d77b9fb116b6")
 	)
 	(junction
-		(at 161.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b78f09c-58fd-4e9f-87f4-3e19bb4ccd5d")
-	)
-	(junction
-		(at 248.92 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f49e79d-6565-4c14-a805-a9c0c4bcbc95")
-	)
-	(junction
-		(at 247.65 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "455ea2ed-eb75-401a-96c5-abb801334333")
-	)
-	(junction
 		(at 134.62 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0e2d7e-268a-423c-ac67-cde60e590757")
-	)
-	(junction
-		(at 132.08 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525bab03-875f-4b68-9b41-a93d553f456f")
 	)
 	(junction
 		(at 48.26 63.5)
@@ -2969,10 +3204,10 @@
 		(uuid "55539f69-fb22-42ee-93e0-aaddc5c11080")
 	)
 	(junction
-		(at 207.01 48.26)
+		(at 247.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d4a50c2-c092-4bc0-a11e-e3e2273e4900")
+		(uuid "5774e08b-ba2d-43cc-9ade-6116239b3b69")
 	)
 	(junction
 		(at 48.26 165.1)
@@ -2981,10 +3216,16 @@
 		(uuid "69ce82fa-8e62-491c-8934-68681718a616")
 	)
 	(junction
-		(at 247.65 36.83)
+		(at 222.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8574cca7-f501-4984-926a-713295660d07")
+		(uuid "9552b589-c502-437a-8bff-472c4371a4fc")
+	)
+	(junction
+		(at 196.85 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99baaf8e-3d9f-45d1-9203-f796b970ed0e")
 	)
 	(junction
 		(at 38.1 73.66)
@@ -2993,34 +3234,40 @@
 		(uuid "a71ac954-c773-4c65-b829-f7c7ac22ca5a")
 	)
 	(junction
-		(at 248.92 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abc83dd3-8f73-4f92-bfd6-b5ba2ffe1515")
-	)
-	(junction
 		(at 30.48 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5f475e8-ae40-4143-96a0-93d5a62f489c")
 	)
 	(junction
-		(at 222.25 36.83)
+		(at 194.31 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb7544a8-47b1-41f6-b6f7-0a767f18a0ca")
+		(uuid "e3032d06-21d4-437d-9f6c-50dd2f741666")
+	)
+	(junction
+		(at 134.62 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7656c3f-6299-451a-ac5a-853ff5d08bfa")
+	)
+	(junction
+		(at 247.65 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86d6088-d2e6-4a9d-aea7-d1079675d995")
+	)
+	(junction
+		(at 170.18 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea4b29c2-671b-4b13-8ab7-ff692c9ebaff")
 	)
 	(junction
 		(at 185.42 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c867dc7d-b1a1-453b-859a-e714e081fd7f")
-	)
-	(junction
-		(at 247.65 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d31d4815-ad8c-4f67-be8b-12bff4c10ac3")
+		(uuid "eeba5263-9866-49f3-ade3-1154f6aaabe6")
 	)
 	(junction
 		(at 48.26 113.03)
@@ -3094,6 +3341,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 38.1) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03296b9c-8d58-4d5e-80ea-56313afc6e25")
+	)
+	(wire
+		(pts
 			(xy 156.21 88.9) (xy 119.38 88.9)
 		)
 		(stroke
@@ -3134,16 +3391,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 34.29) (xy 248.92 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069978d4-7b2a-4c9f-91fe-2f2472c2fb7d")
-	)
-	(wire
-		(pts
 			(xy 76.2 149.86) (xy 76.2 152.4)
 		)
 		(stroke
@@ -3151,16 +3398,6 @@
 			(type default)
 		)
 		(uuid "08482dc6-b595-4821-9f2f-fa1536910d78")
-	)
-	(wire
-		(pts
-			(xy 165.1 71.12) (xy 161.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6aa288-d847-44e8-b648-0d0ad033f1f4")
 	)
 	(wire
 		(pts
@@ -3174,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 132.08 73.66)
+			(xy 48.26 73.66) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 33.02)
+			(xy 185.42 40.64) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3384,16 +3621,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 36.83) (xy 248.92 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e27aab6-f639-4922-a07d-356a1c3da9cf")
-	)
-	(wire
-		(pts
 			(xy 101.6 119.38) (xy 101.6 102.87)
 		)
 		(stroke
@@ -3421,26 +3648,6 @@
 			(type default)
 		)
 		(uuid "20f46a1c-253a-4093-aafa-c93531106281")
-	)
-	(wire
-		(pts
-			(xy 161.29 68.58) (xy 161.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2260d4fd-75f1-45d9-9294-615e0e4a3732")
-	)
-	(wire
-		(pts
-			(xy 247.65 49.53) (xy 247.65 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230b2814-ac99-4fe5-9d2b-fcc3a4b7e5fe")
 	)
 	(wire
 		(pts
@@ -3474,16 +3681,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 40.64) (xy 222.25 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25bcd4cc-5739-4bc7-aab9-616d7d8046ee")
-	)
-	(wire
-		(pts
 			(xy 78.74 148.59) (xy 81.28 148.59)
 		)
 		(stroke
@@ -3491,6 +3688,16 @@
 			(type default)
 		)
 		(uuid "277adc77-7b1c-4a1c-95f1-5cb1df18e1aa")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.31) (xy 134.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ed178c-8633-4b2a-8c07-6a5015e194d1")
 	)
 	(wire
 		(pts
@@ -3624,16 +3831,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 161.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac4d349-163a-4cb6-a6c7-229a861a0412")
-	)
-	(wire
-		(pts
 			(xy 43.18 152.4) (xy 43.18 177.8)
 		)
 		(stroke
@@ -3651,16 +3848,6 @@
 			(type default)
 		)
 		(uuid "3d2fd859-5252-4fcf-b648-317164699d1e")
-	)
-	(wire
-		(pts
-			(xy 207.01 48.26) (xy 207.01 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f361494-73fd-46ec-be7f-484c566798dc")
 	)
 	(wire
 		(pts
@@ -3724,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 36.83) (xy 222.25 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ef2e5f-8371-4743-9a1b-6d5afd97e8dc")
-	)
-	(wire
-		(pts
 			(xy 109.22 95.25) (xy 73.66 95.25)
 		)
 		(stroke
@@ -3774,13 +3951,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 222.25 48.26)
+			(xy 222.25 40.64) (xy 222.25 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c0178dd-60fc-4a77-bfdd-9985161798e5")
+		(uuid "4bed20d1-588e-401c-a219-2800f40f1c32")
 	)
 	(wire
 		(pts
@@ -3841,16 +4018,6 @@
 			(type default)
 		)
 		(uuid "4ffe2e24-7610-4ed3-913e-ca0f7942eaee")
-	)
-	(wire
-		(pts
-			(xy 222.25 52.07) (xy 247.65 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5016a964-bf4d-44b9-9236-20a46aac2324")
 	)
 	(wire
 		(pts
@@ -3961,16 +4128,6 @@
 			(type default)
 		)
 		(uuid "5bc7df38-7020-4604-9d26-88a48544c643")
-	)
-	(wire
-		(pts
-			(xy 247.65 49.53) (xy 248.92 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df69a75-f9e3-4bd2-b69c-5f3af378444b")
 	)
 	(wire
 		(pts
@@ -4154,16 +4311,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 40.64) (xy 222.25 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3db487-e077-46ae-ba11-b78d7fb5b1ee")
-	)
-	(wire
-		(pts
 			(xy 73.66 154.94) (xy 73.66 165.1)
 		)
 		(stroke
@@ -4181,6 +4328,16 @@
 			(type default)
 		)
 		(uuid "6f7b0141-586f-44ac-8571-1eb262d3edb6")
+	)
+	(wire
+		(pts
+			(xy 194.31 40.64) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7357ca79-e28c-40ce-9a03-5e32ea314192")
 	)
 	(wire
 		(pts
@@ -4274,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 40.64) (xy 222.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b89075-af3c-419a-8228-4a2f5ddbd6f0")
+	)
+	(wire
+		(pts
 			(xy 156.21 119.38) (xy 101.6 119.38)
 		)
 		(stroke
@@ -4291,16 +4458,6 @@
 			(type default)
 		)
 		(uuid "86ffb707-eb83-4b90-9c81-a3ecea362f4c")
-	)
-	(wire
-		(pts
-			(xy 247.65 34.29) (xy 247.65 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8895649a-c3c3-44c7-8afd-a48eb2ca480a")
 	)
 	(wire
 		(pts
@@ -4324,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 207.01 48.26)
+			(xy 185.42 40.64) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4374,13 +4531,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 222.25 52.07)
+			(xy 247.65 38.1) (xy 259.08 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9137ea5d-9110-4266-91e2-671a6b498003")
+		(uuid "92672d95-9262-4596-a7ad-714cd2a3be66")
 	)
 	(wire
 		(pts
@@ -4424,16 +4581,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 161.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960dcb85-b4a6-40d6-9d57-3b882fdde705")
-	)
-	(wire
-		(pts
 			(xy 38.1 165.1) (xy 48.26 165.1)
 		)
 		(stroke
@@ -4464,26 +4611,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 34.29) (xy 248.92 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b1ff95-35a3-482e-9c70-944a8960adee")
-	)
-	(wire
-		(pts
-			(xy 247.65 52.07) (xy 248.92 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ee9cc6-da92-45df-a428-0153ca6ab232")
-	)
-	(wire
-		(pts
 			(xy 152.4 57.15) (xy 78.74 57.15)
 		)
 		(stroke
@@ -4491,6 +4618,16 @@
 			(type default)
 		)
 		(uuid "9a685dc2-e923-4534-a3c9-3c6ebf0efca0")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcf5909-4189-4d96-abfa-ea211b1e7c4c")
 	)
 	(wire
 		(pts
@@ -4524,6 +4661,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 71.12) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a292faef-0377-4191-b990-d0c065a150f1")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 104.14 100.33)
 		)
 		(stroke
@@ -4531,16 +4678,6 @@
 			(type default)
 		)
 		(uuid "a2ae1097-7f5f-4390-a867-c54a5a1bd048")
-	)
-	(wire
-		(pts
-			(xy 134.62 73.66) (xy 132.08 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a537174f-221d-4c1d-8fe0-cfa4f2a0f5d1")
 	)
 	(wire
 		(pts
@@ -4711,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "b9a2baf7-cdeb-457e-af68-5d5dd3314684")
+	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8bfbac-a52e-4c8d-97f5-062fdcaed9e5")
 	)
 	(wire
 		(pts
@@ -4904,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 134.62 73.66)
+			(xy 134.62 69.85) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5074,16 +5221,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 68.58) (xy 161.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1236992-9f72-45a7-9fa8-4d72ebf10aca")
-	)
-	(wire
-		(pts
 			(xy 48.26 48.26) (xy 38.1 48.26)
 		)
 		(stroke
@@ -5161,16 +5298,6 @@
 			(type default)
 		)
 		(uuid "f5e4b67a-406c-435f-bf5a-c8092678d856")
-	)
-	(wire
-		(pts
-			(xy 132.08 72.39) (xy 132.08 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61fa171-c7a3-4470-b48e-bf1533052b68")
 	)
 	(wire
 		(pts
@@ -6067,388 +6194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 170.18 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "392f1cda-2772-4d99-8f7d-6e4ba0b12646")
-		(property "Reference" "J9"
-			(at 171.45 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 171.45 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "I-O_Footprints:691137710002"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e572fad-47c7-4cf1-b250-11cd8bceacde")
-		)
-		(pin "2"
-			(uuid "e7cfd2a5-c447-4487-aa0a-4456e4e9fb03")
-		)
-		(instances
-			(project "I-O Board V3.0"
-				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 187.96 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485cbe2a-fe4e-4cdb-b1bb-c7383c22fa31")
-		(property "Reference" "J13"
-			(at 190.5 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 190.5 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "I-O_Footprints:691137710002"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 187.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ee779c7-5fe7-42d2-bb6d-b200b523bbe8")
-		)
-		(pin "2"
-			(uuid "1b2c11ac-4278-4113-a9b6-fc2e37109cab")
-		)
-		(instances
-			(project "I-O Board V3.0"
-				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 127 90)
 		(unit 1)
@@ -6719,6 +6464,150 @@
 		)
 	)
 	(symbol
+		(lib_id "2025-11-13_21-26-34:2604-1101")
+		(at 134.62 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79bb9418-edbc-4ff8-84b2-4f36ffc06407")
+		(property "Reference" "J19"
+			(at 148.59 67.3099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1101"
+			(at 148.59 69.8499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorSports_KICad:CONN_2604-1101_WAG"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2604-1101"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab1340d-f189-4aa5-8444-581a6441c1b1")
+		)
+		(pin "2"
+			(uuid "e201759e-fbf5-4acd-bdc0-349b3a9d0208")
+		)
+		(instances
+			(project "I-O Board V3.0"
+				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-11-13_21-26-34:2604-1101")
+		(at 196.85 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8422ec8f-f10d-46bc-bbcb-7d78feb50c9e")
+		(property "Reference" "J16"
+			(at 200.66 48.2599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1101"
+			(at 200.66 50.7999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorSports_KICad:CONN_2604-1101_WAG"
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2604-1101"
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e1bb79-033e-4ef7-8a22-05c9357ebb09")
+		)
+		(pin "2"
+			(uuid "980c37e8-87e3-41c2-ad2d-ef0f18691690")
+		)
+		(instances
+			(project ""
+				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 180.34 90)
 		(mirror x)
@@ -6857,388 +6746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 254 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fa42e05-c571-426f-af4e-f9a3c5993611")
-		(property "Reference" "J11"
-			(at 255.27 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 255.27 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "I-O_Footprints:691137710002"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8efbbc87-addf-4d66-a5bb-33839e3c0258")
-		)
-		(pin "2"
-			(uuid "e78763bc-3ecd-486a-92ef-99174f3ee668")
-		)
-		(instances
-			(project "I-O Board V3.0"
-				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 254 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7cf473d-8e0c-4792-8bb1-654dc618d1c5")
-		(property "Reference" "J10"
-			(at 255.27 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 255.27 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "I-O_Footprints:691137710002"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 254 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "916e97b6-b8d9-455e-b591-56082e5cdac6")
-		)
-		(pin "2"
-			(uuid "0d9bad05-8aad-43fd-bf3c-96ab0ba05a33")
-		)
-		(instances
-			(project "I-O Board V3.0"
-				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
 		(at 161.29 101.6 0)
 		(unit 1)
@@ -7342,6 +6849,78 @@
 			(project "I-O Board V3.0"
 				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-11-13_21-26-34:2604-1101")
+		(at 259.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c008c660-58b1-46cd-803f-6503ecf7a5f5")
+		(property "Reference" "J17"
+			(at 273.05 38.0999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1101"
+			(at 273.05 40.6399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorSports_KICad:CONN_2604-1101_WAG"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2604-1101"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e64808-0547-4618-8a26-608c8a454d54")
+		)
+		(pin "2"
+			(uuid "150df3ed-f4e1-428e-aba7-ff010390e051")
+		)
+		(instances
+			(project "I-O Board V3.0"
+				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -7551,191 +7130,72 @@
 		)
 	)
 	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 134.62 67.31 0)
+		(lib_id "2025-11-13_21-26-34:2604-1101")
+		(at 185.42 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7432d3f-1dd9-46aa-b77d-064bca712e75")
-		(property "Reference" "J8"
-			(at 137.16 67.3099 0)
+		(uuid "dae2b941-385c-4c20-a8d2-2576944b23e6")
+		(property "Reference" "J20"
+			(at 191.77 22.8599 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "691137710002"
-			(at 137.16 69.8499 0)
+		(property "Value" "2604-1101"
+			(at 191.77 25.3999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "I-O_Footprints:691137710002"
-			(at 134.62 67.31 0)
+		(property "Footprint" "MotorSports_KICad:CONN_2604-1101_WAG"
+			(at 185.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 67.31 0)
+		(property "Datasheet" "2604-1101"
+			(at 185.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 134.62 67.31 0)
+			(at 185.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4e2ee9bc-ecf8-44df-9254-7b0a751628b4")
+			(uuid "8169b44e-aee3-4268-b1b7-61798603e154")
 		)
 		(pin "2"
-			(uuid "306c214a-4519-4786-8cff-6456a906b4d1")
+			(uuid "06744327-6cf8-4c3a-8e73-7e667aaf2804")
 		)
 		(instances
 			(project "I-O Board V3.0"
 				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
-					(reference "J8")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7203,7 @@
 	)
 	(symbol
 		(lib_id "3568:3568")
-		(at 222.25 34.29 0)
+		(at 222.25 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7752,7 +7212,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8c3db1d-447a-462c-8b1d-56a468093341")
 		(property "Reference" "F1"
-			(at 234.95 26.67 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7760,7 +7220,7 @@
 			)
 		)
 		(property "Value" "20A"
-			(at 234.95 29.21 0)
+			(at 234.95 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7768,7 +7228,7 @@
 			)
 		)
 		(property "Footprint" "I-O_Footprints:3568_KEY"
-			(at 222.25 34.29 0)
+			(at 222.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7238,7 @@
 			)
 		)
 		(property "Datasheet" "3568"
-			(at 222.25 34.29 0)
+			(at 222.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +7248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 34.29 0)
+			(at 222.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,6 +7272,78 @@
 			(project "I-O Board V3.0"
 				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-11-13_21-26-34:2604-1101")
+		(at 170.18 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff974872-98cf-4a9d-84a8-db5a229be8a0")
+		(property "Reference" "J18"
+			(at 184.15 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2604-1101"
+			(at 184.15 73.6599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorSports_KICad:CONN_2604-1101_WAG"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2604-1101"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc5cfa5-34cb-406e-9e0a-9b7cd0935f0f")
+		)
+		(pin "2"
+			(uuid "eb3c5a35-087f-48dc-aa56-3fd52fcd3ea4")
+		)
+		(instances
+			(project "I-O Board V3.0"
+				(path "/288037ab-090d-410f-bbdc-e6c9d9c00cef"
+					(reference "J18")
 					(unit 1)
 				)
 			)
