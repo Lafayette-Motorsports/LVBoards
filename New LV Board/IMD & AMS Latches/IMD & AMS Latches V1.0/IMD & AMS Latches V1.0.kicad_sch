@@ -4861,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
 			(at 50.8 147.32 0)
 			(effects
 				(font
@@ -7400,7 +7400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
 			(at 128.27 147.32 0)
 			(effects
 				(font
@@ -8134,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
 			(at 55.88 147.32 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 148.59 139.7 0)
 			(effects
 				(font
@@ -8918,7 +8918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 148.59 86.36 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:RELAY_A161CS12VDC.64"
+		(property "Footprint" "motorsports:RELAY_A161CS12VDC.64"
 			(at 71.12 86.36 0)
 			(effects
 				(font

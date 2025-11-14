@@ -240,4 +240,15 @@
 		(uuid "df596ff3-481a-43c1-b41e-fecc044aca4b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d Models/Same_Sky_TS02-66-55-BK-160-LCR-D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
