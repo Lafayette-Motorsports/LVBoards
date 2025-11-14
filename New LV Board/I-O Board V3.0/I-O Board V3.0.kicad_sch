@@ -2749,15 +2749,15 @@
 		)
 		(uuid "0e68dcf0-fd57-4c6d-9131-af47743bb389")
 	)
-`	(text "VCU GLV +"
+	(text "Unused"
 		(exclude_from_sim no)
-		(at 147.066 85.598 0)
+		(at 147.066 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "130d2b0e-1b2e-4a2b-9e62-f99a52352c4a")
+		(uuid "132362a9-e5f6-41f3-89fd-945074a3a807")
 	)
 	(text "IMD Reset -"
 		(exclude_from_sim no)
@@ -2809,16 +2809,6 @@
 		)
 		(uuid "3a2a6d72-72a4-45d8-bad4-107122f4ff25")
 	)
-	(text "GLV +"
-		(exclude_from_sim no)
-		(at 147.066 92.964 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "414fb1f2-5d4a-46a8-8e6d-c05e61c71b5d")
-	)
 	(text "Unused"
 		(exclude_from_sim no)
 		(at 142.494 137.414 0)
@@ -2838,6 +2828,16 @@
 			)
 		)
 		(uuid "46ead731-c043-4faf-910a-fe53bb509e65")
+	)
+	(text "Unused"
+		(exclude_from_sim no)
+		(at 147.066 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f753461-54c6-4e25-8d63-5e31a7e33138")
 	)
 	(text "VCU Charge Enable (5V)"
 		(exclude_from_sim no)
@@ -2949,15 +2949,15 @@
 		)
 		(uuid "75513ce5-a90f-4541-9ca0-9e22b5596509")
 	)
-	(text "VCU GLV +"
+	(text "Unused"
 		(exclude_from_sim no)
-		(at 146.9291 88.138 0)
+		(at 147.066 93.218 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "83d4e917-a514-4b4a-8edf-75a33da56241")
+		(uuid "8eea6e7c-4a59-4b1f-bd31-2b675bc1a7ce")
 	)
 	(text "Unused"
 		(exclude_from_sim no)
@@ -2969,7 +2969,7 @@
 		)
 		(uuid "914367f8-6a98-483b-b24a-f48deafadbdf")
 	)
-	(text "GLV +"
+	(text "Unused"
 		(exclude_from_sim no)
 		(at 147.066 90.678 0)
 		(effects
@@ -2988,16 +2988,6 @@
 			)
 		)
 		(uuid "94d6930f-12a4-4241-9628-853d94f75a4b")
-	)
-	(text "GLV +"
-		(exclude_from_sim no)
-		(at 147.066 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9bd998b0-51bc-420c-8f5a-fef3320cce0b")
 	)
 	(text "From Charge Enable Switch"
 		(exclude_from_sim no)
@@ -3089,7 +3079,7 @@
 		)
 		(uuid "be3dbdda-ef94-4c20-bd29-e38b52bdf0d0")
 	)
-	(text "VCU GLV +"
+	(text "Unused"
 		(exclude_from_sim no)
 		(at 147.066 83.058 0)
 		(effects
@@ -3128,6 +3118,16 @@
 			)
 		)
 		(uuid "d0eb3934-2cd6-49c6-bc4c-ceebc9385116")
+	)
+	(text "Unused"
+		(exclude_from_sim no)
+		(at 147.066 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2a615e2-783b-4865-b7b6-3ef357a079fc")
 	)
 	(text "VCU Precharge Status"
 		(exclude_from_sim no)
