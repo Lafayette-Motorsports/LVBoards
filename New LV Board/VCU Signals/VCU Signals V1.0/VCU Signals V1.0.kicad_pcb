@@ -8148,8 +8148,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "VCU Signals | J.E. Nov 2025"
-		(at 87.587506 80.41645 0)
+	(gr_text "VCU Signals V1.0 | J.E. Nov 2025"
+		(at 86.087506 80.41645 0)
 		(layer "F.SilkS")
 		(uuid "1477f51f-7b38-462f-86f2-ea8fa1f30913")
 		(effects
