@@ -5711,7 +5711,7 @@
 		(uuid "228b01cc-7033-4fa4-a6bd-ea9e92970d86")
 	)
 	(gr_rect
-		(start 83.6914 77.7258)
+		(start 83.5136 77.7258)
 		(end 108.7882 81.1258)
 		(stroke
 			(width 0.1)
@@ -8136,7 +8136,7 @@
 		(uuid "b0cc4c4e-82dc-450f-b36d-406b3fca0336")
 	)
 	(gr_text "PC Status - 1\nFrom PC - 2\nVCU Throttle Latch - 3\nFrom Saftey Loop - 4"
-		(at 108.2802 89.0524 0)
+		(at 108.2802 88.927899 0)
 		(layer "F.SilkS")
 		(uuid "12e9c1e7-e784-4d55-9bc8-fb518e56ca67")
 		(effects
@@ -8148,8 +8148,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "VCU-ThrottleLatch | J.E. Nov 2025"
-		(at 85.344 80.41645 0)
+	(gr_text "VCU Signals | J.E. Nov 2025"
+		(at 87.587506 80.41645 0)
 		(layer "F.SilkS")
 		(uuid "1477f51f-7b38-462f-86f2-ea8fa1f30913")
 		(effects
@@ -8162,7 +8162,7 @@
 		)
 	)
 	(gr_text "8 - 5V\n7 - GND\n6 - From Charge Enable\n5 - VCU Charge Enable"
-		(at 83.7946 88.9 0)
+		(at 83.7946 88.927899 0)
 		(layer "F.SilkS")
 		(uuid "182f7cca-9fe3-4405-97a8-e536f47c9ff2")
 		(effects
@@ -8253,7 +8253,7 @@
 		)
 	)
 	(gr_text "PINOUT"
-		(at 94.996 84.0232 0)
+		(at 93.275409 84.0232 0)
 		(layer "F.SilkS")
 		(uuid "8596daf9-d74d-4cce-bfb6-b78e9e4c1ab6")
 		(effects
