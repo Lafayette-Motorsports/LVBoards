@@ -72,7 +72,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -117,7 +117,7 @@
 		(uuid "0c7968bf-f867-4547-b8c8-68040e2d1735")
 		(at 72.39 80.01 180)
 		(property "Reference" "K4"
-			(at -3.81 -1.27 0)
+			(at -0.58 -0.35 0)
 			(layer "F.SilkS")
 			(uuid "e3e59728-ead6-473e-b3bd-ebe44c930638")
 			(effects
@@ -692,7 +692,7 @@
 		(uuid "1131e77d-7eef-432f-bcd0-111b096a7ce0")
 		(at 93.98 52.2 90)
 		(property "Reference" "SW1"
-			(at 0 0 90)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "e4499e9d-c455-46eb-8dc6-c6657b7735e0")
 			(effects
@@ -1196,7 +1196,7 @@
 		(uuid "3240ecf0-10bd-4f41-9cf5-d1c061242b94")
 		(at 88.9 80.175 180)
 		(property "Reference" "K1"
-			(at -3.81 -1.27 0)
+			(at -0.27 -0.485 0)
 			(layer "F.SilkS")
 			(uuid "e7528b0d-8620-4f36-90f5-4248c60a42d2")
 			(effects
@@ -1773,7 +1773,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D7"
-			(at 5.08 -2.47 0)
+			(at 12.17 0 0)
 			(layer "F.SilkS")
 			(uuid "2316e072-25a1-4637-8404-3ca24f490b18")
 			(effects
@@ -2230,12 +2230,12 @@
 			(uuid "89fc8140-7ed3-4a6b-bd00-dcf043410d2f")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 0)
+			(at 0 -1.56 0)
 			(layer "F.SilkS")
 			(uuid "db847ed9-a0c5-4edc-90a5-7492f640ba13")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -2303,7 +2303,7 @@
 		(uuid "5a9a11ba-618f-4fab-b37c-dc76297ee0e7")
 		(at 77.47 52.2 90)
 		(property "Reference" "SW2"
-			(at 0 0 90)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "cd5959a6-ef84-48d7-8477-4902f8f02004")
 			(effects
@@ -2809,12 +2809,12 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=3.81mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 3.81mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
-			(at 2.41 -1.32 0)
+			(at 2.35 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "6a4fba19-27c3-4aa6-a503-33b12849ec03")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3165,7 +3165,7 @@
 			(uuid "1efac565-3448-4fb4-81fb-e994102d9845")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4136,13 +4136,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4153,7 +4153,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.75 -1.25 90)
+			(at 4.16 0.01 180)
 			(layer "F.SilkS")
 			(uuid "c7f0ced4-a534-4dde-87a1-ba78aee2cef8")
 			(effects
@@ -4537,13 +4537,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4552,7 +4552,7 @@
 		(uuid "86e61233-89d2-4274-85e5-fcf50e65efb6")
 		(at 88.9 71.12 180)
 		(property "Reference" "K3"
-			(at -3.81 -1.27 0)
+			(at -0.19 -0.33 0)
 			(layer "F.SilkS")
 			(uuid "18ae3c4b-7ff4-48d7-8384-89f9b8e23f07")
 			(effects
@@ -5129,12 +5129,12 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=3.81mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 3.81mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
-			(at -2.54 1.13 0)
+			(at 2.34 -1.28 0)
 			(layer "F.SilkS")
 			(uuid "b06dfb42-485b-42ca-8702-38f97323fb2a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5480,12 +5480,12 @@
 			(uuid "9d70eca1-7593-485d-a072-2343f5186f4a")
 		)
 		(fp_text user "A"
-			(at 2.01 1.1 0)
+			(at 2.34 0.79 0)
 			(layer "F.SilkS")
 			(uuid "a557cdde-8638-43a0-8ab0-048cdd0ab475")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(uuid "9976a6a6-1209-45c8-b233-0f2937ca6b00")
 		(at 72.39 71.12 180)
 		(property "Reference" "K6"
-			(at -2.54 -1.27 0)
+			(at 0.03 -0.01 0)
 			(layer "F.SilkS")
 			(uuid "949ad0dc-82aa-4df7-9454-5e97d4a0e451")
 			(effects
@@ -6128,7 +6128,7 @@
 		(uuid "99ebd4a9-a737-4477-b9ec-96b466db66af")
 		(at 72.39 62.23 180)
 		(property "Reference" "K5"
-			(at -2.54 -1.27 0)
+			(at 0.01 0.02 0)
 			(layer "F.SilkS")
 			(uuid "18b99bf3-d3d9-4287-a1f9-913697c9698d")
 			(effects
@@ -7916,7 +7916,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 3.91 -1.17 90)
+			(at 4.18 0 180)
 			(layer "F.SilkS")
 			(uuid "340ecc6a-58e5-4f97-ad3c-bb6d79955d50")
 			(effects
@@ -8300,13 +8300,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8315,7 +8315,7 @@
 		(uuid "ace749fd-dd3f-4490-aa61-e702bd846538")
 		(at 88.9 62 180)
 		(property "Reference" "K2"
-			(at -2.54 -1.5 0)
+			(at -0.31 0.13 0)
 			(layer "F.SilkS")
 			(uuid "30b3771a-e273-4293-89f5-e543187e9e97")
 			(effects
@@ -9361,13 +9361,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9762,13 +9762,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9779,12 +9779,12 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=3.81mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 3.81mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
-			(at -2.552818 1.06 0)
+			(at 2.337182 -1.28 0)
 			(layer "F.SilkS")
 			(uuid "781e431d-f8dd-4e61-8869-0f36d9c983af")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10130,12 +10130,12 @@
 			(uuid "c35e216e-3ba5-48fb-9ebc-a824d527cd30")
 		)
 		(fp_text user "A"
-			(at 2.01 1.1 0)
+			(at 2.337182 0.93 0)
 			(layer "F.SilkS")
 			(uuid "1f9f9d6e-f24f-4bea-aac2-3aede95b4fbd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10205,12 +10205,12 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=3.81mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 3.81mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
-			(at 2.42 -1.38 0)
+			(at 2.35 -1.24 0)
 			(layer "F.SilkS")
 			(uuid "4f59a9de-0b7d-4cc1-af36-b76ed4c305a1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10561,7 +10561,7 @@
 			(uuid "603c95fa-448c-4902-be47-729682afeee4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10631,7 +10631,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
-			(at 5.08 -2.47 0)
+			(at -2.15 0 0)
 			(layer "F.SilkS")
 			(uuid "0fe0f2b6-8d0d-47a4-86ce-d8f40bb3d401")
 			(effects
@@ -11088,12 +11088,12 @@
 			(uuid "9922a67a-8ed0-46e6-86b8-9fb5e13ac8f5")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 0)
+			(at 0 -1.54 0)
 			(layer "F.SilkS")
 			(uuid "55e54dfe-e0ae-4901-afad-abbe2df3d004")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -11547,13 +11547,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12005,8 +12005,8 @@
 		)
 	)
 	(gr_rect
-		(start 65.386019 37.032249)
-		(end 90.482819 40.432249)
+		(start 65.2032 37.03)
+		(end 90.51 40.43)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15166,7 +15166,7 @@
 		)
 	)
 	(gr_text "AMS & IMD Latches | J.W. Nov 2025"
-		(at 67.038619 39.722899 0)
+		(at 67.07892 39.722899 0)
 		(layer "F.SilkS")
 		(uuid "77fdcd4c-cd18-4a6f-8b47-10cb709f2045")
 		(effects

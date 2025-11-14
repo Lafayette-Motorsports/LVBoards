@@ -6887,7 +6887,7 @@
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "J1"
-			(at 1.27 6.858 0)
+			(at 5.75 2.99 0)
 			(layer "F.SilkS")
 			(uuid "a799e8b7-cf15-4119-b792-80e50546d475")
 			(effects
@@ -9517,6 +9517,7 @@
 		(property "Reference" "J1"
 			(at -8.18 1.06 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "62a7b490-1890-4d6a-9720-781c1f6e0bb9")
 			(effects
 				(font
@@ -10343,6 +10344,7 @@
 		(property "Reference" "J1"
 			(at -8.18 1.06 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "846fabcf-112c-4ba8-80d4-2f65c4fc3148")
 			(effects
 				(font
@@ -15633,6 +15635,7 @@
 		(property "Reference" "J1"
 			(at -8.18 1.06 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c774dfba-2d8c-45f8-bbe7-327154293c77")
 			(effects
 				(font
@@ -18303,7 +18306,7 @@
 		(at 139.065 57.404 180)
 		(tags "SRP1770TA-150M ")
 		(property "Reference" "L2"
-			(at 12.065 9.398 0)
+			(at 11.225 0.054 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4aba7c83-7da0-4e05-8cf7-aa3fc82de703")
@@ -24459,7 +24462,7 @@
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "J2"
-			(at 1.524 7.112 0)
+			(at 1.32 4.88 0)
 			(layer "F.SilkS")
 			(uuid "8e385f4f-0fe0-4faa-b3fa-8ea57292fd9f")
 			(effects

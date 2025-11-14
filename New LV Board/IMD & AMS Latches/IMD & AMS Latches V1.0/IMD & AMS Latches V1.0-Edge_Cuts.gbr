@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*%
+%TF.CreationDate,2025-11-14T08:17:39-05:00*%
+%TF.ProjectId,IMD & AMS Latches V1.0,494d4420-2620-4414-9d53-204c61746368,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2025-11-14 08:17:39*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X61955377Y-36707738D02*
+X107954777Y-36707738D01*
+X107954777Y-88048938D01*
+X61955377Y-88048938D01*
+X61955377Y-36707738D01*
+M02*
