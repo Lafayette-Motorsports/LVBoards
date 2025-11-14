@@ -72,7 +72,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -105,7 +105,7 @@
 		(uuid "0224570b-0ca6-414c-882a-82fd4ca2a371")
 		(at 99.314 85.9282 180)
 		(property "Reference" "C1"
-			(at -1.11 -1.95 0)
+			(at 0.064 2.1682 0)
 			(layer "F.SilkS")
 			(uuid "cd28bae0-87a6-4a0b-a25b-18344ff02d7f")
 			(effects
@@ -282,7 +282,7 @@
 		(uuid "23819d6e-7b91-4eb4-918a-6af34fe35f2c")
 		(at 96.393 89.8398)
 		(property "Reference" "C2"
-			(at -1.143 -2.2098 0)
+			(at -0.323 -2.2198 0)
 			(layer "F.SilkS")
 			(uuid "d903b046-0f53-47e3-a7e9-acb103df8775")
 			(effects
@@ -459,7 +459,7 @@
 		(uuid "526f005c-8673-4717-86fd-8ed3d6235821")
 		(at 83.3882 98.3197 90)
 		(property "Reference" "K1"
-			(at -11.475 -9.075 90)
+			(at -14.5303 -8.8282 180)
 			(layer "F.SilkS")
 			(uuid "3d857849-f8cb-4fc0-993a-c097268ca627")
 			(effects
@@ -926,7 +926,7 @@
 		(descr "JST PH series connector, B12B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J1"
-			(at 11 3.9624 90)
+			(at 11 3.9624 180)
 			(layer "F.SilkS")
 			(uuid "de5ce6a9-27f2-404f-952b-04071635e716")
 			(effects
@@ -2320,7 +2320,7 @@
 		(uuid "aa0f2960-9f30-4fcb-99bd-5941d3cc497a")
 		(at 106.4768 80.2132 90)
 		(property "Reference" "U1"
-			(at -0.635 -4.699 90)
+			(at -0.0468 -4.6268 180)
 			(layer "F.SilkS")
 			(uuid "8da8c915-666d-4517-b5ba-86a0345e4d05")
 			(effects
@@ -2656,7 +2656,7 @@
 		(uuid "b65b96ab-a6d8-4ec1-b1a6-f7e3439248da")
 		(at 98.044 103.0478 90)
 		(property "Reference" "F1"
-			(at -6.825 -5.815 90)
+			(at -6.825 -5.815 180)
 			(layer "F.SilkS")
 			(uuid "ef3fd0ee-19db-452c-ad38-c7ed31e2cb29")
 			(effects
@@ -6683,8 +6683,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VCU MPR - 5V | J.E. Nov 2025"
-		(at 77.60582 67.03065 0)
+	(gr_text "VCU MPR - 5V V1.0 | J.E. Nov 2025"
+		(at 76.105819 67.03065 0)
 		(layer "F.SilkS")
 		(uuid "6f8a32bd-bebf-4a4f-b360-12889ac38446")
 		(effects

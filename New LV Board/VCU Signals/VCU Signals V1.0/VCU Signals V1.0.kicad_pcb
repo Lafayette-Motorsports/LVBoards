@@ -72,7 +72,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -1146,7 +1146,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 0)
+			(at 0 -2.216 0)
 			(layer "F.SilkS")
 			(uuid "71f22186-d389-43e2-9c3e-98ac0ec53fd8")
 			(effects
@@ -3572,7 +3572,7 @@
 		(descr "JST PH series connector, B12B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J1"
-			(at -0.352 -2.5654 90)
+			(at -0.41 -2.709 180)
 			(layer "F.SilkS")
 			(uuid "b73694fc-09b4-45bb-a2aa-eca718abbbfe")
 			(effects
@@ -8148,8 +8148,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "VCU Signals | J.E. Nov 2025"
-		(at 87.587506 80.41645 0)
+	(gr_text "VCU Signals V1.0 | J.E. Nov 2025"
+		(at 86.087506 80.41645 0)
 		(layer "F.SilkS")
 		(uuid "1477f51f-7b38-462f-86f2-ea8fa1f30913")
 		(effects
