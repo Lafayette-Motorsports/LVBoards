@@ -6683,8 +6683,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VCU MPR - 5V | J.E. Nov 2025"
-		(at 77.60582 67.03065 0)
+	(gr_text "VCU MPR - 5V V1.0 | J.E. Nov 2025"
+		(at 76.105819 67.03065 0)
 		(layer "F.SilkS")
 		(uuid "6f8a32bd-bebf-4a4f-b360-12889ac38446")
 		(effects

@@ -15165,8 +15165,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AMS & IMD Latches | J.W. Nov 2025"
-		(at 67.07892 39.722899 0)
+	(gr_text "AMS & IMD Latches V1.0 | J.W. Nov 2025"
+		(at 65.578919 39.722899 0)
 		(layer "F.SilkS")
 		(uuid "77fdcd4c-cd18-4a6f-8b47-10cb709f2045")
 		(effects
