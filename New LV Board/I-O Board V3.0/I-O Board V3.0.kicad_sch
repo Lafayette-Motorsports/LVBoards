@@ -2341,6 +2341,16 @@
 		)
 		(uuid "1dc5c43f-80a5-4747-bc3e-68dc7b21134c")
 	)
+	(text "IMD Reset +"
+		(exclude_from_sim no)
+		(at 139.954 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2086455c-312f-4ebf-b2eb-98681378fd1e")
+	)
 	(text "VCU MPRD"
 		(exclude_from_sim no)
 		(at 139.192 43.434 0)
