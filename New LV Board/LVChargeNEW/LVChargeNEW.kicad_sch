@@ -12,650 +12,6 @@
 		(comment 1 "Sean McLoughlin, Robin Stopford")
 	)
 	(lib_symbols
-		(symbol "691137710002:691137710002"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.88 -0.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "691137710002:691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUNT" "THT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "IR-VDE" "24A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "IR-UL" "16A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "WORKING-VOLTAGE-UL" "300V(AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PART-NUMBER" "691137710002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PITCH" "5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PINS" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "TYPE" "Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "691137710002_0_0"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 1.27 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -1.016) (xy -2.794 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy -0.254 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ALF1PF12:ALF1PF12"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ALF1PF12"
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ALF1PF12:RELAY_ALF1PF12"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "23.3mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ALF1PF12_0_0"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -3.81 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.635) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.81 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 5.715 0) (xy 5.08 1.27) (xy 4.445 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CSD15380F3T_1"
 			(pin_names
 				(offset 1.016)
@@ -3186,66 +2542,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 173.99 186.69)
-		(end 234.95 223.52)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9685c04d-8882-418d-a707-ea7e1ebbb0d0)
-	)
-	(text "VCU VBATT\n"
-		(exclude_from_sim no)
-		(at 213.106 222.758 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "6680a98e-cecc-4a0d-ba8d-9339c2eeac38")
-	)
-	(text "VCU MPR\n"
-		(exclude_from_sim no)
-		(at 185.166 221.742 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "69cd07c6-1e3e-4a9b-8526-8148117dbb28")
-	)
-	(text "VCU Main Power Relay\n"
-		(exclude_from_sim no)
-		(at 190.754 191.008 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "a20c0c0d-ae45-46f5-8444-e9032103aa11")
-	)
-	(text "VBATT\n"
-		(exclude_from_sim no)
-		(at 214.122 215.392 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "a28161c7-5846-4aac-bb6e-deef714095cc")
-	)
 	(junction
 		(at 52.07 109.22)
 		(diameter 0)
@@ -3497,12 +2793,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9606490a-8995-46be-a113-222c29c778ba")
-	)
-	(junction
-		(at 208.28 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ab85a70-ce1e-4fb5-917e-334779f8b19b")
 	)
 	(junction
 		(at 130.81 99.06)
@@ -3778,16 +3068,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 210.82) (xy 208.28 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "156e4664-5311-4f1b-a811-ad7865a9f36d")
-	)
-	(wire
-		(pts
 			(xy 280.67 85.09) (xy 276.86 85.09)
 		)
 		(stroke
@@ -3985,16 +3265,6 @@
 			(type default)
 		)
 		(uuid "29f951dd-ee1a-48ac-b1b0-e58082e262e2")
-	)
-	(wire
-		(pts
-			(xy 187.96 210.82) (xy 208.28 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a369a76-0561-4cec-93cc-f3be37346ac1")
 	)
 	(wire
 		(pts
@@ -4358,16 +3628,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 219.71) (xy 212.09 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8f10b5-797b-4fe5-8d88-e8686e8dcb1c")
-	)
-	(wire
-		(pts
 			(xy 101.6 137.16) (xy 104.14 139.7)
 		)
 		(stroke
@@ -4455,16 +3715,6 @@
 			(type default)
 		)
 		(uuid "69c64b7a-d0b7-4dcb-a5dc-07a5f4a2a0d5")
-	)
-	(wire
-		(pts
-			(xy 185.42 219.71) (xy 187.96 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6a4fcf-414a-4033-9f77-1c4000aaa795")
 	)
 	(wire
 		(pts
@@ -4605,16 +3855,6 @@
 			(type default)
 		)
 		(uuid "747ff1ea-5a9b-4299-9fb2-86c1958e0081")
-	)
-	(wire
-		(pts
-			(xy 187.96 214.63) (xy 187.96 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ce1ba9-aa55-4f0a-a527-960c440a5b6a")
 	)
 	(wire
 		(pts
@@ -5088,16 +4328,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 210.82) (xy 212.09 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f0fdd6-770c-46e3-b541-df240ce5eb6c")
-	)
-	(wire
-		(pts
 			(xy 246.38 116.84) (xy 248.92 116.84)
 		)
 		(stroke
@@ -5135,16 +4365,6 @@
 			(type default)
 		)
 		(uuid "aa554ee0-429a-438e-9896-3d01ed829341")
-	)
-	(wire
-		(pts
-			(xy 185.42 219.71) (xy 185.42 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aada9ede-9d85-47b1-b8e2-23efd22ead77")
 	)
 	(wire
 		(pts
@@ -5815,16 +5035,6 @@
 			(type default)
 		)
 		(uuid "f16d3397-cd5a-4e7b-92f8-f7fa90776be3")
-	)
-	(wire
-		(pts
-			(xy 208.28 210.82) (xy 212.09 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54b8c0e-f238-4c07-b071-827aecbb5a71")
 	)
 	(wire
 		(pts
@@ -7487,16 +6697,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 109.22 132.08 0)
+		(at 109.22 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ac8142e-a3d0-4063-9fb8-d1d63b0cdd6f")
 		(property "Reference" "J1"
-			(at 111.76 132.0799 0)
+			(at 111.76 134.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +6715,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 111.76 134.6199 0)
+			(at 111.76 132.0801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +6724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 132.08 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +6733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 132.08 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +6742,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 132.08 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,190 +7177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ALF1PF12:ALF1PF12")
-		(at 198.12 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57f7dfe6-5238-40fe-adcb-a191ce8108bb")
-		(property "Reference" "K1"
-			(at 198.12 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ALF1PF12"
-			(at 198.12 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "motorsports:RELAY_ALF1PF12"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power RelayLF Relay | Panasonic Electronic Components ALF1PF12"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "255-4094-ND"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electric"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.3mm"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DIP-4 Panasonic"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ALF1PF12/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALF1PF12/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ALF1PF12"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2704658&manufacturer=Panasonic Electric&part_name=ALF1PF12&search_term=None"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 198.12 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f438430f-1de1-4bb9-a813-d9d8cd84da23")
-		)
-		(pin "2"
-			(uuid "22b17918-1b04-47ee-b4a5-63d857d0ace4")
-		)
-		(pin "3"
-			(uuid "b0e51aea-1c89-4ffa-86ca-478dc357118a")
-		)
-		(pin "4"
-			(uuid "4839540f-a81a-43ef-9c98-a0dbd64a4946")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 124.46 0)
 		(unit 1)
@@ -8482,196 +7508,6 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 217.17 219.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ebe8e03-b73e-4024-a9eb-f439d093aa6d")
-		(property "Reference" "J4"
-			(at 218.186 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 218.44 219.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "motorsports:691137710002"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WIRE" "12 to 30 (AWG) 3.31 to 0.05 (mm²)"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "THT"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-VDE" "24A"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR-UL" "16A"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "691137710002"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-UL" "300V(AC)"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "691137710002"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/691137710002.pdf"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PITCH" "5mm"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE-VDE" "250V(AC)"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "Horizontal"
-			(at 217.17 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edbd70ac-4462-4753-9d9d-18790889c662")
-		)
-		(pin "2"
-			(uuid "858c3540-cc51-453a-91b1-ac94010a4b76")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
