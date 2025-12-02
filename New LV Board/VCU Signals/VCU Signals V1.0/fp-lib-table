@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Motorsports")(type "KiCad")(uri "${KIPRJMOD}/Motorsports.pretty")(options "")(descr ""))
+)

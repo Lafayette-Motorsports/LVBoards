@@ -1,4 +1,4 @@
-25233606177512489
+25235369247538423
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67024,6 +67024,13 @@ CONN_20-0600-21_ARS
 0
 20
 20
+MotorSports_KICad
+CONN_2604-1101_WAG
+
+2604-1101 
+0
+2
+2
 MotorSports_KICad
 HDRV10W64P0X254_1X10_2540X249X886P
 PH1-10-UA
