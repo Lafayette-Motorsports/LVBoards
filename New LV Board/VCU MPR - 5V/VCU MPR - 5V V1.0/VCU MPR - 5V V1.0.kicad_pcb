@@ -276,7 +276,7 @@
 			(uuid "d48d7123-cadd-445f-ac54-7393f7ca582b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Hhr19/Downloads/CL32B106KBJNNNE/CL32B106KBJNNNE.step"
+		(model "${KIPRJMOD}/3-D Models/CL32B106KBJNNNE.step"
 			(offset
 				(xyz 0 -1 0)
 			)
@@ -464,7 +464,7 @@
 			(uuid "f6ebd31c-e89e-4880-9541-e1e2b05f9bca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Hhr19/Downloads/CL32B106KBJNNNE/CL32B106KBJNNNE.step"
+		(model "${KIPRJMOD}/3-D Models/CL32B106KBJNNNE.step"
 			(offset
 				(xyz 0 -1 0)
 			)
@@ -940,7 +940,7 @@
 			(uuid "9c233818-3089-4f78-a138-8e609748d8db")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Hhr19/Downloads/ALF1PF12/ALF1PF12.STEP"
+		(model "${KIPRJMOD}/3-D Models/ALF1PF12.STEP"
 			(offset
 				(xyz 0.5 0.5 0)
 			)
@@ -2336,15 +2336,15 @@
 			(uuid "6991cd27-6867-4a82-bc9b-d20b02e04230")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -2683,7 +2683,7 @@
 			(uuid "b8cb5699-d65d-4b00-ae5b-b48d819b2aca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Hhr19/Downloads/LT1117CST_5_TRPBF (1)/LT1117CST-5_TRPBF.step"
+		(model "${KIPRJMOD}/3-D Models/LT1117CST-5_TRPBF.step"
 			(offset
 				(xyz 1 0 0)
 			)
@@ -3009,7 +3009,7 @@
 			(uuid "5b7d89e2-4531-4a4f-bd77-b5d68518f514")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Hhr19/Downloads/3587/3587.step"
+		(model "${KIPRJMOD}/3-D Models/3587.step"
 			(offset
 				(xyz -1 -0.5 0)
 			)
@@ -3519,15 +3519,15 @@
 			(uuid "b0969705-19cb-4eee-af61-39fc17a39426")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
