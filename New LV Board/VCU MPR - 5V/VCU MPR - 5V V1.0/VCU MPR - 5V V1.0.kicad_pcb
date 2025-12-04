@@ -107,7 +107,7 @@
 		(property "Reference" "C1"
 			(at 0.064 2.1682 0)
 			(layer "F.SilkS")
-			(uuid "cd28bae0-87a6-4a0b-a25b-18344ff02d7f")
+			(uuid "45f47a32-81c9-44e0-8b83-ba0f952c5915")
 			(effects
 				(font
 					(size 1 1)
@@ -118,7 +118,7 @@
 		(property "Value" "10u"
 			(at 0.89 1.95 0)
 			(layer "F.Fab")
-			(uuid "e240be58-706f-4e6a-af6e-bbce7b582cef")
+			(uuid "5a5aade5-a9a6-4350-81b5-72053cb9103a")
 			(effects
 				(font
 					(size 1 1)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "108c0773-0c9c-45b8-bd3f-7b66419d3346")
+			(uuid "34206bc8-d38a-405d-a84c-024004e9ed7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142,7 +142,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "255a7126-addf-4b41-93a5-b3303455183f")
+			(uuid "aefdb859-0bba-44c3-b900-dbef1ca8a082")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,6 +276,17 @@
 			(uuid "d48d7123-cadd-445f-ac54-7393f7ca582b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3-D Models/CL32B106KBJNNNE.step"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 0.8 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "motorsports:CAPC3225X270N"
 		(layer "F.Cu")
@@ -453,6 +464,17 @@
 			(uuid "f6ebd31c-e89e-4880-9541-e1e2b05f9bca")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3-D Models/CL32B106KBJNNNE.step"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 0.8 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "motorsports:RELAY_ALF1PF12"
 		(layer "F.Cu")
@@ -918,6 +940,17 @@
 			(uuid "9c233818-3089-4f78-a138-8e609748d8db")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3-D Models/ALF1PF12.STEP"
+			(offset
+				(xyz 0.5 0.5 0)
+			)
+			(scale
+				(xyz 1 0.3001 0.9)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B12B-PH-K_1x12_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -2303,15 +2336,15 @@
 			(uuid "6991cd27-6867-4a82-bc9b-d20b02e04230")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -2650,6 +2683,17 @@
 			(uuid "b8cb5699-d65d-4b00-ae5b-b48d819b2aca")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3-D Models/LT1117CST-5_TRPBF.step"
+			(offset
+				(xyz 1 0 0)
+			)
+			(scale
+				(xyz 0.8 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "motorsports:FUSE_3587"
 		(layer "F.Cu")
@@ -2658,7 +2702,7 @@
 		(property "Reference" "F1"
 			(at -6.825 -5.815 180)
 			(layer "F.SilkS")
-			(uuid "ef3fd0ee-19db-452c-ad38-c7ed31e2cb29")
+			(uuid "6db6b02a-7452-4435-89ab-946364d9e0f0")
 			(effects
 				(font
 					(size 1 1)
@@ -2669,7 +2713,7 @@
 		(property "Value" "3587TR"
 			(at -3.975 6.04 90)
 			(layer "F.Fab")
-			(uuid "6d7946f4-54a3-4810-88fd-332e8f1e2301")
+			(uuid "5a6b9fd9-2117-49ce-bfb2-cadf28e7d5be")
 			(effects
 				(font
 					(size 1 1)
@@ -2681,7 +2725,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a4fc10e-8610-4df3-a2b0-35df36dce554")
+			(uuid "6c6062b3-7b1f-409a-9250-d444227feae1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2737,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8d67cd6-5d4d-41cc-b956-ee67ab2cb9cd")
+			(uuid "0002b695-83c4-4ada-847a-b0514b60850e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,6 +3009,17 @@
 			(uuid "5b7d89e2-4531-4a4f-bd77-b5d68518f514")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3-D Models/3587.step"
+			(offset
+				(xyz -1 -0.5 0)
+			)
+			(scale
+				(xyz 0.8 1.1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint ""
 		(layer "F.Cu")
@@ -3464,15 +3519,15 @@
 			(uuid "b0969705-19cb-4eee-af61-39fc17a39426")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
