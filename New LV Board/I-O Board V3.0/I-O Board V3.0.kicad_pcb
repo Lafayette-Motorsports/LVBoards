@@ -3848,7 +3848,7 @@
 			(uuid "c784dd93-16f2-4014-9fbc-d397ab10d768")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/1x10 Male Pin Header.STEP"
+		(model "C:/Users/Hhr19/AppData/Local/Programs/KiCad/9.0/share/kicad/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 -1.5)
 			)
@@ -3856,7 +3856,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -180 -90)
 			)
 		)
 	)
@@ -4259,15 +4259,15 @@
 			(uuid "d02b9750-f3ea-4b2e-8d12-cc7781078537")
 		)
 		(embedded_fonts no)
-		(model "PH1-10-UA.stp"
+		(model "C:/Users/Hhr19/AppData/Local/Programs/KiCad/9.0/share/kicad/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 90)
 			)
 		)
 	)
