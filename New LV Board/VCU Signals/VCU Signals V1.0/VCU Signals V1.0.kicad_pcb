@@ -543,15 +543,15 @@
 			(uuid "8a827141-d1c0-4e5e-8d57-c5bdb25765c1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -3553,15 +3553,15 @@
 			(uuid "53898f67-a2ed-457f-ba31-265009787b37")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/bfran/Downloads/PH1-20-UA.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
 			(offset
-				(xyz 48.3 0 -2.9)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)

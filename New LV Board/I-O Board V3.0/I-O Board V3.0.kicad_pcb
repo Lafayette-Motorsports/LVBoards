@@ -8527,6 +8527,17 @@
 			(uuid "e6271499-e941-4e90-a047-5de914441721")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
 	)
 	(footprint "I-O_Footprints:YAG_MF25_YAG"
 		(layer "F.Cu")
@@ -11023,6 +11034,17 @@
 			(uuid "ff79fcc5-282c-4cf2-b270-94703fcf9140")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
 	)
 	(gr_poly
 		(pts
