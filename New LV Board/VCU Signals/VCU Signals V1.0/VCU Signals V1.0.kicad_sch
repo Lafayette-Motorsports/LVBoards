@@ -2440,7 +2440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML2060TRPBF"
+		(property "Value" "IRLU014PBF"
 			(at 93.98 40.6399 0)
 			(effects
 				(font
@@ -2449,7 +2449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Motorsports:DPAK-3_6P35X6P73_ONS"
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
 			(at 93.98 140.64 0)
 			(effects
 				(font
@@ -2459,7 +2459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRLU014PBF/812390?utm_source=chatgpt.com"
 			(at 93.98 240.64 0)
 			(effects
 				(font
@@ -2976,7 +2976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML2060TRPBF"
+		(property "Value" "IRLU014PBF"
 			(at 93.98 104.1399 0)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Motorsports:DPAK-3_6P35X6P73_ONS"
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
 			(at 93.98 204.14 0)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRLU014PBF/812390?utm_source=chatgpt.com"
 			(at 93.98 304.14 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML2060TRPBF"
+		(property "Value" "IRLU014PBF"
 			(at 93.98 72.3899 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Motorsports:DPAK-3_6P35X6P73_ONS"
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
 			(at 93.98 172.39 0)
 			(effects
 				(font
@@ -3140,7 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRLU014PBF/812390?utm_source=chatgpt.com"
 			(at 93.98 272.39 0)
 			(effects
 				(font
