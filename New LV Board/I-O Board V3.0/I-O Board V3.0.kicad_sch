@@ -2321,6 +2321,16 @@
 		)
 		(uuid "132362a9-e5f6-41f3-89fd-945074a3a807")
 	)
+	(text "Reserved Input 2"
+		(exclude_from_sim no)
+		(at 142.748 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "170b8622-f62c-467d-9479-2e877587141f")
+	)
 	(text "IMD Reset -"
 		(exclude_from_sim no)
 		(at 139.954 61.214 0)
@@ -2330,16 +2340,6 @@
 			)
 		)
 		(uuid "1cc58492-14aa-425a-a239-1f2b59456966")
-	)
-	(text "Unused"
-		(exclude_from_sim no)
-		(at 147.066 108.458 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dc5c43f-80a5-4747-bc3e-68dc7b21134c")
 	)
 	(text "IMD Reset +"
 		(exclude_from_sim no)
@@ -2380,6 +2380,16 @@
 			)
 		)
 		(uuid "3a2a6d72-72a4-45d8-bad4-107122f4ff25")
+	)
+	(text "Reserved Input 1"
+		(exclude_from_sim no)
+		(at 142.748 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bff8820-9a07-405e-a505-1553550f6204")
 	)
 	(text "GLV+ 2"
 		(exclude_from_sim no)
@@ -2511,16 +2521,6 @@
 		)
 		(uuid "72348ef0-d411-4203-b585-f821a9a252e3")
 	)
-	(text "Unused"
-		(exclude_from_sim no)
-		(at 147.066 103.378 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "74244d46-cb89-4b3f-8361-314386ca9a25")
-	)
 	(text "Hall Effect Sensor Out"
 		(exclude_from_sim no)
 		(at 139.192 116.078 0)
@@ -2551,9 +2551,9 @@
 		)
 		(uuid "8eea6e7c-4a59-4b1f-bd31-2b675bc1a7ce")
 	)
-	(text "Unused"
+	(text "Hall Effect Vref In\n"
 		(exclude_from_sim no)
-		(at 137.922 36.068 0)
+		(at 143.51 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,16 +2611,6 @@
 		)
 		(uuid "a12ce2f4-5779-46bf-b5cb-a83b24c5eaad")
 	)
-	(text "Unused"
-		(exclude_from_sim no)
-		(at 147.066 105.918 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a3a587ba-a87b-47df-a9cc-ea3d8ae4be69")
-	)
 	(text "Robin and Sean Board +"
 		(exclude_from_sim no)
 		(at 204.978 54.356 0)
@@ -2660,16 +2650,6 @@
 			)
 		)
 		(uuid "b08cf7b9-66aa-4fc9-a717-7ed491d47e87")
-	)
-	(text "Unused"
-		(exclude_from_sim no)
-		(at 147.066 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b88d46c9-fe8e-4c19-a8c0-05c170d46d75")
 	)
 	(text "Throttle PWM from VCU Output 7 (Unused) "
 		(exclude_from_sim no)
@@ -2741,6 +2721,16 @@
 		)
 		(uuid "d0eb3934-2cd6-49c6-bc4c-ceebc9385116")
 	)
+	(text "Reserved Input 3"
+		(exclude_from_sim no)
+		(at 142.748 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d236d20f-a611-4e39-959f-08700a7c977c")
+	)
 	(text "Unused"
 		(exclude_from_sim no)
 		(at 147.066 85.598 0)
@@ -2760,6 +2750,16 @@
 			)
 		)
 		(uuid "d4eda7e8-4524-4260-bc00-b86b47609cee")
+	)
+	(text "Reserved Input 4"
+		(exclude_from_sim no)
+		(at 142.748 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d79ce549-6170-4407-89f7-0e46f029a747")
 	)
 	(text "AMS Reset -"
 		(exclude_from_sim no)
@@ -2781,9 +2781,9 @@
 		)
 		(uuid "ebd2ce70-90b0-4713-a312-4ec2833c9bff")
 	)
-	(text "RTDS Power -"
+	(text "RTDS VCU"
 		(exclude_from_sim no)
-		(at 141.478 33.528 0)
+		(at 139.446 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
