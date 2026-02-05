@@ -2129,6 +2129,12 @@
 		(uuid "0ffb159b-5c6e-49a3-8a02-3c01f58089f0")
 	)
 	(junction
+		(at 158.75 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125b3323-079f-4f51-82e6-4f47f41f7ab5")
+	)
+	(junction
 		(at 86.36 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,6 +2169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31da8ee7-95d5-484d-ad10-fa214b4fa57c")
+	)
+	(junction
+		(at 184.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33302830-8d79-4c4f-b463-e4aa3d4bddff")
 	)
 	(junction
 		(at 118.11 48.26)
@@ -2404,7 +2416,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 119.38) (xy 154.94 109.22)
+			(xy 172.72 93.98) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160715ab-b43f-4053-b446-76daf14b196c")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2456,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 109.22) (xy 142.24 109.22)
+			(xy 158.75 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3881bb-21bf-43d6-8672-ae42bb0a4181")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 140.97 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2984,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 110.49) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab56271c-c27b-440a-82e4-f42ac9469f43")
+	)
+	(wire
+		(pts
 			(xy 170.18 107.95) (xy 170.18 44.45)
 		)
 		(stroke
@@ -3244,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 119.38) (xy 142.24 119.38)
+			(xy 135.89 119.38) (xy 140.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 152.4 114.3)
+			(xy 148.59 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 186.69 130.175 0)
 			(effects
 				(font
@@ -3654,7 +3696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds31787.pdf"
+		(property "Datasheet" "IRF640NPBF"
 			(at 186.69 132.08 0)
 			(effects
 				(font
@@ -3693,7 +3735,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 144.78 114.3 180)
+		(at 143.51 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3702,7 +3744,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d112395-5e6d-47cf-a38e-ade988a1bbb5")
 		(property "Reference" "Q3"
-			(at 138.43 113.0299 0)
+			(at 137.16 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3753,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 138.43 115.5699 0)
+			(at 137.16 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,8 +3761,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 116.84 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 138.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,8 +3770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 144.78 101.6 0)
+		(property "Datasheet" "IRF9Z34NPBF"
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3780,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 144.78 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3789,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 144.78 97.155 0)
+			(at 143.51 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3798,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 144.78 95.25 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3807,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 144.78 99.06 0)
+			(at 143.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -4707,7 +4749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -4716,7 +4758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "IRF9Z34NPBF"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -5182,7 +5224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -5252,7 +5294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -5392,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 118.11 87.63 0)
 			(effects
 				(font
