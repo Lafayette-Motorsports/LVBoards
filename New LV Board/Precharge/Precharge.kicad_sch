@@ -259,6 +259,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -825,6 +1015,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3190,6 +3487,12 @@
 		(uuid "5e41413c-4995-401b-a4a9-3e460816e7c0")
 	)
 	(junction
+		(at 36.83 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e1af7d-b50c-493f-8f94-954fbd55602a")
+	)
+	(junction
 		(at 68.58 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3268,26 +3571,44 @@
 		(uuid "ea6fe991-64c1-4a6d-9bac-25f264e4a89f")
 	)
 	(junction
+		(at 209.55 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2d12eb5-85f7-42c2-bbf2-2376e9f296ff")
+	)
+	(junction
+		(at 182.88 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f48d9d41-0a03-4bf1-ba37-945520b65828")
+	)
+	(junction
 		(at 95.25 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57a5fb9-c69f-4e14-9bb0-daae0806129a")
 	)
+	(junction
+		(at 48.26 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc7b660c-877b-4316-89f0-e535c3008b47")
+	)
 	(no_connect
-		(at 100.33 173.99)
+		(at 137.16 93.98)
 		(uuid "71b33a3b-dec7-4ebc-937b-ee47bfdbd39e")
 	)
 	(no_connect
-		(at 100.33 168.91)
+		(at 137.16 88.9)
 		(uuid "7f4fb50c-08ca-4a66-9203-9caf37113204")
 	)
 	(no_connect
-		(at 115.57 171.45)
+		(at 152.4 91.44)
 		(uuid "a85425c1-05ea-455a-a200-8335988b05c7")
 	)
 	(wire
 		(pts
-			(xy 45.72 113.03) (xy 54.61 113.03)
+			(xy 45.72 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3304,6 +3625,26 @@
 			(type default)
 		)
 		(uuid "0469930c-1430-44d3-8a4d-27706064b699")
+	)
+	(wire
+		(pts
+			(xy 209.55 139.7) (xy 213.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1f0509-1e42-44e4-8417-b00526c2643d")
+	)
+	(wire
+		(pts
+			(xy 182.88 151.13) (xy 209.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103928c0-476a-4579-b2b2-2d3372809884")
 	)
 	(wire
 		(pts
@@ -3334,6 +3675,16 @@
 			(type default)
 		)
 		(uuid "1e74863e-0d6a-40cf-b2a8-10b8f5780c57")
+	)
+	(wire
+		(pts
+			(xy 36.83 151.13) (xy 68.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eb49be-eb27-4e1c-bea1-31f107ca2d72")
 	)
 	(wire
 		(pts
@@ -3427,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 151.13) (xy 152.4 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad1f288-ddc2-4345-8371-d9fa4ab0dbef")
+	)
+	(wire
+		(pts
 			(xy 114.3 151.13) (xy 104.14 151.13)
 		)
 		(stroke
@@ -3487,13 +3848,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 151.13) (xy 152.4 151.13)
+			(xy 114.3 139.7) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "579f5e22-edda-4d4b-9a6b-e9447d38477f")
+		(uuid "5667ed8b-2767-4702-a4f4-98c561f3c39e")
 	)
 	(wire
 		(pts
@@ -3504,6 +3865,26 @@
 			(type default)
 		)
 		(uuid "58e8fe8e-e2c6-4424-b1cd-85ae5c291084")
+	)
+	(wire
+		(pts
+			(xy 85.09 109.22) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590a6dfb-b11c-4baa-a940-b2d5eafc3ae8")
+	)
+	(wire
+		(pts
+			(xy 148.59 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af8e917-d4d1-4216-8536-a422085b5b2d")
 	)
 	(wire
 		(pts
@@ -3527,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 151.13) (xy 68.58 151.13)
+			(xy 35.56 151.13) (xy 36.83 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3537,13 +3918,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 113.03) (xy 85.09 125.73)
+			(xy 152.4 133.35) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73e018b0-bdbc-4cda-aee1-01b3f6e41ff7")
+		(uuid "7328a4e4-ff60-4856-b489-e3faae250c59")
 	)
 	(wire
 		(pts
@@ -3607,16 +3988,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 114.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f366dad-c831-4c6b-ae85-5b7bdf6f4011")
-	)
-	(wire
-		(pts
 			(xy 95.25 151.13) (xy 104.14 151.13)
 		)
 		(stroke
@@ -3634,6 +4005,16 @@
 			(type default)
 		)
 		(uuid "87e703be-c217-4441-a201-1fef425f033d")
+	)
+	(wire
+		(pts
+			(xy 209.55 139.7) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b972f7d-55a6-468e-83c4-51a13bfb8e81")
 	)
 	(wire
 		(pts
@@ -3714,6 +4095,16 @@
 			(type default)
 		)
 		(uuid "ab3886c8-3d34-4f2c-85d7-43dd60ee8146")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab477728-a636-43af-8f03-6fa18a987d1e")
 	)
 	(wire
 		(pts
@@ -3807,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 139.7) (xy 213.36 139.7)
+			(xy 208.28 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 134.62) (xy 142.24 139.7)
+			(xy 142.24 133.35) (xy 142.24 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3894,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "e41d9fbe-c098-4f29-8730-b2d5296e6633")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 54.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45a1a0b-6cc0-4e90-8275-44215d64e59e")
 	)
 	(wire
 		(pts
@@ -3944,6 +4345,16 @@
 			(type default)
 		)
 		(uuid "fab58272-4048-417f-8b00-ebcbfa649878")
+	)
+	(wire
+		(pts
+			(xy 146.05 133.35) (xy 142.24 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff11ad0c-8273-4683-9881-87e9434b8b08")
 	)
 	(wire
 		(pts
@@ -4045,22 +4456,22 @@
 	)
 	(global_label "AIR1-"
 		(shape input)
-		(at 152.4 134.62 180)
+		(at 152.4 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8674958c-c47b-4bca-9920-22906e12a000")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6695 134.62 0)
+			(at 161.1305 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4236,6 +4647,73 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 36.83 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17448906-0a85-4c71-befc-7b0bce121ead")
+		(property "Reference" "H1"
+			(at 39.37 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 39.37 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ca9d431-74a6-4a2e-b59c-7af60dc46ef3")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5315,6 +5793,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 87.63 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689d6525-03a5-4a25-853e-14a3d7ecf534")
+		(property "Reference" "H3"
+			(at 91.44 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 91.44 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "282af877-5c15-415a-9572-6979aaa97aac")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLML5203")
 		(at 210.82 134.62 0)
 		(unit 1)
@@ -5791,6 +6336,73 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 48.26 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f25bb22-d91a-46e2-b8e9-9555dc1a0751")
+		(property "Reference" "H2"
+			(at 50.8 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 50.8 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3fe2b28-0c3f-4775-99bd-a4b2c3d3bcd1")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6290,28 +6902,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a8")
+			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a9")
 		)
 		(pin "8"
-			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1ead")
+			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1eae")
 		)
 		(pin "1"
-			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c89")
+			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c8a")
 		)
 		(pin "4"
-			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde60")
+			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde61")
 		)
 		(pin "2"
-			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49d")
+			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49e")
 		)
 		(pin "5"
-			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc078")
+			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc079")
 		)
 		(pin "3"
-			(uuid "c21dd188-218c-48d2-8c1e-be3be9411705")
+			(uuid "c21dd188-218c-48d2-8c1e-be3be9411706")
 		)
 		(pin "7"
-			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bc")
+			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bd")
 		)
 		(instances
 			(project ""
@@ -6429,8 +7041,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf308b8c-be94-49a4-8ee9-ff75cea82a0b")
+		(property "Reference" "R17"
+			(at 116.84 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 116.84 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 112.522 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "2k Resistor"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d39cd433-6f23-4d7a-b15b-1fac63f0a2d7")
+		)
+		(pin "2"
+			(uuid "61ca3712-8272-4ce2-95d0-6db56f7b6bd8")
+		)
+		(instances
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM2904")
-		(at 107.95 171.45 0)
+		(at 144.78 91.44 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,7 +7184,7 @@
 		(fields_autoplaced yes)
 		(uuid "d408a4d3-7062-457d-8f05-5918c86e476a")
 		(property "Reference" "U1"
-			(at 107.95 161.29 0)
+			(at 144.78 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +7192,7 @@
 			)
 		)
 		(property "Value" "LM2904"
-			(at 107.95 163.83 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 107.95 171.45 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 107.95 171.45 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +7218,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 107.95 171.45 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +7227,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
-			(at 107.95 171.45 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +7236,7 @@
 			)
 		)
 		(property "Name" "Comparator"
-			(at 107.95 171.45 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,28 +7245,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a8")
+			(uuid "adccc305-a576-4185-a0ac-f93d8b5811aa")
 		)
 		(pin "8"
-			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1ead")
+			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1eaf")
 		)
 		(pin "1"
-			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c89")
+			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c8b")
 		)
 		(pin "4"
-			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde60")
+			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde62")
 		)
 		(pin "2"
-			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49d")
+			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49f")
 		)
 		(pin "5"
-			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc078")
+			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc07a")
 		)
 		(pin "3"
-			(uuid "c21dd188-218c-48d2-8c1e-be3be9411705")
+			(uuid "c21dd188-218c-48d2-8c1e-be3be9411707")
 		)
 		(pin "7"
-			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bc")
+			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7be")
 		)
 		(instances
 			(project ""
@@ -6791,6 +7536,75 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 146.05 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db620656-b62b-4bad-8b55-6b394d2811c1")
+		(property "Reference" "J1"
+			(at 150.368 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 144.272 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB002-500-02BE/10064069"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f59df678-cafd-4034-94f7-58d6487886fc")
+		)
+		(pin "1"
+			(uuid "6182031c-4e1d-4965-a49b-33f34d0c2ce1")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7702,6 +8516,75 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 214.63 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6efa3d1-086e-4953-a90a-bd44a5011105")
+		(property "Reference" "J2"
+			(at 215.646 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 225.806 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 214.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB002-500-02BE/10064069"
+			(at 214.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aca6b7d3-fdb0-4cb4-a667-aa763e02795b")
+		)
+		(pin "1"
+			(uuid "c1c3186f-70ee-47df-8e74-0d397a5926a4")
+		)
+		(instances
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "J2")
 					(unit 1)
 				)
 			)
