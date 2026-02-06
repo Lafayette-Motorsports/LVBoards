@@ -3118,16 +3118,10 @@
 		(uuid 95010e7b-9815-401e-8e8a-434eb6321581)
 	)
 	(junction
-		(at 34.29 134.62)
+		(at 35.56 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00e7f665-957e-455e-a03c-3c7bda829f6b")
-	)
-	(junction
-		(at 21.59 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a40d323-6d8b-4356-ae11-c8e5ba82d9b0")
 	)
 	(junction
 		(at 142.24 139.7)
@@ -3136,16 +3130,10 @@
 		(uuid "0b933a1e-e7a8-434f-b26b-6a365d0a9f98")
 	)
 	(junction
-		(at 73.66 151.13)
+		(at 74.93 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "216e3f15-28a7-4ce8-84dd-77d01f43906e")
-	)
-	(junction
-		(at 20.32 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "220230ca-daea-4164-959f-a1bf0c0ea920")
 	)
 	(junction
 		(at 170.18 134.62)
@@ -3154,37 +3142,25 @@
 		(uuid "2621bd6a-3179-42cd-961d-128a6b5d6105")
 	)
 	(junction
-		(at 21.59 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27505a8f-2a07-4ede-832b-37599db0aa50")
-	)
-	(junction
 		(at 152.4 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "353cda83-5074-4eeb-b073-b252cb2a5199")
 	)
 	(junction
-		(at 67.31 128.27)
+		(at 68.58 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3857abce-680c-49e1-8907-a39c784cac2b")
 	)
 	(junction
-		(at 21.59 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3970e77c-df4c-4afd-ac00-591b65cc094f")
-	)
-	(junction
-		(at 53.34 113.03)
+		(at 54.61 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4328ab93-570a-4199-a42d-c7b6ef9e8512")
 	)
 	(junction
-		(at 44.45 127)
+		(at 45.72 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44bcacbb-795a-4898-8153-ed18ba4a3302")
@@ -3196,13 +3172,13 @@
 		(uuid "44daed6f-af0d-40b8-9031-82ff6c79a80a")
 	)
 	(junction
-		(at 52.07 127)
+		(at 53.34 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4db9ccb3-d8b6-476e-ba72-b5542d181c91")
 	)
 	(junction
-		(at 44.45 120.65)
+		(at 45.72 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57d0b23d-6ecc-4872-8125-9019f1bdabd8")
@@ -3214,13 +3190,7 @@
 		(uuid "5e41413c-4995-401b-a4a9-3e460816e7c0")
 	)
 	(junction
-		(at 59.69 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661e82b0-cd89-46a9-8d68-6995e335f6c5")
-	)
-	(junction
-		(at 67.31 151.13)
+		(at 68.58 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b18b549-35e7-4333-822c-2044a73e85fa")
@@ -3232,31 +3202,19 @@
 		(uuid "7d112237-2b29-4435-9e45-c7ae48b9bf0c")
 	)
 	(junction
-		(at 21.59 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f77503-6933-4faf-adf0-9649ca270070")
-	)
-	(junction
-		(at 59.69 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0d3c98b-269f-40ac-9506-4b5c8c47b8bb")
-	)
-	(junction
-		(at 44.45 134.62)
+		(at 45.72 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbec9aa6-20af-4c22-95c4-fc2a62ad5124")
 	)
 	(junction
-		(at 83.82 140.97)
+		(at 85.09 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befa19bc-7b13-44c6-8e09-b17b09c5c929")
 	)
 	(junction
-		(at 20.32 127)
+		(at 21.59 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1d4eb27-bcad-451b-a2b1-6199d1eb4972")
@@ -3274,25 +3232,19 @@
 		(uuid "c97e98fc-3ef3-4353-883c-a0fcc8c0c2b8")
 	)
 	(junction
-		(at 102.87 151.13)
+		(at 104.14 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9f54d00-23af-4382-ae63-2bd0b775b3e8")
 	)
 	(junction
-		(at 20.32 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb79ff61-170a-43f6-857f-dcb791ad1ffd")
-	)
-	(junction
-		(at 83.82 151.13)
+		(at 85.09 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de0175ef-a8a8-4a08-91b5-dccb40b451c5")
 	)
 	(junction
-		(at 73.66 135.89)
+		(at 74.93 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de7cbba5-5a15-4163-b1e5-f623df44e40f")
@@ -3304,7 +3256,7 @@
 		(uuid "e37a8e2c-0d47-4a61-a286-02ae59b88698")
 	)
 	(junction
-		(at 93.98 127)
+		(at 95.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b550b2-a128-4b5d-9e59-c1ade4fd5781")
@@ -3316,7 +3268,7 @@
 		(uuid "ea6fe991-64c1-4a6d-9bac-25f264e4a89f")
 	)
 	(junction
-		(at 93.98 151.13)
+		(at 95.25 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57a5fb9-c69f-4e14-9bb0-daae0806129a")
@@ -3335,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 113.03) (xy 53.34 113.03)
+			(xy 45.72 113.03) (xy 54.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 142.24) (xy 93.98 151.13)
+			(xy 95.25 142.24) (xy 95.25 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3355,17 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 151.13) (xy 59.69 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1558ec74-5f4c-4ce2-96eb-5738f42a836c")
-	)
-	(wire
-		(pts
-			(xy 93.98 127) (xy 93.98 134.62)
+			(xy 95.25 127) (xy 95.25 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 52.07 134.62)
+			(xy 45.72 134.62) (xy 53.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3392,16 +3334,6 @@
 			(type default)
 		)
 		(uuid "1e74863e-0d6a-40cf-b2a8-10b8f5780c57")
-	)
-	(wire
-		(pts
-			(xy 20.32 123.19) (xy 21.59 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7bac65-c3cf-4439-8456-a80f1a0cf050")
 	)
 	(wire
 		(pts
@@ -3425,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 142.24) (xy 34.29 151.13)
+			(xy 35.56 142.24) (xy 35.56 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3445,23 +3377,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 151.13) (xy 83.82 151.13)
+			(xy 74.93 151.13) (xy 85.09 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2acf861b-244c-4ebf-bf8e-d496d98eef7c")
-	)
-	(wire
-		(pts
-			(xy 52.07 127) (xy 59.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b4a3f64-8a3e-4ec4-978e-0a7fb2845ab5")
 	)
 	(wire
 		(pts
@@ -3475,27 +3397,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 120.65) (xy 44.45 120.65)
+			(xy 21.59 127) (xy 25.4 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33902aaa-491d-4755-bc44-27770d4ac0af")
+		(uuid "3076e79b-f926-4575-8200-1a3cb980e802")
 	)
 	(wire
 		(pts
-			(xy 21.59 121.92) (xy 21.59 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a900bf-537c-47b2-b02d-893884ca56c3")
-	)
-	(wire
-		(pts
-			(xy 20.32 134.62) (xy 34.29 134.62)
+			(xy 21.59 134.62) (xy 35.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 127) (xy 52.07 127)
+			(xy 45.72 127) (xy 53.34 127)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 151.13) (xy 102.87 151.13)
+			(xy 114.3 151.13) (xy 104.14 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3555,16 +3467,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 127) (xy 21.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc57ae4-1dd2-41a2-864c-1d43a83ec96f")
-	)
-	(wire
-		(pts
 			(xy 196.85 144.78) (xy 205.74 144.78)
 		)
 		(stroke
@@ -3575,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.65) (xy 53.34 120.65)
+			(xy 45.72 120.65) (xy 54.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 102.87 127)
+			(xy 95.25 127) (xy 104.14 127)
 		)
 		(stroke
 			(width 0)
@@ -3625,27 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 123.19) (xy 20.32 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6422536d-8420-4436-84c7-8a2a5c6f3c45")
-	)
-	(wire
-		(pts
-			(xy 113.03 129.54) (xy 114.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6561da96-e8c8-41de-906e-b3ead0d5286d")
-	)
-	(wire
-		(pts
-			(xy 59.69 151.13) (xy 67.31 151.13)
+			(xy 35.56 151.13) (xy 68.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3655,7 +3537,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 113.03) (xy 83.82 125.73)
+			(xy 85.09 113.03) (xy 85.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 151.13) (xy 67.31 151.13)
+			(xy 74.93 151.13) (xy 68.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3685,17 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 139.7) (xy 114.3 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7556eb03-a0a5-4334-a8d7-58c0b1ea3a32")
-	)
-	(wire
-		(pts
-			(xy 83.82 151.13) (xy 93.98 151.13)
+			(xy 85.09 151.13) (xy 95.25 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3715,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 140.97) (xy 83.82 143.51)
+			(xy 85.09 140.97) (xy 85.09 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3725,17 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 139.7) (xy 113.03 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b87870d-bb6c-47a0-983f-e1c17759cda3")
-	)
-	(wire
-		(pts
-			(xy 102.87 146.05) (xy 102.87 151.13)
+			(xy 104.14 146.05) (xy 104.14 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3745,23 +3607,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 151.13) (xy 102.87 151.13)
+			(xy 114.3 139.7) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f366dad-c831-4c6b-ae85-5b7bdf6f4011")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 104.14 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8084a3fb-6cb4-4d55-8ed0-eca30eadbcfd")
-	)
-	(wire
-		(pts
-			(xy 20.32 121.92) (xy 21.59 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82888519-0dee-4a93-a01d-f37b7ce156cb")
 	)
 	(wire
 		(pts
@@ -3775,16 +3637,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 127) (xy 21.59 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc024e2-6954-46d9-8612-e6786de1dd40")
-	)
-	(wire
-		(pts
 			(xy 213.36 124.46) (xy 142.24 124.46)
 		)
 		(stroke
@@ -3792,16 +3644,6 @@
 			(type default)
 		)
 		(uuid "8ee0a04b-19aa-47b4-87d2-482bd2eccd9a")
-	)
-	(wire
-		(pts
-			(xy 21.59 120.65) (xy 21.59 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904a9c4e-fb38-4345-83b9-3e13a5f01004")
 	)
 	(wire
 		(pts
@@ -3845,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 120.65) (xy 21.59 120.65)
+			(xy 21.59 120.65) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3875,23 +3717,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 113.03) (xy 67.31 113.03)
+			(xy 54.61 113.03) (xy 68.58 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac230c38-1a86-4cc4-89d9-f1bde4108117")
-	)
-	(wire
-		(pts
-			(xy 20.32 134.62) (xy 20.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3af91d0-a5b8-4a99-b19a-31d5f4b5f0e9")
 	)
 	(wire
 		(pts
@@ -3905,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 102.87 130.81)
+			(xy 104.14 127) (xy 104.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3915,7 +3747,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 135.89) (xy 97.79 135.89)
+			(xy 74.93 135.89) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3757,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 93.98 127)
+			(xy 53.34 127) (xy 95.25 127)
 		)
 		(stroke
 			(width 0)
@@ -3935,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 140.97) (xy 97.79 140.97)
+			(xy 85.09 140.97) (xy 99.06 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3965,7 +3797,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 143.51) (xy 67.31 128.27)
+			(xy 68.58 143.51) (xy 68.58 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3985,23 +3817,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 128.27) (xy 73.66 128.27)
+			(xy 68.58 128.27) (xy 74.93 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d599a47d-9863-4874-aae2-3835db4c340a")
-	)
-	(wire
-		(pts
-			(xy 113.03 129.54) (xy 113.03 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c8013f-47f2-4700-942b-3901c172f009")
 	)
 	(wire
 		(pts
@@ -4015,17 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 134.62) (xy 59.69 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc98fe19-ba88-453b-814d-3ec59e889e6a")
-	)
-	(wire
-		(pts
-			(xy 34.29 134.62) (xy 44.45 134.62)
+			(xy 35.56 134.62) (xy 45.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4085,16 +3897,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 127) (xy 24.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e516f34f-f727-48a7-9882-f9645201597b")
-	)
-	(wire
-		(pts
 			(xy 205.74 144.78) (xy 205.74 139.7)
 		)
 		(stroke
@@ -4105,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 120.65) (xy 20.32 121.92)
+			(xy 21.59 120.65) (xy 21.59 127)
 		)
 		(stroke
 			(width 0)
@@ -4135,13 +3937,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 127) (xy 20.32 123.19)
+			(xy 114.3 129.54) (xy 114.3 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc06b369-3726-4585-b7c7-465da509c53e")
+		(uuid "fab58272-4048-417f-8b00-ebcbfa649878")
 	)
 	(wire
 		(pts
@@ -4155,7 +3957,7 @@
 	)
 	(global_label "TS+"
 		(shape input)
-		(at 83.82 113.03 180)
+		(at 85.09 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4165,7 +3967,7 @@
 		)
 		(uuid "1017840d-cdd8-4978-831b-4a421e168146")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0853 113.03 0)
+			(at 78.3553 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4001,7 @@
 	)
 	(global_label "HVPACK-"
 		(shape input)
-		(at 34.29 151.13 180)
+		(at 35.56 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4209,7 +4011,7 @@
 		)
 		(uuid "508bfe48-b086-4653-805d-9d61b3f94824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.4147 151.13 0)
+			(at 23.6847 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4089,7 @@
 	)
 	(global_label "HVPACK+"
 		(shape input)
-		(at 44.45 113.03 180)
+		(at 45.72 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4297,7 +4099,7 @@
 		)
 		(uuid "b4664959-fd2b-4fa3-a836-512ae9185b45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5747 113.03 0)
+			(at 33.8447 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4111,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 132.08 0)
+		(at 74.93 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4317,7 +4119,7 @@
 		(dnp no)
 		(uuid "0ce0bf77-64c0-42b6-891f-b068e9fb5b3e")
 		(property "Reference" "R4"
-			(at 76.2 130.8099 0)
+			(at 77.47 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4128,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 76.2 133.3499 0)
+			(at 77.47 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4137,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 71.882 132.08 90)
+			(at 73.152 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4155,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4164,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4173,7 @@
 			)
 		)
 		(property "Name" "22k Resistor"
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4182,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4191,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4200,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4209,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4218,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 73.66 132.08 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4243,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 44.45 116.84 0)
+		(at 45.72 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4450,7 +4252,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f13a631-0534-46bf-9d4a-fcc5622625e6")
 		(property "Reference" "R12"
-			(at 46.99 115.5699 0)
+			(at 48.26 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4261,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 46.99 118.1099 0)
+			(at 48.26 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,8 +4269,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 45.466 117.094 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical"
+			(at 46.736 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4288,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4297,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4306,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4315,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4324,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 44.45 116.84 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4349,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 147.32 0)
+		(at 68.58 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +4358,7 @@
 		(fields_autoplaced yes)
 		(uuid "23ef3e81-6743-45fb-8732-b71b1c892572")
 		(property "Reference" "R3"
-			(at 69.85 146.0499 0)
+			(at 71.12 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4367,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 69.85 148.5899 0)
+			(at 71.12 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 65.532 147.32 90)
+			(at 66.802 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4403,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4412,7 @@
 			)
 		)
 		(property "Name" "2k Resistor"
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4421,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4430,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4439,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4448,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4457,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 67.31 147.32 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4708,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 21.59 127 0)
+		(at 21.59 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4914,7 +4716,7 @@
 		(dnp no)
 		(uuid "31777959-0ad4-4433-9a16-d3d7140f5f3a")
 		(property "Reference" "C6"
-			(at 23.114 129.54 0)
+			(at 24.384 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4725,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 23.114 132.08 0)
+			(at 24.384 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4734,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 22.5552 130.81 0)
+			(at 22.5552 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4752,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4761,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4770,7 @@
 			)
 		)
 		(property "Name" "1u Cap"
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4779,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4788,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4797,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +4806,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4815,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 21.59 127 0)
+			(at 21.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 53.34 116.84 0)
+		(at 54.61 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5047,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "325cd739-13d6-44a2-a3f9-01d161560add")
 		(property "Reference" "R11"
-			(at 55.88 115.5699 0)
+			(at 57.15 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +4858,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 55.88 118.1099 0)
+			(at 57.15 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,8 +4866,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 54.356 117.094 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical"
+			(at 55.626 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +4876,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +4885,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +4894,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +4903,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +4912,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +4921,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 53.34 116.84 0)
+			(at 54.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +4946,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 130.81 0)
+		(at 53.34 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5152,7 +4954,7 @@
 		(dnp no)
 		(uuid "472a9da5-b241-4326-9e64-0da5b021800c")
 		(property "Reference" "R16"
-			(at 53.34 129.54 0)
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +4963,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 53.34 132.08 0)
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 50.292 130.81 90)
+			(at 51.562 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +4981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +4990,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +4999,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5008,7 @@
 			)
 		)
 		(property "Name" "220 Resistor"
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5017,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5026,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5035,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5044,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5053,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 52.07 130.81 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 124.46 0)
+		(at 68.58 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5285,7 +5087,7 @@
 		(fields_autoplaced yes)
 		(uuid "49d538a1-f714-45dd-a936-96ece0af2119")
 		(property "Reference" "R1"
-			(at 69.85 123.1899 0)
+			(at 71.12 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5096,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 69.85 125.7299 0)
+			(at 71.12 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 68.326 124.714 90)
+			(at 69.596 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5114,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5123,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5132,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5141,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5150,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5159,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 67.31 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5184,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 138.43 0)
+		(at 95.25 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5390,7 +5192,7 @@
 		(dnp no)
 		(uuid "527e6b65-5dc1-46fa-a33e-98c9583ad582")
 		(property "Reference" "C7"
-			(at 96.774 137.16 0)
+			(at 98.044 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5201,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 96.774 139.7 0)
+			(at 98.044 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5210,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 94.9452 142.24 0)
+			(at 96.2152 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5228,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5237,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBCNNNC/3886675"
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5246,7 @@
 			)
 		)
 		(property "Name" "0.1u Cap"
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5255,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5264,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5273,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5282,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5291,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 93.98 138.43 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,138 +5309,6 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 59.69 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "615595ba-34e5-413f-8c0c-28512afe0e32")
-		(property "Reference" "C5"
-			(at 62.484 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 62.484 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 60.6552 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBCNNNC/3886675"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "0.1u Cap"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Watt" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Wattage" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0c1736d-b9cc-46a9-88f3-9467adf13fb4")
-		)
-		(pin "1"
-			(uuid "3d956c99-0c56-4861-8ade-14e5146e060e")
-		)
-		(instances
-			(project ""
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5455,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM2904")
-		(at 105.41 138.43 0)
+		(at 106.68 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5794,7 +5464,7 @@
 		(fields_autoplaced yes)
 		(uuid "74974e98-2beb-4380-b750-e7f77a9f45f2")
 		(property "Reference" "U1"
-			(at 105.41 128.27 0)
+			(at 106.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5472,7 @@
 			)
 		)
 		(property "Value" "LM2904"
-			(at 105.41 130.81 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5480,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +5489,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +5498,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5507,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5516,7 @@
 			)
 		)
 		(property "Name" "Comparator"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 139.7 0)
+		(at 74.93 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5898,7 +5568,7 @@
 		(fields_autoplaced yes)
 		(uuid "82a3d355-ae32-4f3d-bff1-0c6ae804832c")
 		(property "Reference" "R5"
-			(at 76.2 138.4299 0)
+			(at 77.47 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5577,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 76.2 140.9699 0)
+			(at 77.47 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5586,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 71.882 139.7 90)
+			(at 73.152 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5604,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +5613,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +5622,7 @@
 			)
 		)
 		(property "Name" "100k Resistor"
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5631,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5640,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +5649,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5658,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5667,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 73.66 139.7 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +5692,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 83.82 129.54 0)
+		(at 85.09 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6031,7 +5701,7 @@
 		(fields_autoplaced yes)
 		(uuid "9819c40b-2a78-4847-b9f3-0f18557e80b6")
 		(property "Reference" "R8"
-			(at 86.36 128.2699 0)
+			(at 87.63 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +5710,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 86.36 130.8099 0)
+			(at 87.63 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +5719,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 84.836 129.794 90)
+			(at 86.106 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +5728,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +5737,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +5746,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +5755,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +5764,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +5773,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 83.82 129.54 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +5798,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LR8N3-G")
-		(at 34.29 127 0)
+		(at 35.56 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +5807,7 @@
 		(fields_autoplaced yes)
 		(uuid "a382ef39-6ddb-4580-9f24-3012392ac88d")
 		(property "Reference" "U4"
-			(at 34.29 119.38 0)
+			(at 35.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +5815,7 @@
 			)
 		)
 		(property "Value" "LR8N3-G"
-			(at 34.29 121.92 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +5823,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 34.29 125.73 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.supertex.com/pdf/datasheets/LR8.pdf"
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +5841,7 @@
 			)
 		)
 		(property "Description" "30mA 450V High-Voltage Linear Regulator (Adjustable), TO-92"
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +5850,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/microchip-technology/LR8N3-G/4902368"
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +5859,7 @@
 			)
 		)
 		(property "Name" "Linear Voltage Regulator"
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +5868,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +5877,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +5886,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +5895,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +5904,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 34.29 127 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +5932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 147.32 0)
+		(at 85.09 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6271,7 +5941,7 @@
 		(fields_autoplaced yes)
 		(uuid "acf8c244-a06b-458c-8553-45376546f940")
 		(property "Reference" "R13"
-			(at 86.36 146.0499 0)
+			(at 87.63 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +5950,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 86.36 148.5899 0)
+			(at 87.63 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +5959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 82.042 147.32 90)
+			(at 83.312 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +5968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +5977,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +5986,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +5995,7 @@
 			)
 		)
 		(property "Name" "2k Resistor"
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6004,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6013,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6022,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6031,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6040,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 83.82 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +6216,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM2904")
-		(at 105.41 138.43 0)
+		(at 106.68 138.43 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6555,7 +6225,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba602d73-b6ab-4463-bd04-560447f44a39")
 		(property "Reference" "U1"
-			(at 104.14 137.1599 0)
+			(at 105.41 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6235,7 @@
 			)
 		)
 		(property "Value" "LM2904"
-			(at 104.14 139.6999 0)
+			(at 105.41 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6245,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6254,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6263,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6272,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6281,7 @@
 			)
 		)
 		(property "Name" "Comparator"
-			(at 105.41 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 116.84 0)
+		(at 68.58 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6663,7 +6333,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd62623f-1fca-4584-8eca-e6457445326e")
 		(property "Reference" "R2"
-			(at 69.85 115.5699 0)
+			(at 71.12 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6342,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 69.85 118.1099 0)
+			(at 71.12 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6351,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 68.326 117.094 90)
+			(at 69.596 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6360,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6369,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6378,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6387,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6396,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6405,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 67.31 116.84 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 138.43 0)
+		(at 35.56 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7004,7 +6674,7 @@
 		(dnp no)
 		(uuid "daab6eff-39a6-47d3-a5c1-7291d8da7b5c")
 		(property "Reference" "R14"
-			(at 35.56 137.16 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +6683,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 35.56 139.7 0)
+			(at 36.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +6692,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 32.512 138.43 90)
+			(at 33.782 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +6701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6710,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +6719,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +6728,7 @@
 			)
 		)
 		(property "Name" "22k Resistor"
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +6737,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +6746,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +6755,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +6764,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +6773,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 34.29 138.43 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +6936,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 130.81 0)
+		(at 45.72 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7274,7 +6944,7 @@
 		(dnp no)
 		(uuid "dc8693d9-b067-4394-8ce7-f2cd2fe26676")
 		(property "Reference" "R15"
-			(at 45.72 129.54 0)
+			(at 46.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +6953,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 45.72 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +6962,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 42.672 130.81 90)
+			(at 43.942 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +6971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +6980,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +6989,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +6998,7 @@
 			)
 		)
 		(property "Name" "2.2k Resistor"
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7007,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7016,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7025,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7034,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7043,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 44.45 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 147.32 0)
+		(at 74.93 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7539,7 +7209,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddcf3e17-e0a9-4b83-a2d4-60adc96d000a")
 		(property "Reference" "R6"
-			(at 76.2 146.0499 0)
+			(at 77.47 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7218,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 76.2 148.5899 0)
+			(at 77.47 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7227,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 71.882 147.32 90)
+			(at 73.152 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7245,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7254,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7263,7 @@
 			)
 		)
 		(property "Name" "100k Resistor"
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7272,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7281,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7290,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7299,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7308,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +7603,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 83.82 137.16 0)
+		(at 85.09 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7942,7 +7612,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeaa6965-543e-4491-8dcf-8776ff3c172b")
 		(property "Reference" "R7"
-			(at 86.36 135.8899 0)
+			(at 87.63 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7621,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 86.36 138.4299 0)
+			(at 87.63 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7630,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
-			(at 84.836 137.414 90)
+			(at 86.106 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7639,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7648,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7657,7 @@
 			)
 		)
 		(property "Watt" ""
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7666,7 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +7675,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +7684,7 @@
 			)
 		)
 		(property "Name" "100k Resistor 2W"
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
