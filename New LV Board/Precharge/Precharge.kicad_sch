@@ -4657,7 +4657,7 @@
 		(at 36.83 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4680,7 +4680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 36.83 153.67 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 		(at 87.63 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5820,7 +5820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 87.63 109.22 0)
 			(effects
 				(font
@@ -6346,7 +6346,7 @@
 		(at 48.26 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6369,7 +6369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 48.26 110.49 0)
 			(effects
 				(font
