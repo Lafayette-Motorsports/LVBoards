@@ -5,7 +5,7 @@
 	(uuid "99e1f855-54eb-435b-b064-69873828d7da")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Comparator:LM2903"
+		(symbol "Amplifier_Operational:LM2904"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,19 +13,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "LM2903"
-				(at 6.35 -3.81 0)
+			(property "Value" "LM2904"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -37,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cmp open collector"
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2903_1_1"
+			(symbol "LM2904_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -92,19 +94,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin input line
@@ -143,7 +132,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -162,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "LM2903_2_1"
+			(symbol "LM2904_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -173,19 +162,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin input line
@@ -224,7 +200,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -243,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "LM2903_3_1"
+			(symbol "LM2904_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -686,48 +662,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 8.89 0)
+			(property "Reference" "R"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Optocoupler"
-				(at 0 6.35 0)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-4_4.55x3.7mm_P2.54mm"
-				(at -5.08 -5.08 0)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-B-TA-VG/2675688"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -736,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -745,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -754,21 +724,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Optocoupler_DC_PhotoNPN_AKEC_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type background)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -780,19 +748,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -804,19 +760,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -828,7 +772,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -840,67 +784,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -911,10 +795,10 @@
 					)
 				)
 			)
-			(symbol "Optocoupler_DC_PhotoNPN_AKEC_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -931,8 +815,8 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -940,7 +824,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -948,10 +832,1048 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Precharge:G3VM-61G2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 13.6525 6.0325 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "G3VM-61G2"
+				(at 20.32 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "G-SOP4_OMR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "G3VM-61G2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "G3VM-61G2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "G-SOP4_OMR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G3VM-61G2_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 7.62 -11.43)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -11.43) (xy 20.32 -11.43)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -4.7625) (xy 8.89 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -4.7625) (xy 9.525 -4.7625)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -5.3975) (xy 9.525 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 8.89 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.3975) (xy 9.525 -4.7625)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -4.7625) (xy 8.89 -5.3975) (xy 8.255 -4.7625)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -4.7625) (xy 10.795 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.3975) (xy 10.795 -6.0325)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -5.3975) (xy 10.795 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -5.715) (xy 11.43 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -6.0325) (xy 10.795 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.1125 -5.715) (xy 11.43 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.1125 -5.715) (xy 11.43 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.1125 -5.715) (xy 11.43 -5.3975) (xy 11.43 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.1125 -6.35) (xy 11.43 -6.0325)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.1125 -6.35) (xy 11.43 -6.0325) (xy 11.43 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.715) (xy 10.795 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.715) (xy 11.43 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -6.0325) (xy 11.43 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -6.35) (xy 11.1125 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.3825 -1.5875) (xy 12.3825 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.6525 -1.5875) (xy 12.3825 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.6525 -2.8575) (xy 13.6525 -0.3175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.6525 -7.3025) (xy 13.6525 -9.8425)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.6525 -8.5725) (xy 12.3825 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 0.635) (xy 14.605 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -1.5875) (xy 15.24 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -1.5875) (xy 15.24 -1.905) (xy 15.24 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -1.905) (xy 14.605 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -2.54) (xy 14.605 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -7.62) (xy 14.605 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -8.255) (xy 14.605 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -8.5725) (xy 15.24 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -8.5725) (xy 15.24 -8.255) (xy 15.24 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -10.16) (xy 15.24 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -10.795) (xy 14.605 -9.525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 15.24 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.5875) (xy 15.24 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.905) (xy 14.605 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -8.255) (xy 14.605 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -8.5725) (xy 15.24 -8.255)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -8.89) (xy 15.24 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -1.5875) (xy 15.24 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -3.175) (xy 14.605 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 15.875 -3.175)
+					(radius 0.1524)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -6.985) (xy 14.605 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -6.985) (xy 15.875 -1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -6.985) (xy 15.875 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 15.875 -6.985)
+					(radius 0.1524)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -8.5725) (xy 15.24 -8.5725)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.27) (xy 17.78 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.905) (xy 17.78 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.905) (xy 17.78 -1.905) (xy 17.145 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -8.255) (xy 17.78 -8.255)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -8.255) (xy 17.78 -8.255) (xy 17.145 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -8.89) (xy 17.78 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 0) (xy 17.145 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 17.145 0)
+					(radius 0.1524)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -1.27) (xy 16.51 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -1.905) (xy 17.145 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -3.175) (xy 15.875 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -6.985) (xy 15.875 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -8.255) (xy 17.145 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -8.89) (xy 16.51 -8.255)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -10.16) (xy 17.145 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 17.145 -10.16)
+					(radius 0.1524)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -1.905) (xy 17.145 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -8.255) (xy 17.145 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 1.27) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -10.16) (xy 15.24 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -11.43) (xy 20.32 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 0 180)
+					(length 7.62)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -966,17 +1888,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 27.94 -10.16 180)
+					(length 7.62)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2172,8 +3094,8 @@
 		)
 	)
 	(rectangle
-		(start 17.78 91.44)
-		(end 121.92 157.48)
+		(start 17.78 106.68)
+		(end 129.54 157.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -2184,8 +3106,8 @@
 		(uuid 16838376-cb2a-4f31-bf01-5bd01f7aec49)
 	)
 	(rectangle
-		(start 121.92 91.44)
-		(end 195.58 157.48)
+		(start 129.54 106.68)
+		(end 231.14 157.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -2196,176 +3118,224 @@
 		(uuid 95010e7b-9815-401e-8e8a-434eb6321581)
 	)
 	(junction
-		(at 35.56 130.81)
+		(at 34.29 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00e7f665-957e-455e-a03c-3c7bda829f6b")
 	)
 	(junction
-		(at 129.54 139.7)
+		(at 21.59 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15f8fa7d-683b-4c68-b1c3-2987a8046a8d")
+		(uuid "0a40d323-6d8b-4356-ae11-c8e5ba82d9b0")
 	)
 	(junction
-		(at 54.61 109.22)
+		(at 142.24 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "21533478-e3f4-480c-98e0-a07678d32c01")
+		(uuid "0b933a1e-e7a8-434f-b26b-6a365d0a9f98")
 	)
 	(junction
-		(at 74.93 147.32)
+		(at 73.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "216e3f15-28a7-4ce8-84dd-77d01f43906e")
 	)
 	(junction
-		(at 135.89 107.95)
+		(at 20.32 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220230ca-daea-4164-959f-a1bf0c0ea920")
+	)
+	(junction
+		(at 170.18 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2621bd6a-3179-42cd-961d-128a6b5d6105")
 	)
 	(junction
-		(at 45.72 123.19)
+		(at 21.59 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44bcacbb-795a-4898-8153-ed18ba4a3302")
+		(uuid "27505a8f-2a07-4ede-832b-37599db0aa50")
 	)
 	(junction
-		(at 162.56 118.11)
+		(at 152.4 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44daed6f-af0d-40b8-9031-82ff6c79a80a")
+		(uuid "353cda83-5074-4eeb-b073-b252cb2a5199")
 	)
 	(junction
-		(at 85.09 147.32)
+		(at 67.31 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52dc45bf-3ce6-451b-ba59-7069fe85da27")
-	)
-	(junction
-		(at 133.35 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e41413c-4995-401b-a4a9-3e460816e7c0")
-	)
-	(junction
-		(at 60.96 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661e82b0-cd89-46a9-8d68-6995e335f6c5")
-	)
-	(junction
-		(at 68.58 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b18b549-35e7-4333-822c-2044a73e85fa")
-	)
-	(junction
-		(at 53.34 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77658275-78bb-488e-beec-4560532a1ec4")
-	)
-	(junction
-		(at 148.59 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d112237-2b29-4435-9e45-c7ae48b9bf0c")
-	)
-	(junction
-		(at 60.96 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0d3c98b-269f-40ac-9506-4b5c8c47b8bb")
-	)
-	(junction
-		(at 45.72 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbec9aa6-20af-4c22-95c4-fc2a62ad5124")
+		(uuid "3857abce-680c-49e1-8907-a39c784cac2b")
 	)
 	(junction
 		(at 21.59 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "3970e77c-df4c-4afd-ac00-591b65cc094f")
+	)
+	(junction
+		(at 53.34 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4328ab93-570a-4199-a42d-c7b6ef9e8512")
+	)
+	(junction
+		(at 44.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44bcacbb-795a-4898-8153-ed18ba4a3302")
+	)
+	(junction
+		(at 196.85 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44daed6f-af0d-40b8-9031-82ff6c79a80a")
+	)
+	(junction
+		(at 52.07 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db9ccb3-d8b6-476e-ba72-b5542d181c91")
+	)
+	(junction
+		(at 44.45 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d0b23d-6ecc-4872-8125-9019f1bdabd8")
+	)
+	(junction
+		(at 167.64 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e41413c-4995-401b-a4a9-3e460816e7c0")
+	)
+	(junction
+		(at 59.69 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661e82b0-cd89-46a9-8d68-6995e335f6c5")
+	)
+	(junction
+		(at 67.31 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b18b549-35e7-4333-822c-2044a73e85fa")
+	)
+	(junction
+		(at 182.88 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d112237-2b29-4435-9e45-c7ae48b9bf0c")
+	)
+	(junction
+		(at 21.59 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f77503-6933-4faf-adf0-9649ca270070")
+	)
+	(junction
+		(at 59.69 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d3c98b-269f-40ac-9506-4b5c8c47b8bb")
+	)
+	(junction
+		(at 44.45 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbec9aa6-20af-4c22-95c4-fc2a62ad5124")
+	)
+	(junction
+		(at 83.82 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befa19bc-7b13-44c6-8e09-b17b09c5c929")
+	)
+	(junction
+		(at 20.32 127)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "c1d4eb27-bcad-451b-a2b1-6199d1eb4972")
 	)
 	(junction
-		(at 129.54 118.11)
+		(at 163.83 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a75d87-b444-412d-b377-54d376eda97a")
 	)
 	(junction
-		(at 166.37 102.87)
+		(at 200.66 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c97e98fc-3ef3-4353-883c-a0fcc8c0c2b8")
 	)
 	(junction
-		(at 104.14 147.32)
+		(at 102.87 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9f54d00-23af-4382-ae63-2bd0b775b3e8")
 	)
 	(junction
-		(at 45.72 116.84)
+		(at 20.32 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d91dd92c-6c1a-4556-953c-9959262b60e2")
+		(uuid "cb79ff61-170a-43f6-857f-dcb791ad1ffd")
 	)
 	(junction
-		(at 134.62 124.46)
+		(at 83.82 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0175ef-a8a8-4a08-91b5-dccb40b451c5")
+	)
+	(junction
+		(at 73.66 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7cbba5-5a15-4163-b1e5-f623df44e40f")
+	)
+	(junction
+		(at 168.91 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e37a8e2c-0d47-4a61-a286-02ae59b88698")
 	)
 	(junction
-		(at 95.25 123.19)
+		(at 93.98 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b550b2-a128-4b5d-9e59-c1ade4fd5781")
 	)
 	(junction
-		(at 68.58 124.46)
+		(at 163.83 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4d04735-955c-40c8-bdb9-e52d8fac03c2")
+		(uuid "ea6fe991-64c1-4a6d-9bac-25f264e4a89f")
 	)
 	(junction
-		(at 85.09 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5791a5b-8f5b-4e85-ac99-5e148d1abd42")
-	)
-	(junction
-		(at 95.25 147.32)
+		(at 93.98 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57a5fb9-c69f-4e14-9bb0-daae0806129a")
 	)
-	(junction
-		(at 74.93 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff5583de-01e5-4974-9ecc-f14677216a14")
+	(no_connect
+		(at 100.33 173.99)
+		(uuid "71b33a3b-dec7-4ebc-937b-ee47bfdbd39e")
 	)
 	(no_connect
-		(at 99.06 162.56)
-		(uuid "23a0367e-4708-4f1c-89d1-7f62b2df55d3")
+		(at 100.33 168.91)
+		(uuid "7f4fb50c-08ca-4a66-9203-9caf37113204")
 	)
 	(no_connect
-		(at 114.3 160.02)
-		(uuid "29593fac-26a4-461d-bcb9-7299aea84866")
-	)
-	(no_connect
-		(at 99.06 157.48)
-		(uuid "bbc9dd24-c0a7-4846-b320-58f5329498cc")
+		(at 115.57 171.45)
+		(uuid "a85425c1-05ea-455a-a200-8335988b05c7")
 	)
 	(wire
 		(pts
-			(xy 45.72 109.22) (xy 54.61 109.22)
+			(xy 44.45 113.03) (xy 53.34 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 138.43) (xy 95.25 147.32)
+			(xy 93.98 142.24) (xy 93.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2385,17 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 109.22) (xy 68.58 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1231862a-7af4-4d50-87eb-7ab49cac461a")
-	)
-	(wire
-		(pts
-			(xy 35.56 147.32) (xy 60.96 147.32)
+			(xy 34.29 151.13) (xy 59.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 95.25 130.81)
+			(xy 93.98 127) (xy 93.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 130.81) (xy 53.34 130.81)
+			(xy 44.45 134.62) (xy 52.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 135.89 107.95)
+			(xy 166.37 134.62) (xy 170.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +3395,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 113.03) (xy 135.89 113.03)
+			(xy 20.32 123.19) (xy 21.59 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7bac65-c3cf-4439-8456-a80f1a0cf050")
+	)
+	(wire
+		(pts
+			(xy 152.4 151.13) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2779163f-2d9b-4ab3-8636-475c697d4456")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 170.18 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 35.56 147.32)
+			(xy 34.29 142.24) (xy 34.29 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 173.99 102.87)
+			(xy 208.28 139.7) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 147.32) (xy 95.25 147.32)
+			(xy 73.66 151.13) (xy 83.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +3455,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 166.37 102.87)
+			(xy 52.07 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4a3f64-8a3e-4ec4-978e-0a7fb2845ab5")
+	)
+	(wire
+		(pts
+			(xy 208.28 129.54) (xy 200.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2485,17 +3475,27 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 123.19) (xy 25.4 123.19)
+			(xy 21.59 120.65) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3076e79b-f926-4575-8200-1a3cb980e802")
+		(uuid "33902aaa-491d-4755-bc44-27770d4ac0af")
 	)
 	(wire
 		(pts
-			(xy 21.59 130.81) (xy 35.56 130.81)
+			(xy 21.59 121.92) (xy 21.59 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a900bf-537c-47b2-b02d-893884ca56c3")
+	)
+	(wire
+		(pts
+			(xy 20.32 134.62) (xy 34.29 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 60.96 123.19)
+			(xy 44.45 127) (xy 52.07 127)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32) (xy 104.14 147.32)
+			(xy 113.03 151.13) (xy 102.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +3525,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 132.08 118.11)
+			(xy 142.24 147.32) (xy 142.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc10cd3-3272-468e-b35b-ae28ad825dbb")
+	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 166.37 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 134.62 124.46)
+			(xy 163.83 151.13) (xy 168.91 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +3555,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 118.11) (xy 171.45 118.11)
+			(xy 20.32 127) (xy 21.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc57ae4-1dd2-41a2-864c-1d43a83ec96f")
+	)
+	(wire
+		(pts
+			(xy 196.85 144.78) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2555,17 +3575,27 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 147.32) (xy 74.93 147.32)
+			(xy 44.45 120.65) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56a3cd66-78b6-4d07-ad99-924d742a454e")
+		(uuid "4e16e359-395c-42dd-9fe5-bd0285cdcae6")
 	)
 	(wire
 		(pts
-			(xy 148.59 124.46) (xy 148.59 123.19)
+			(xy 142.24 151.13) (xy 152.4 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579f5e22-edda-4d4b-9a6b-e9447d38477f")
+	)
+	(wire
+		(pts
+			(xy 182.88 151.13) (xy 182.88 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +3605,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 104.14 123.19)
+			(xy 152.4 151.13) (xy 152.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b04c3fd-5c03-4d91-9729-157d1bd420a5")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 102.87 127)
 		)
 		(stroke
 			(width 0)
@@ -2585,17 +3625,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 54.61 116.84)
+			(xy 20.32 123.19) (xy 20.32 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d8e80db-7e87-4f95-bceb-802f62ba4b50")
+		(uuid "6422536d-8420-4436-84c7-8a2a5c6f3c45")
 	)
 	(wire
 		(pts
-			(xy 60.96 147.32) (xy 68.58 147.32)
+			(xy 113.03 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6561da96-e8c8-41de-906e-b3ead0d5286d")
+	)
+	(wire
+		(pts
+			(xy 59.69 151.13) (xy 67.31 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 109.22) (xy 85.09 121.92)
+			(xy 83.82 113.03) (xy 83.82 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 147.32) (xy 68.58 147.32)
+			(xy 73.66 151.13) (xy 67.31 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 102.87) (xy 182.88 127)
+			(xy 213.36 129.54) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +3685,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 133.35 102.87)
+			(xy 113.03 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7556eb03-a0a5-4334-a8d7-58c0b1ea3a32")
+	)
+	(wire
+		(pts
+			(xy 83.82 151.13) (xy 93.98 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b48037-927d-49fd-8257-2d4161c5d179")
+	)
+	(wire
+		(pts
+			(xy 163.83 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 137.16) (xy 85.09 139.7)
+			(xy 83.82 140.97) (xy 83.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 114.3 147.32)
+			(xy 113.03 139.7) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 104.14 147.32)
+			(xy 102.87 146.05) (xy 102.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2675,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 147.32) (xy 104.14 147.32)
+			(xy 93.98 151.13) (xy 102.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +3755,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 118.11) (xy 132.08 107.95)
+			(xy 20.32 121.92) (xy 21.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82888519-0dee-4a93-a01d-f37b7ce156cb")
+	)
+	(wire
+		(pts
+			(xy 166.37 144.78) (xy 166.37 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +3775,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 127) (xy 129.54 127)
+			(xy 21.59 127) (xy 21.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc024e2-6954-46d9-8612-e6786de1dd40")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 142.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +3795,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 166.37 105.41)
+			(xy 21.59 120.65) (xy 21.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904a9c4e-fb38-4345-83b9-3e13a5f01004")
+	)
+	(wire
+		(pts
+			(xy 200.66 129.54) (xy 200.66 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +3815,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 148.59 124.46)
+			(xy 144.78 139.7) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977d75e4-6328-456b-ba0b-8509dc6fba95")
+	)
+	(wire
+		(pts
+			(xy 168.91 151.13) (xy 182.88 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 118.11) (xy 161.29 118.11)
+			(xy 196.85 144.78) (xy 195.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2735,7 +3845,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 162.56 118.11)
+			(xy 20.32 120.65) (xy 21.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6509826-45dc-40e5-8d51-72a37a1806ee")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 196.85 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 148.59 102.87)
+			(xy 167.64 129.54) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2755,7 +3875,27 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 148.59 102.87)
+			(xy 53.34 113.03) (xy 67.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac230c38-1a86-4cc4-89d9-f1bde4108117")
+	)
+	(wire
+		(pts
+			(xy 20.32 134.62) (xy 20.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3af91d0-a5b8-4a99-b19a-31d5f4b5f0e9")
+	)
+	(wire
+		(pts
+			(xy 200.66 129.54) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2765,27 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 123.19) (xy 53.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b663e907-5d96-4a37-b253-7c96cc25b521")
-	)
-	(wire
-		(pts
-			(xy 179.07 102.87) (xy 182.88 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b88063b8-d642-4e6a-914f-e93d0ed61902")
-	)
-	(wire
-		(pts
-			(xy 104.14 123.19) (xy 104.14 127)
+			(xy 102.87 127) (xy 102.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 132.08) (xy 99.06 132.08)
+			(xy 73.66 135.89) (xy 97.79 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2805,17 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 147.32) (xy 148.59 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4749dcd-62a6-4437-87c1-2153be50badc")
-	)
-	(wire
-		(pts
-			(xy 60.96 123.19) (xy 95.25 123.19)
+			(xy 59.69 127) (xy 93.98 127)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 137.16) (xy 99.06 137.16)
+			(xy 83.82 140.97) (xy 97.79 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +3945,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 109.22) (xy 129.54 102.87)
+			(xy 163.83 135.89) (xy 163.83 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2845,7 +3955,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 107.95) (xy 171.45 107.95)
+			(xy 195.58 134.62) (xy 205.74 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 68.58 124.46)
+			(xy 67.31 143.51) (xy 67.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 179.07 113.03)
+			(xy 208.28 139.7) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +3985,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 124.46) (xy 74.93 124.46)
+			(xy 67.31 128.27) (xy 73.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +3995,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 134.62 113.03)
+			(xy 113.03 129.54) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c8013f-47f2-4700-942b-3901c172f009")
+	)
+	(wire
+		(pts
+			(xy 168.91 146.05) (xy 168.91 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 130.81) (xy 60.96 147.32)
+			(xy 59.69 134.62) (xy 59.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2905,27 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 139.7) (xy 129.54 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de07beb6-8a7f-4079-b30e-f5fa9c28b59b")
-	)
-	(wire
-		(pts
-			(xy 148.59 144.78) (xy 148.59 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0a5124-be1d-41ac-a656-188ba6925fad")
-	)
-	(wire
-		(pts
-			(xy 35.56 130.81) (xy 45.72 130.81)
+			(xy 34.29 134.62) (xy 44.45 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 129.54 119.38)
+			(xy 163.83 144.78) (xy 163.83 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +4045,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 129.54 118.11)
+			(xy 163.83 143.51) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 135.89 118.11)
+			(xy 167.64 144.78) (xy 170.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +4065,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 110.49) (xy 162.56 110.49)
+			(xy 142.24 134.62) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d5473d-6a68-4f8f-82e4-0ddd649de77d")
+	)
+	(wire
+		(pts
+			(xy 170.18 137.16) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +4085,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 113.03)
+			(xy 21.59 127) (xy 24.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e516f34f-f727-48a7-9882-f9645201597b")
+	)
+	(wire
+		(pts
+			(xy 205.74 144.78) (xy 205.74 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +4105,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 116.84) (xy 21.59 123.19)
+			(xy 20.32 120.65) (xy 20.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 129.54 134.62)
+			(xy 142.24 124.46) (xy 142.24 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 118.11)
+			(xy 167.64 129.54) (xy 167.64 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3015,17 +4135,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 116.84) (xy 45.72 116.84)
+			(xy 20.32 127) (xy 20.32 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc35a298-4cbc-4440-b989-cfd1978b1ee6")
+		(uuid "fc06b369-3726-4585-b7c7-465da509c53e")
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 135.89 110.49)
+			(xy 170.18 134.62) (xy 170.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3035,29 +4155,29 @@
 	)
 	(global_label "TS+"
 		(shape input)
-		(at 85.09 109.22 90)
+		(at 83.82 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1017840d-cdd8-4978-831b-4a421e168146")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 102.4853 90)
+			(at 77.0853 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GLV-"
 		(shape input)
-		(at 148.59 147.32 270)
+		(at 142.24 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3067,7 +4187,7 @@
 		)
 		(uuid "4fa12f3d-159a-4253-abc3-7a92416309f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 155.2643 90)
+			(at 134.2957 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +4199,7 @@
 	)
 	(global_label "HVPACK-"
 		(shape input)
-		(at 35.56 147.32 180)
+		(at 34.29 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3089,7 +4209,7 @@
 		)
 		(uuid "508bfe48-b086-4653-805d-9d61b3f94824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.6847 147.32 0)
+			(at 22.4147 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,95 +4221,95 @@
 	)
 	(global_label "Done"
 		(shape input)
-		(at 135.89 139.7 90)
+		(at 142.24 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "55354172-4571-40d7-8f05-59a7a7ec9497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 132.0582 90)
+			(at 134.5982 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "AIR1-"
 		(shape input)
-		(at 148.59 134.62 90)
+		(at 152.4 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8674958c-c47b-4bca-9920-22906e12a000")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 125.8895 90)
+			(at 143.6695 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "TSMS+"
 		(shape input)
-		(at 129.54 102.87 90)
+		(at 163.83 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "93259dfe-0e6a-43b8-a6e2-41070aebb233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 93.4744 90)
+			(at 154.4344 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "HVPACK+"
 		(shape input)
-		(at 45.72 109.22 90)
+		(at 44.45 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b4664959-fd2b-4fa3-a836-512ae9185b45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 97.3447 90)
+			(at 32.5747 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 128.27 0)
+		(at 73.66 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3197,7 +4317,7 @@
 		(dnp no)
 		(uuid "0ce0bf77-64c0-42b6-891f-b068e9fb5b3e")
 		(property "Reference" "R4"
-			(at 77.47 126.9999 0)
+			(at 76.2 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +4326,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 77.47 129.5399 0)
+			(at 76.2 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,8 +4334,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 73.152 128.27 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 71.882 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,8 +4343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 74.93 128.27 0)
+		(property "Datasheet" ""
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +4353,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 128.27 0)
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "22k Resistor"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,8 +4440,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f13a631-0534-46bf-9d4a-fcc5622625e6")
+		(property "Reference" "R12"
+			(at 46.99 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 46.99 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 45.466 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a41e197-50b1-48bc-8d01-06f796aca619")
+		)
+		(pin "1"
+			(uuid "c3e9a90b-3887-48b2-ba6b-17ceb8494670")
+		)
+		(instances
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 68.58 143.51 0)
+		(at 67.31 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3267,7 +4556,7 @@
 		(fields_autoplaced yes)
 		(uuid "23ef3e81-6743-45fb-8732-b71b1c892572")
 		(property "Reference" "R3"
-			(at 71.12 142.2399 0)
+			(at 69.85 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +4565,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 71.12 144.7799 0)
+			(at 69.85 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,8 +4573,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 66.802 143.51 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 65.532 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,8 +4582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 68.58 143.51 0)
+		(property "Datasheet" ""
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +4592,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 143.51 0)
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "2k Resistor"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,8 +4679,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Precharge:G3VM-61G2")
+		(at 114.3 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "287e76a4-e0ca-4d71-a375-12ffe7ef7e78")
+		(property "Reference" "K1"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G3VM-61G2"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Precharge:G-SOP4_OMR"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g3vm_61g2.pdf"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/G3VM-61G2/2237542"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Optocoupler"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "86437923-a093-4ec5-a927-59b51e706fd0")
+		)
+		(pin "1"
+			(uuid "ecaea0b1-fe21-42ac-9842-ec69ab13d9fa")
+		)
+		(pin "4"
+			(uuid "4a3bd194-3a7c-408e-9b06-01ac952455e8")
+		)
+		(pin "2"
+			(uuid "0a2f8cdc-9449-4edb-b51d-c8ed0f2142ac")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 129.54 113.03 0)
+		(at 163.83 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3336,7 +4782,7 @@
 		(dnp no)
 		(uuid "2b7a0a1b-dc51-44b6-a79f-f04ad07e20a1")
 		(property "Reference" "R9"
-			(at 122.682 111.76 0)
+			(at 156.972 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +4791,7 @@
 			)
 		)
 		(property "Value" "57.6k"
-			(at 122.682 114.3 0)
+			(at 156.972 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,8 +4799,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 127.762 113.03 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 162.052 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,8 +4808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 129.54 113.03 0)
+		(property "Datasheet" ""
+			(at 163.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +4818,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 113.03 0)
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "57.6k Resistor"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 163.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +4914,7 @@
 		(dnp no)
 		(uuid "31777959-0ad4-4433-9a16-d3d7140f5f3a")
 		(property "Reference" "C6"
-			(at 24.384 125.73 0)
+			(at 23.114 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +4923,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 24.384 128.27 0)
+			(at 23.114 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +4931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 22.5552 130.81 0)
 			(effects
 				(font
@@ -3431,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
 			(at 21.59 127 0)
 			(effects
 				(font
@@ -3441,6 +4950,69 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "1u Cap"
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
 			(at 21.59 127 0)
 			(effects
 				(font
@@ -3465,106 +5037,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 106.68 134.62 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43e2773f-e68c-4e06-8da5-ed08722bc9c8")
-		(property "Reference" "U1"
-			(at 105.41 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "LM2903"
-			(at 105.41 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b8b001c8-e184-4bef-ad0d-3bab311d2941")
-		)
-		(pin "8"
-			(uuid "14a0e3c0-02f1-4719-9cf6-b254c012383b")
-		)
-		(pin "2"
-			(uuid "c240265f-3f5f-4629-9fda-91d320a5f969")
-		)
-		(pin "5"
-			(uuid "4eca17c0-c0e4-46fa-9116-d4dff10fcc14")
-		)
-		(pin "3"
-			(uuid "0f9718e0-cb41-4d8b-92be-1b36fb73d517")
-		)
-		(pin "1"
-			(uuid "b2388352-814a-4004-a81d-a23b9b59ad74")
-		)
-		(pin "6"
-			(uuid "f6e6a77d-ca7b-45c7-94df-3b02674a130e")
-		)
-		(pin "7"
-			(uuid "9602d569-c86c-4020-b1e0-1c5cca78b0fe")
-		)
-		(instances
-			(project ""
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 113.03 0)
+		(lib_id "Device:R_US")
+		(at 53.34 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b5bec77-b652-475d-a131-4da91fa39c3c")
-		(property "Reference" "R18"
-			(at 56.388 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "325cd739-13d6-44a2-a3f9-01d161560add")
+		(property "Reference" "R11"
+			(at 55.88 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +5056,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 56.388 113.03 0)
+			(at 55.88 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,8 +5064,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 52.832 113.03 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 54.356 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,8 +5073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 54.61 113.03 0)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 53.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,8 +5082,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 54.61 113.03 0)
+		(property "Description" "Resistor, US symbol"
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 53.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,15 +5128,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d5d257b-ad72-4aea-aefd-e85dc30043de")
+			(uuid "8fa05708-c70a-4e05-b1b0-ea540556bced")
 		)
 		(pin "1"
-			(uuid "a488beef-816d-4610-a5d7-f5b533f7f6ce")
+			(uuid "2406dc1c-e312-4ee3-b828-65f0e06081ef")
 		)
 		(instances
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3625,16 +5144,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 113.03 0)
+		(at 52.07 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ebaa84b-ecea-4fb9-b454-4cb078f1cd1a")
-		(property "Reference" "R1"
-			(at 71.12 111.7599 0)
+		(uuid "472a9da5-b241-4326-9e64-0da5b021800c")
+		(property "Reference" "R16"
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,8 +5160,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 71.12 114.2999 0)
+		(property "Value" "220"
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,8 +5169,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 66.802 113.03 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 50.292 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,8 +5178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 68.58 113.03 0)
+		(property "Datasheet" ""
+			(at 52.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +5188,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 113.03 0)
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "220 Resistor"
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 52.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,13 +5260,119 @@
 			)
 		)
 		(pin "2"
-			(uuid "73d81ef7-109b-4396-aace-47fb8f048359")
+			(uuid "491ebb0e-2c47-4eed-90fa-bdb25278d037")
 		)
 		(pin "1"
-			(uuid "d0f02412-ee71-48f5-a15e-125ad62af4f0")
+			(uuid "103d5b9a-2279-4b6e-9782-17239374cabc")
 		)
 		(instances
-			(project ""
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d538a1-f714-45dd-a936-96ece0af2119")
+		(property "Reference" "R1"
+			(at 69.85 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 69.85 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 68.326 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "100de39b-ea85-423c-b8dd-cab8a36849f4")
+		)
+		(pin "1"
+			(uuid "9799f834-73ca-4d76-a8cd-2b8add80bcf3")
+		)
+		(instances
+			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R1")
 					(unit 1)
@@ -3695,7 +5382,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 134.62 0)
+		(at 93.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3703,7 +5390,7 @@
 		(dnp no)
 		(uuid "527e6b65-5dc1-46fa-a33e-98c9583ad582")
 		(property "Reference" "C7"
-			(at 98.044 133.35 0)
+			(at 96.774 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +5399,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 98.044 135.89 0)
+			(at 96.774 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,8 +5407,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.2152 138.43 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 94.9452 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,8 +5416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 134.62 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +5426,70 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 134.62 0)
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBCNNNC/3886675"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "0.1u Cap"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +5514,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 127 0)
+		(at 59.69 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +5522,7 @@
 		(dnp no)
 		(uuid "615595ba-34e5-413f-8c0c-28512afe0e32")
 		(property "Reference" "C5"
-			(at 63.754 125.73 0)
+			(at 62.484 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +5531,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 63.754 128.27 0)
+			(at 62.484 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,8 +5539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 61.9252 130.81 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 60.6552 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,8 +5548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 60.96 127 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
+			(at 59.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +5558,70 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 127 0)
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBCNNNC/3886675"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "0.1u Cap"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 59.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +5646,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLML5203")
-		(at 176.53 107.95 0)
+		(at 210.82 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3842,7 +5655,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c2acb60-8876-421b-bac7-6a54fa293b2c")
 		(property "Reference" "Q4"
-			(at 182.88 106.6799 0)
+			(at 217.17 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +5664,7 @@
 			)
 		)
 		(property "Value" "IRLML5203"
-			(at 182.88 109.2199 0)
+			(at 217.17 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 181.61 109.855 0)
+			(at 215.9 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d"
-			(at 181.61 111.76 0)
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +5694,70 @@
 			)
 		)
 		(property "Description" "-3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 176.53 107.95 0)
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/infineon-technologies/IRLML5203TRPBF/1928176"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "PMOS"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 210.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,34 +5784,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 53.34 127 0)
+		(lib_id "Amplifier_Operational:LM2904")
+		(at 105.41 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8185a758-c934-4a98-8217-e9d0acc6fc96")
-		(property "Reference" "R17"
-			(at 54.61 125.73 0)
+		(fields_autoplaced yes)
+		(uuid "74974e98-2beb-4380-b750-e7f77a9f45f2")
+		(property "Reference" "U1"
+			(at 105.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 54.61 128.27 0)
+		(property "Value" "LM2904"
+			(at 105.41 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 51.562 127 90)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 105.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,8 +5818,114 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 53.34 127 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Comparator"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a8")
+		)
+		(pin "8"
+			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1ead")
+		)
+		(pin "1"
+			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c89")
+		)
+		(pin "4"
+			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde60")
+		)
+		(pin "2"
+			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49d")
+		)
+		(pin "5"
+			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc078")
+		)
+		(pin "3"
+			(uuid "c21dd188-218c-48d2-8c1e-be3be9411705")
+		)
+		(pin "7"
+			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bc")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a3d355-ae32-4f3d-bff1-0c6ae804832c")
+		(property "Reference" "R5"
+			(at 76.2 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 76.2 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 71.882 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +5934,176 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 127 0)
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor"
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39b98037-7bd2-44a3-a7a8-ca8e8a789444")
+		)
+		(pin "2"
+			(uuid "06a888b4-39ef-4fdc-a9d9-3a401d1dcb1d")
+		)
+		(instances
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 83.82 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9819c40b-2a78-4847-b9f3-0f18557e80b6")
+		(property "Reference" "R8"
+			(at 86.36 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 86.36 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 84.836 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,15 +6112,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "524f3582-c7bf-424f-9762-d34a995b5633")
+			(uuid "fb1b3177-cefb-48b0-b593-5c6bf49756ad")
 		)
 		(pin "1"
-			(uuid "7ff5707e-d709-45c3-97c7-59a959d1bffa")
+			(uuid "fd37b307-2629-4c96-a936-569884de3d13")
 		)
 		(instances
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R17")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3978,7 +6128,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LR8N3-G")
-		(at 35.56 123.19 0)
+		(at 34.29 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3987,7 +6137,7 @@
 		(fields_autoplaced yes)
 		(uuid "a382ef39-6ddb-4580-9f24-3012392ac88d")
 		(property "Reference" "U4"
-			(at 35.56 115.57 0)
+			(at 34.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +6145,7 @@
 			)
 		)
 		(property "Value" "LR8N3-G"
-			(at 35.56 118.11 0)
+			(at 34.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +6153,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 35.56 121.92 0)
+			(at 34.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.supertex.com/pdf/datasheets/LR8.pdf"
-			(at 35.56 123.19 0)
+			(at 34.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +6171,70 @@
 			)
 		)
 		(property "Description" "30mA 450V High-Voltage Linear Regulator (Adjustable), TO-92"
-			(at 35.56 123.19 0)
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/microchip-technology/LR8N3-G/4902368"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Linear Voltage Regulator"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 34.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,16 +6262,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 143.51 0)
+		(at 83.82 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abbc3619-6c2b-4067-bed6-de433cb17e6e")
-		(property "Reference" "R14"
-			(at 87.63 142.2399 0)
+		(uuid "acf8c244-a06b-458c-8553-45376546f940")
+		(property "Reference" "R13"
+			(at 86.36 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +6280,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 87.63 144.7799 0)
+			(at 86.36 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,8 +6288,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 83.312 143.51 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 82.042 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,8 +6297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 85.09 143.51 0)
+		(property "Datasheet" ""
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +6307,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 143.51 0)
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "2k Resistor"
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,154 +6379,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6ea0f2d-8657-4948-a091-8f99498ab50c")
+			(uuid "277d7ff6-cbba-416f-bdaa-15d97d442def")
 		)
 		(pin "2"
-			(uuid "b2c62416-aacf-448b-a4cc-81dad36181ad")
+			(uuid "8dea1641-4b08-4719-9fe9-9231ace1db53")
 		)
 		(instances
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adfda0bb-ba44-4784-8c3d-da1d7d9c1fbe")
-		(property "Reference" "R16"
-			(at 38.1 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22k"
-			(at 38.1 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 33.782 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20896c25-f662-493d-8e8f-c6c9ecbf6001")
-		)
-		(pin "1"
-			(uuid "28fc82a0-f45c-43f5-88d7-2bef538038c0")
-		)
-		(instances
-			(project "Precharge"
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af6d509b-a591-4ed6-932a-2d0be56630e7")
-		(property "Reference" "R19"
-			(at 47.498 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 47.498 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 43.942 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 45.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cad17493-424e-4c77-858a-94aa721939b6")
-		)
-		(pin "1"
-			(uuid "f4248b99-4130-4147-905b-8b92b896914b")
-		)
-		(instances
-			(project "Precharge"
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R19")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4258,7 +6395,7 @@
 	)
 	(symbol
 		(lib_id "Timer:NE555P")
-		(at 148.59 113.03 0)
+		(at 182.88 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4267,7 +6404,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8892334-b0f7-4e00-9a8d-38454d139a75")
 		(property "Reference" "U3"
-			(at 150.7333 100.33 0)
+			(at 185.0233 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +6413,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 150.7333 102.87 0)
+			(at 185.0233 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +6422,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 165.1 123.19 0)
+			(at 199.39 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +6431,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 170.18 123.19 0)
+			(at 204.47 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +6440,70 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
-			(at 148.59 113.03 0)
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/NE555P/277057"
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "555 Timer"
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,192 +6545,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 125.73 0)
-		(unit 1)
+		(lib_id "Amplifier_Operational:LM2904")
+		(at 105.41 138.43 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9caa3f2-e15a-48af-945d-6ef1ab5e5e51")
-		(property "Reference" "R7"
-			(at 87.63 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 87.63 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 83.312 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Wattage" "2"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20b79569-134c-4a13-af40-70eae94fdb2a")
-		)
-		(pin "1"
-			(uuid "e823189c-3f16-49f4-ba9c-1708c66cb3f8")
-		)
-		(instances
-			(project "Precharge"
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0b81c82-a63f-4648-974f-7f0306dd8854")
-		(property "Reference" "R5"
-			(at 77.47 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 77.47 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 73.152 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 74.93 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "516b3555-edce-4ef5-8d3f-aa656ac797d4")
-		)
-		(pin "2"
-			(uuid "019c7554-a56d-44c9-aa5c-0c10ed24b2dc")
-		)
-		(instances
-			(project "Precharge"
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 121.92 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca0d8878-5ce3-4675-8dbd-ee10902b0456")
-		(property "Reference" "U2"
-			(at 121.92 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Optocoupler"
-			(at 121.92 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x3.7mm_P2.54mm"
-			(at 116.84 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EL3H7-B-TA-VG/2675688"
-			(at 121.92 137.16 0)
+		(uuid "ba602d73-b6ab-4463-bd04-560447f44a39")
+		(property "Reference" "U1"
+			(at 104.14 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,8 +6564,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 137.16 0)
+		(property "Value" "LM2904"
+			(at 104.14 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Comparator"
+			(at 105.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,38 +6620,50 @@
 			)
 		)
 		(pin "6"
-			(uuid "0f52b286-a079-4932-9d00-b8c0b45bef48")
+			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a8")
 		)
-		(pin "3"
-			(uuid "83400c01-cfec-43cf-9b85-0a37920f08a1")
-		)
-		(pin "4"
-			(uuid "d5e83312-3eec-412b-91c1-d4df7c6c2315")
+		(pin "8"
+			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1ead")
 		)
 		(pin "1"
-			(uuid "d5ea0c1a-b07f-4fab-82f7-a29029d40a65")
+			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c89")
+		)
+		(pin "4"
+			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde60")
+		)
+		(pin "2"
+			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49d")
+		)
+		(pin "5"
+			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc078")
+		)
+		(pin "3"
+			(uuid "c21dd188-218c-48d2-8c1e-be3be9411705")
+		)
+		(pin "7"
+			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bc")
 		)
 		(instances
 			(project ""
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "U2")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 68.58 120.65 0)
+		(lib_id "Device:R_US")
+		(at 67.31 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cad00c55-3cf9-4dc6-a22b-e6d15cb5e1ef")
+		(uuid "bd62623f-1fca-4584-8eca-e6457445326e")
 		(property "Reference" "R2"
-			(at 71.12 119.3799 0)
+			(at 69.85 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +6672,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 71.12 121.9199 0)
+			(at 69.85 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,8 +6680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 66.802 120.65 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 68.326 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,8 +6689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 68.58 120.65 0)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,8 +6698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 68.58 120.65 0)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,14 +6707,50 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8b5851d2-3779-4ddd-ad4c-e309f9bd3715")
+		(property "Watt" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "23f7cf2b-4603-4c39-a1ec-e1e5e8787e8b")
+			(uuid "bba7bfe2-bac8-417e-9d3c-e0385aab00aa")
+		)
+		(pin "1"
+			(uuid "9efcdfc9-999f-444d-b96b-0db97272764d")
 		)
 		(instances
-			(project ""
+			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R2")
 					(unit 1)
@@ -4640,35 +6759,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 133.35 0)
-		(unit 1)
+		(lib_id "Amplifier_Operational:LM2904")
+		(at 107.95 171.45 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb2c2ed4-b47b-48a4-b7d4-eda7a7c5cf39")
-		(property "Reference" "R8"
-			(at 87.63 132.0799 0)
+		(uuid "d408a4d3-7062-457d-8f05-5918c86e476a")
+		(property "Reference" "U1"
+			(at 107.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 87.63 134.6199 0)
+		(property "Value" "LM2904"
+			(at 107.95 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 83.312 133.35 90)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,8 +6793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 85.09 133.35 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,8 +6802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 85.09 133.35 0)
+		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,32 +6811,60 @@
 				(hide yes)
 			)
 		)
-		(property "Watt" "2"
-			(at 85.09 133.35 0)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2903AVQDRQ1/809727"
+			(at 107.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
+		)
+		(property "Name" "Comparator"
+			(at 107.95 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "adccc305-a576-4185-a0ac-f93d8b5811a8")
+		)
+		(pin "8"
+			(uuid "c53daae4-ad21-481b-a6ec-35f1945e1ead")
 		)
 		(pin "1"
-			(uuid "f90b9f4b-7763-4b1c-a7c2-9defcf778b59")
+			(uuid "cfbcd4f2-2eeb-44fe-b735-bb1d9b247c89")
+		)
+		(pin "4"
+			(uuid "769b5be5-dd87-45e9-9ff1-a8bc82ecde60")
 		)
 		(pin "2"
-			(uuid "d06c638a-03a5-4d92-ab0f-a88c99a84ea0")
+			(uuid "c376873c-95af-4fc4-8cc8-633f133dc49d")
+		)
+		(pin "5"
+			(uuid "2bf0d52f-23e3-4edb-a133-f58d1abbc078")
+		)
+		(pin "3"
+			(uuid "c21dd188-218c-48d2-8c1e-be3be9411705")
+		)
+		(pin "7"
+			(uuid "3463c91c-9782-41f9-9f01-4c371cbbf7bc")
 		)
 		(instances
-			(project "Precharge"
+			(project ""
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "R8")
-					(unit 1)
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 129.54 121.92 0)
+		(at 163.83 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4727,7 +6872,7 @@
 		(dnp no)
 		(uuid "d43755e6-8189-485a-ba86-53e26267064d")
 		(property "Reference" "C1"
-			(at 122.682 120.777 0)
+			(at 159.512 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +6881,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 122.682 123.317 0)
+			(at 159.512 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +6890,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 129.54 121.92 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,8 +6898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 121.92 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL10A476MQ8QRNC_Spec.pdf"
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +6908,70 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 129.54 121.92 0)
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A476MQJNNNE/3889039"
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "47u Cap"
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,17 +6995,148 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS214NW")
-		(at 146.05 139.7 0)
+		(lib_id "Device:R")
+		(at 34.29 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "daab6eff-39a6-47d3-a5c1-7291d8da7b5c")
+		(property "Reference" "R14"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 32.512 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "22k Resistor"
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eb4338b-92a5-439d-963b-3440dab470d3")
+		)
+		(pin "1"
+			(uuid "9436e63f-b502-415f-a6ab-6740a432e8db")
+		)
+		(instances
+			(project "Precharge"
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS214NW")
+		(at 149.86 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "dc4d2563-e874-41b6-8670-880326b8be29")
 		(property "Reference" "Q1"
-			(at 152.4 138.4299 0)
+			(at 149.098 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +7145,7 @@
 			)
 		)
 		(property "Value" "BSS214NW"
-			(at 152.4 140.9699 0)
+			(at 149.098 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +7154,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 151.13 141.605 0)
+			(at 154.94 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +7165,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
-			(at 151.13 143.51 0)
+			(at 154.94 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +7175,70 @@
 			)
 		)
 		(property "Description" "20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"
-			(at 146.05 139.7 0)
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.at/en/products/detail/infineon-technologies/BSS214NWH6327XTSA1/6134223"
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "NMOS"
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +7266,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 127 0)
+		(at 44.45 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4872,7 +7274,7 @@
 		(dnp no)
 		(uuid "dc8693d9-b067-4394-8ce7-f2cd2fe26676")
 		(property "Reference" "R15"
-			(at 46.99 125.73 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +7283,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 46.99 128.27 0)
+			(at 45.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,8 +7291,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 43.942 127 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 42.672 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,8 +7300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 45.72 127 0)
+		(property "Datasheet" ""
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +7310,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 127 0)
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "2.2k Resistor"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +7398,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 134.62 121.92 0)
+		(at 168.91 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4941,7 +7406,7 @@
 		(dnp no)
 		(uuid "ddb046fb-44f1-4df0-83e0-0e54bb88ba31")
 		(property "Reference" "C3"
-			(at 136.652 120.904 0)
+			(at 170.942 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +7415,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 136.652 123.444 0)
+			(at 170.942 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,8 +7423,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 134.62 121.92 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,8 +7432,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 121.92 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +7442,70 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 134.62 121.92 0)
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBCNNNC/3886675"
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "0.1u Cap"
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +7530,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 143.51 0)
+		(at 73.66 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5011,7 +7539,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddcf3e17-e0a9-4b83-a2d4-60adc96d000a")
 		(property "Reference" "R6"
-			(at 77.47 142.2399 0)
+			(at 76.2 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +7548,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 77.47 144.7799 0)
+			(at 76.2 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,8 +7556,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 73.152 143.51 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 71.882 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,8 +7565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 74.93 143.51 0)
+		(property "Datasheet" ""
+			(at 73.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +7575,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 143.51 0)
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 73.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +7663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 143.51 0)
+		(at 142.24 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5081,7 +7672,7 @@
 		(fields_autoplaced yes)
 		(uuid "ded510b0-66f9-424e-a05a-d233c9662775")
 		(property "Reference" "R10"
-			(at 132.08 142.2399 0)
+			(at 144.78 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +7681,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 132.08 144.7799 0)
+			(at 144.78 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,8 +7689,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical"
-			(at 127.762 143.51 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 140.462 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,8 +7698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 129.54 143.51 0)
+		(property "Datasheet" ""
+			(at 142.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +7708,70 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 143.51 0)
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "10k Resistor"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 142.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +7796,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MPSA42")
-		(at 166.37 110.49 270)
+		(at 200.66 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5151,7 +7805,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7578053-42f1-4dcf-83f0-4c0d04bf96b3")
 		(property "Reference" "Q2"
-			(at 166.37 116.84 90)
+			(at 200.66 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +7813,7 @@
 			)
 		)
 		(property "Value" "MPSA42"
-			(at 166.37 119.38 90)
+			(at 200.66 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +7821,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 164.465 115.57 0)
+			(at 198.755 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +7832,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 166.37 110.49 0)
+			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +7842,70 @@
 			)
 		)
 		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 166.37 110.49 0)
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/onsemi/MPSA42/32397"
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "PNP Transistor"
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Watt" ""
+			(at 200.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 200.66 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,42 +7932,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 106.68 134.62 0)
+		(lib_id "Device:R_US")
+		(at 83.82 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e892e13f-8156-4ae2-9b95-b18b9128d08b")
-		(property "Reference" "U1"
-			(at 106.68 124.46 0)
+		(uuid "eeaa6965-543e-4491-8dcf-8776ff3c172b")
+		(property "Reference" "R7"
+			(at 86.36 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LM2903"
-			(at 106.68 127 0)
+		(property "Value" "100k"
+			(at 86.36 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 106.68 134.62 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 84.836 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,8 +7968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-			(at 106.68 134.62 0)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf"
+			(at 83.82 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,34 +7977,61 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "b8b001c8-e184-4bef-ad0d-3bab311d2941")
+		(property "Description" "Resistor, US symbol"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "14a0e3c0-02f1-4719-9cf6-b254c012383b")
+		(property "Watt" ""
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" ""
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/MFR200FRF52-100K/9137017?_gl=1*xshps1*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAnJHMBhDAARIsABr7b85OoajahDsvJMc2UJR90GAesYVJIRu3gW-MYzjHA0dqS4UbT8rlXHAaAkgAEALw_wcB&gclsrc=aw.ds"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "100k Resistor 2W"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c240265f-3f5f-4629-9fda-91d320a5f969")
-		)
-		(pin "5"
-			(uuid "4eca17c0-c0e4-46fa-9116-d4dff10fcc14")
-		)
-		(pin "3"
-			(uuid "0f9718e0-cb41-4d8b-92be-1b36fb73d517")
+			(uuid "2b12b261-c45c-4510-9d48-e47a6a14d688")
 		)
 		(pin "1"
-			(uuid "b2388352-814a-4004-a81d-a23b9b59ad74")
-		)
-		(pin "6"
-			(uuid "f6e6a77d-ca7b-45c7-94df-3b02674a130e")
-		)
-		(pin "7"
-			(uuid "9602d569-c86c-4020-b1e0-1c5cca78b0fe")
+			(uuid "e52ce784-a2f7-4a5c-bf14-b3e4f55c7a05")
 		)
 		(instances
-			(project ""
+			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "U1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
