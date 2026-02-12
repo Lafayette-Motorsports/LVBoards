@@ -46960,8 +46960,8 @@
 		(uuid "b426f318-f0bc-442b-a2fd-bf07f6bd9efa")
 	)
 	(gr_rect
-		(start 27.47524 118.863483)
-		(end 49.12524 121.023483)
+		(start 26.005 118.863483)
+		(end 47.655 121.023483)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -48230,8 +48230,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LV Charge Circuit V2.0 | S.M. & R.S. Feb '25"
-		(at 27.61 120.67 0)
+	(gr_text "LV Charge Circuit V2.0 | S.M. & R.S. Feb '26"
+		(at 26.416 120.67 0)
 		(layer "F.SilkS")
 		(uuid "15ac268e-ac00-42a0-b3e4-fe07429dd072")
 		(effects
