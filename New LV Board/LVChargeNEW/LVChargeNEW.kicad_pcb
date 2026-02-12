@@ -48230,7 +48230,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LV Charge Circuit V1.0 | S.M. & R.S. Nov '25"
+	(gr_text "LV Charge Circuit V2.0 | S.M. & R.S. Feb '25"
 		(at 27.61 120.67 0)
 		(layer "F.SilkS")
 		(uuid "15ac268e-ac00-42a0-b3e4-fe07429dd072")
