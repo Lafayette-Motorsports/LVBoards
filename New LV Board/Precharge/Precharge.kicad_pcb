@@ -11891,7 +11891,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a3ad6010-f3d4-430d-b30f-7730978920d3")
 	)
-	(gr_text "Precharge V5.0 | J.W. M.O. Q.H. D.D Feb 2026"
+	(gr_text "Precharge V6.0 | J.W. M.O. Q.H. D.D Feb 2026"
 		(at 21.519319 17.678899 0)
 		(layer "F.SilkS")
 		(uuid "1b373747-fe9a-4fad-ae01-ba2f23f30ddf")

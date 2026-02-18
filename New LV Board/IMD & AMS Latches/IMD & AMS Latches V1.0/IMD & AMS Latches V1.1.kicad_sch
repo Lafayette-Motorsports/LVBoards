@@ -3534,12 +3534,6 @@
 		(uuid "0891ce46-2683-4354-95e1-57f78f8fa547")
 	)
 	(junction
-		(at 128.27 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a9083a4-9f53-48e2-b1d5-c351a8340f50")
-	)
-	(junction
 		(at 59.69 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3552,22 +3546,10 @@
 		(uuid "0bffb3ef-bcd3-4a4e-a465-2650357452ee")
 	)
 	(junction
-		(at 128.27 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e5096f2-4eb8-4d82-b2f9-e68c3462865f")
-	)
-	(junction
 		(at 46.99 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15250b97-f6f8-4ba9-a9ef-414dbe01467b")
-	)
-	(junction
-		(at 81.28 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16a8a09e-2b9a-42a1-8e6d-c51ba8a72997")
 	)
 	(junction
 		(at 124.46 162.56)
@@ -3580,12 +3562,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26e76481-a7be-4b46-9e85-d18f23a52c18")
-	)
-	(junction
-		(at 133.35 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33df9e7f-bc52-46a1-8148-d3d341e84c12")
 	)
 	(junction
 		(at 81.28 162.56)
@@ -3618,22 +3594,10 @@
 		(uuid "4c5c485f-966a-409c-9e8a-ded6ff645734")
 	)
 	(junction
-		(at 128.27 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "605785b6-7e16-4c48-bc6e-cbdbb51f408e")
-	)
-	(junction
 		(at 124.46 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "661e978b-b58d-4a92-bcc5-b96518792011")
-	)
-	(junction
-		(at 59.69 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7316516c-3ffb-47e5-9a29-d21149516f0e")
 	)
 	(junction
 		(at 167.64 124.46)
@@ -3646,6 +3610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "766bbab4-dd45-4c6f-ad3c-20ba016b95fc")
+	)
+	(junction
+		(at 86.36 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78983ac1-d503-4b6f-a9f4-da135b7371d4")
 	)
 	(junction
 		(at 50.8 137.16)
@@ -3664,12 +3634,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d983ea4-e72c-4979-b5d1-cca3e3b621bf")
-	)
-	(junction
-		(at 53.34 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4f5dab7-3112-4d32-a2e6-76277119b02c")
 	)
 	(junction
 		(at 158.75 123.19)
@@ -3814,16 +3778,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 123.19) (xy 128.27 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096319e1-9b2d-4224-b8f7-7c1fa32ea5a1")
-	)
-	(wire
-		(pts
 			(xy 46.99 97.79) (xy 50.8 97.79)
 		)
 		(stroke
@@ -3948,16 +3902,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 143.51) (xy 133.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172f8894-c4f3-4a9c-a615-13bb36eadb74")
-	)
-	(wire
-		(pts
 			(xy 71.12 97.79) (xy 71.12 102.87)
 		)
 		(stroke
@@ -3990,16 +3934,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 143.51) (xy 128.27 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc2e483-0856-454d-af5a-262a0b297d27")
-	)
-	(wire
-		(pts
 			(xy 81.28 96.52) (xy 81.28 123.19)
 		)
 		(stroke
@@ -4008,17 +3942,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "1fc4ab5d-4779-4d01-bcb3-f73b8ea712ba")
-	)
-	(wire
-		(pts
-			(xy 53.34 97.79) (xy 71.12 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "211ce90c-7a74-4483-a6a6-c2c890a4c87c")
 	)
 	(wire
 		(pts
@@ -4126,17 +4049,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 128.27) (xy 71.12 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "39b66e66-b7d9-4a46-bfd8-2c390c037f0e")
-	)
-	(wire
-		(pts
 			(xy 137.16 96.52) (xy 137.16 100.33)
 		)
 		(stroke
@@ -4144,28 +4056,6 @@
 			(type default)
 		)
 		(uuid "3b466a86-a3a8-4b6e-86b2-5052affa64e2")
-	)
-	(wire
-		(pts
-			(xy 133.35 151.13) (xy 133.35 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "3e88252e-a9b5-4d19-ac77-f9df58dde375")
-	)
-	(wire
-		(pts
-			(xy 74.93 152.4) (xy 81.28 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "3f0bf97e-36e0-4870-bda7-9258839b1b77")
 	)
 	(wire
 		(pts
@@ -4241,16 +4131,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 152.4) (xy 59.69 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e056743-292b-451f-804a-e8e4b5c3a14c")
-	)
-	(wire
-		(pts
 			(xy 55.88 162.56) (xy 81.28 162.56)
 		)
 		(stroke
@@ -4273,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 97.79) (xy 53.34 97.79)
+			(xy 50.8 97.79) (xy 71.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4407,17 +4287,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 152.4) (xy 81.28 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "671b3f26-ad28-4485-8042-ffa16b670498")
-	)
-	(wire
-		(pts
 			(xy 25.4 67.31) (xy 71.12 67.31)
 		)
 		(stroke
@@ -4456,16 +4325,6 @@
 			(type default)
 		)
 		(uuid "70945769-d673-4393-8614-6030e196af26")
-	)
-	(wire
-		(pts
-			(xy 128.27 137.16) (xy 133.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73624a1f-b75c-4ed9-bc94-2dfef3cb33b1")
 	)
 	(wire
 		(pts
@@ -4533,6 +4392,17 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7bbb13b5-522c-4187-9dbb-58779e1f9d09")
+	)
+	(wire
+		(pts
 			(xy 59.69 100.33) (xy 59.69 123.19)
 		)
 		(stroke
@@ -4553,6 +4423,17 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 69.85) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "80ce583d-97d1-4294-9c90-72259ccdfe69")
+	)
+	(wire
+		(pts
 			(xy 50.8 107.95) (xy 50.8 115.57)
 		)
 		(stroke
@@ -4560,16 +4441,6 @@
 			(type default)
 		)
 		(uuid "815f0a2f-4873-4907-ae8e-9aa3f3759bab")
-	)
-	(wire
-		(pts
-			(xy 59.69 149.86) (xy 59.69 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83eaac8c-2273-4b77-bdf0-f6f3cc59cc7e")
 	)
 	(wire
 		(pts
@@ -4664,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 162.56) (xy 128.27 162.56)
+			(xy 124.46 162.56) (xy 167.64 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4672,17 +4543,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "91a0a9e3-3c38-4ee5-a9d5-f32512fb32d8")
-	)
-	(wire
-		(pts
-			(xy 53.34 97.79) (xy 53.34 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "91be2394-beb4-4ce6-bf73-092e62dcbc16")
 	)
 	(wire
 		(pts
@@ -4738,14 +4598,14 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 162.56) (xy 128.27 151.13)
+			(xy 86.36 128.27) (xy 71.12 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
+			(color 255 0 0 1)
 		)
-		(uuid "a2beed2e-e4c5-4e6c-a667-928ba8f9d858")
+		(uuid "98075bd5-3d36-42bc-90cc-730f1353ce6f")
 	)
 	(wire
 		(pts
@@ -4832,17 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 162.56) (xy 133.35 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "bfed3954-ae46-4824-a5e2-e55a3815871e")
-	)
-	(wire
-		(pts
 			(xy 81.28 123.19) (xy 81.28 149.86)
 		)
 		(stroke
@@ -4916,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 149.86) (xy 81.28 152.4)
+			(xy 81.28 149.86) (xy 81.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5062,17 +4911,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 162.56) (xy 167.64 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "e563f9ee-7643-4158-a70c-1694dc9c8b7b")
-	)
-	(wire
-		(pts
 			(xy 137.16 149.86) (xy 143.51 149.86)
 		)
 		(stroke
@@ -5155,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 69.85) (xy 124.46 69.85)
+			(xy 25.4 69.85) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5419,160 +5257,6 @@
 			(project "VCU MPR & IMD Latch V1.0"
 				(path "/24645248-c608-47c7-9f6f-9005325d9607"
 					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 133.35 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1451cbd0-4934-4790-be10-3b06927ca869")
-		(property "Reference" "D6"
-			(at 134.62 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4743A"
-			(at 132.08 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "1N4743A"
-			(at 133.35 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54218ba0-c687-42ed-8b3b-364e8780d0db")
-		)
-		(pin "2"
-			(uuid "2dfd49a2-4a19-411d-8293-bdf5d562a6ef")
-		)
-		(instances
-			(project "VCU MPR & IMD Latch V1.0"
-				(path "/24645248-c608-47c7-9f6f-9005325d9607"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 71.12 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "166a97e7-5739-40ec-a279-49d2657a7950")
-		(property "Reference" "D3"
-			(at 71.12 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "1N4001"
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef4905f9-e447-4b71-a411-bfe30ebc0606")
-		)
-		(pin "2"
-			(uuid "8d176813-4b8e-4e52-9cb2-458ed29d68bc")
-		)
-		(instances
-			(project "VCU MPR & IMD Latch V1.0"
-				(path "/24645248-c608-47c7-9f6f-9005325d9607"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6255,84 +5939,6 @@
 			(project "VCU MPR & IMD Latch V1.0"
 				(path "/24645248-c608-47c7-9f6f-9005325d9607"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 128.27 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1cecacc-cd76-4274-98d1-add6e50164d1")
-		(property "Reference" "D5"
-			(at 124.46 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4743A"
-			(at 127 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "motorsports:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "1N4743A"
-			(at 128.27 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e9fe0ff-786a-4bbb-ae1f-53e7ff4df2bb")
-		)
-		(pin "2"
-			(uuid "8ffbbf37-5d45-4ecc-968a-75842ae7d17d")
-		)
-		(instances
-			(project "VCU MPR & IMD Latch V1.0"
-				(path "/24645248-c608-47c7-9f6f-9005325d9607"
-					(reference "D5")
 					(unit 1)
 				)
 			)
