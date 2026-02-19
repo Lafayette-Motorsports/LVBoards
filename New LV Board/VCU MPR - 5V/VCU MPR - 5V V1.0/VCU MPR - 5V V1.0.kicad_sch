@@ -2179,7 +2179,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5d9b62a-ae64-471b-b68e-913d253250c1")
 		(property "Reference" "F1"
 			(at 154.94 90.17 0)
@@ -2216,7 +2215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse holder"
 			(at 154.94 96.52 0)
 			(effects
 				(font
@@ -2272,6 +2271,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Fuse" "Fuse"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data sheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/0ATO002-V/2519126"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 2" "Fuse"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
