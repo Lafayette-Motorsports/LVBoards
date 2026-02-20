@@ -4353,6 +4353,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ad9cdb-88a4-4a82-ae97-9b3880bb1dd1")
+	)
+	(wire
+		(pts
 			(xy 320.04 17.78) (xy 327.66 17.78)
 		)
 		(stroke
@@ -5233,6 +5243,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 95.25) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6fbf10-f415-4ed9-9ea1-1dce521c26a1")
+	)
+	(wire
+		(pts
 			(xy 52.07 109.22) (xy 57.15 109.22)
 		)
 		(stroke
@@ -5553,7 +5573,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.98) (xy 80.01 101.6)
+			(xy 77.47 96.52) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6413,7 +6433,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10"
 			(at 252.73 133.35 90)
 			(effects
 				(font
@@ -6630,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 314.96 52.07 90)
 			(effects
 				(font
@@ -6675,74 +6695,6 @@
 			(project "LVChargeNEW"
 				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09a3a830-643c-40ac-8ad0-e1368fa9a1c7")
-		(property "Reference" "R20"
-			(at 76.2 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "249k"
-			(at 76.2 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 76.2 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7604903-ea6d-4989-a381-6d0f74dc88c2")
-		)
-		(pin "2"
-			(uuid "94b55e4d-a20d-4976-9bb2-751037e43b18")
-		)
-		(instances
-			(project "LVChargeNEW"
-				(path "/59e99d5c-d319-4165-bae5-97831157ea3a"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 93.98 0)
+		(at 77.47 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7346,7 +7298,7 @@
 		(dnp no)
 		(uuid "17b6c469-4c6f-4fa6-9d27-ad5e99386ec1")
 		(property "Reference" "#PWR013"
-			(at 72.39 100.33 0)
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 93.98 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 93.98 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 93.98 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 93.98 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1M"
 			(at 251.46 114.2999 0)
 			(effects
 				(font
@@ -14330,7 +14282,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 322.58 52.07 90)
 			(effects
 				(font
