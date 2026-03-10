@@ -2464,7 +2464,7 @@
 		)
 		(uuid "51051526-94ef-4a29-a00f-88d0633309be")
 	)
-	(text "VCU MPRD"
+	(text "VCU MPR"
 		(exclude_from_sim no)
 		(at 45.974 60.198 0)
 		(effects
@@ -2474,7 +2474,7 @@
 		)
 		(uuid "54e0a2ad-9f69-4087-8d5c-be0b860e8c55")
 	)
-	(text "From enable switch"
+	(text "From charge enable"
 		(exclude_from_sim no)
 		(at 203.454 92.964 0)
 		(effects
@@ -2748,7 +2748,7 @@
 		)
 		(uuid "8f2d33c8-bdf1-4744-a814-4afc7235962e")
 	)
-	(text "VCU MPR - 5V"
+	(text "VCU MPR - 5V (VCU labels suck)"
 		(exclude_from_sim no)
 		(at 96.012 16.51 0)
 		(effects

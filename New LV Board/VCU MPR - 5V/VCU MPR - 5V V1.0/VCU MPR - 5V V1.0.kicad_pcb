@@ -6686,7 +6686,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VCU MPR - 1\nGLV + - (2 - 4)\nVCU + - (5 - 7)"
+	(gr_text "VCU MPR - 1\nGLV + - (2 - 4)\nGLV VCU + - (5 - 7)"
 		(at 99.3394 73.826833 0)
 		(layer "F.SilkS")
 		(uuid "2c29068d-f179-4aa3-9ae9-6e29ce587d27")

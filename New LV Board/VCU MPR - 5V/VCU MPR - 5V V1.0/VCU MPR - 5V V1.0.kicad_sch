@@ -1367,7 +1367,7 @@
 		)
 		(uuid "921ef95d-4c83-4b9b-abca-918b82474175")
 	)
-	(text "VCU + 1-3"
+	(text "VCU GLV+ 1-3"
 		(exclude_from_sim no)
 		(at 183.896 76.2 0)
 		(effects
