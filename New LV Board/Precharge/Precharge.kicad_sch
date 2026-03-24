@@ -2588,7 +2588,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MPSA42"
+		(symbol "Transistor_BJT:2N3905"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2605,7 +2605,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MPSA42"
+			(property "Value" "2N3905"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2625,7 +2625,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(property "Datasheet" "https://www.nteinc.com/specs/original/2N3905_06.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2635,7 +2635,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2644,7 +2644,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN High Voltage Transistor"
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2662,7 +2662,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MPSA42_0_1"
+			(symbol "2N3905_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2687,19 +2687,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MPSA42_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2724,9 +2711,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2736,6 +2734,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "2N3905_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6147,6 +6147,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3905")
+		(at 200.66 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "803db702-8082-46c7-8860-55ea2bc7ca6d")
+		(property "Reference" "Q2"
+			(at 200.66 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS8550"
+			(at 200.66 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 202.565 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss8550-d.pdf"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar (BJT) Transistor PNP 25 V 1.5 A 200MHz 1 W Through Hole TO-92-3"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "afd53239-bcea-4ff6-abf6-18b5b0ea3dd4")
+		)
+		(pin "1"
+			(uuid "3481a65e-1904-4192-8583-a473c728374c")
+		)
+		(pin "2"
+			(uuid "8d27007e-50a8-43dd-b19b-f27afdcee04a")
+		)
+		(instances
+			(project ""
+				(path "/99e1f855-54eb-435b-b064-69873828d7da"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 74.93 139.7 0)
 		(unit 1)
@@ -8317,142 +8391,6 @@
 			(project "Precharge"
 				(path "/99e1f855-54eb-435b-b064-69873828d7da"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 200.66 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7578053-42f1-4dcf-83f0-4c0d04bf96b3")
-		(property "Reference" "Q2"
-			(at 200.914 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 200.66 136.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 198.755 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/onsemi/MPSA42/32397"
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "PNP Transistor"
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Watt" ""
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Wattage" ""
-			(at 200.66 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ec36d5f-96f2-4281-bfbb-3475bdc92ff6")
-		)
-		(pin "2"
-			(uuid "96a992a6-956c-4107-868c-fa9d7f6fa5b1")
-		)
-		(pin "3"
-			(uuid "15bc4003-b74d-4b6b-a74f-1482f50b3f47")
-		)
-		(instances
-			(project ""
-				(path "/99e1f855-54eb-435b-b064-69873828d7da"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
