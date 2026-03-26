@@ -1325,7 +1325,7 @@
 		)
 		(uuid "3575726f-1d3f-4c90-9aec-f31ffde38bea")
 	)
-	(text "VCU MPR\n"
+	(text "VCU MPRD\n"
 		(exclude_from_sim no)
 		(at 163.576 55.626 0)
 		(effects
