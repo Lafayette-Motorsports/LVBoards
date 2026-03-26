@@ -2271,7 +2271,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V-Bat"
+	(text "VBatt (Vehicle Battery from GLVMS before 20A fuse)"
 		(exclude_from_sim no)
 		(at 186.69 18.542 0)
 		(effects
@@ -2301,7 +2301,7 @@
 		)
 		(uuid "0e68dcf0-fd57-4c6d-9131-af47743bb389")
 	)
-	(text "VCU GLV 2"
+	(text "VCU GLV+"
 		(exclude_from_sim no)
 		(at 146.304 152.908 0)
 		(effects
@@ -2361,7 +2361,7 @@
 		)
 		(uuid "327ab63c-f56f-4edb-9f14-17f7e155560a")
 	)
-	(text "GLV+ 3"
+	(text "GLV+"
 		(exclude_from_sim no)
 		(at 147.828 163.068 0)
 		(effects
@@ -2391,7 +2391,7 @@
 		)
 		(uuid "3bff8820-9a07-405e-a505-1553550f6204")
 	)
-	(text "GLV+ 2"
+	(text "GLV+"
 		(exclude_from_sim no)
 		(at 147.828 160.528 0)
 		(effects
@@ -2531,7 +2531,7 @@
 		)
 		(uuid "75513ce5-a90f-4541-9ca0-9e22b5596509")
 	)
-	(text "GLV- 1"
+	(text "GLV-"
 		(exclude_from_sim no)
 		(at 148.082 165.354 0)
 		(effects
@@ -2621,7 +2621,7 @@
 		)
 		(uuid "a40af2bb-1cd8-4c8c-a3e3-f0c480d7f80f")
 	)
-	(text "GLV- 2"
+	(text "GLV-"
 		(exclude_from_sim no)
 		(at 148.082 168.402 0)
 		(effects
@@ -2641,7 +2641,7 @@
 		)
 		(uuid "a77cff48-74a8-4232-9b85-0ecbb4b5b801")
 	)
-	(text "VCU GLV 1"
+	(text "VCU GLV+"
 		(exclude_from_sim no)
 		(at 147.066 132.334 0)
 		(effects
@@ -2671,7 +2671,7 @@
 		)
 		(uuid "be3dbdda-ef94-4c20-bd29-e38b52bdf0d0")
 	)
-	(text "VCU GLV 3"
+	(text "VCU GLV+"
 		(exclude_from_sim no)
 		(at 146.304 155.448 0)
 		(effects
@@ -2701,7 +2701,7 @@
 		)
 		(uuid "c9cc8ca6-2edd-4f73-8c1f-5f474c7394e1")
 	)
-	(text "From Precharge Circuit"
+	(text "From Precharge"
 		(exclude_from_sim no)
 		(at 139.446 40.894 0)
 		(effects
@@ -2771,7 +2771,7 @@
 		)
 		(uuid "e10ac632-566e-4043-918d-892cdbf2a86f")
 	)
-	(text "Vs"
+	(text "Temp sensor pull up"
 		(exclude_from_sim no)
 		(at 133.35 139.954 0)
 		(effects
@@ -2801,7 +2801,7 @@
 		)
 		(uuid "f8732091-6dca-47d4-8e77-7583f5657cf7")
 	)
-	(text "GLV+ 1"
+	(text "GLV+"
 		(exclude_from_sim no)
 		(at 147.828 157.734 0)
 		(effects
